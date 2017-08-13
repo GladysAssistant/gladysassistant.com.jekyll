@@ -33,7 +33,7 @@ Voici donc les différentes tâches que l'on va mettre en place :
  - Donnez un nom à votre token, par exemple 'Tasker' (3)
  - Créez un token et notez sa valeur (4)
 
-![dashboard](https://i.imgur.com/gbKtWCB.png)
+<img alt="Control Gladys" src="/assets/images/documentation/control-gladys/control-1.png" class="img-responsive"/>
 
 L'application Tasker
 ------------------
@@ -46,13 +46,13 @@ Pour vous faciliter la création des tâches, vous pouvez créer des variables d
 - Ouvrir Tasker et aller dans les Préférences
 - Dans l'onglet "UI" décocher "Mode débutant" et sortir des Préférences
 
-![debutant mode](https://i.imgur.com/fnGbkeA.png)
+<img alt="Control Gladys" src="/assets/images/documentation/control-gladys/control-2.png" class="img-responsive"/>
 
 - Allez dans l'onglet "Variables"
 - Créez une nouvelle variable en cliquant sur le "+" en bas à droite de l'écran
 - Donnez-lui un nom, par exemple : %GladysToken et mettez le token précédemment créé comme valeur (pas de copier/coller possible T_T)
 
-![variable](https://i.imgur.com/ykR45Vo.png)
+<img alt="Control Gladys" src="/assets/images/documentation/control-gladys/control-3.png" class="img-responsive"/>
 
 - Répétez l'opération pour créer la variable %GladysIdMaison et mettez-y l'id de votre domicile (Disponible sur l'interface de Gladys dans Paramètres ⇒ Logement)
 - Répétez l'opération pour créer la variable %GladysIdPieceChambre et mettez-y l'id de votre chambre (Disponible sur l'interface de Gladys dans Paramètres ⇒ Logement)
@@ -62,7 +62,7 @@ Pour vous faciliter la création des tâches, vous pouvez créer des variables d
 
 Voilà qui est fait, vous devriez avoir ceci :
 
-![variables](https://i.imgur.com/NBOqdDK.png)
+<img alt="Control Gladys" src="/assets/images/documentation/control-gladys/control-4.png" class="img-responsive"/>
 
 On peut passer à la création des taches !
 
@@ -86,7 +86,8 @@ Vous êtes maintenant prêts à créer votre premier scénario pour la détectio
 - Choisissez Réseau > Get HTTP
 - Dans le champ Serveur:Port cliquez sur l'étiquette pour mettre la variable **%GladysUrlServeurLocale**
 - Dans le champ Chemin tapez : /event/create?code=back-at-home&token=%GladysToken&house=1&user=1 (ici les ID user et house sont à remplacer par les vôtres, si vous venez d'installer Gladys, il y a de grandes chance pour que ce soit les mêmes)
-- **A faire uniquement si vous utilisez le SSL** : cochez la case "*Faire confiance à tout certificat*" tout en bas (⇒ [Aperçu de l'écran](https://i.imgur.com/ucLENbZ.png))
+- **A faire uniquement si vous utilisez le SSL** : cochez la case "*Faire confiance à tout certificat*" tout en bas 
+<img alt="Control Gladys" src="/assets/images/documentation/control-gladys/control-5.png" class="img-responsive"/>
 - Validez en revenant en arrière
 
 C'est terminé pour ce cas d'utilisation ! Pour tester la tâche, vous pouvez cliquer sur l'icone de lecture en bas à gauche. Vous verrez dans les logs `pm2 logs gladys` (ou dans dashboard ⇒ Moi) si ça a marché.
@@ -107,14 +108,15 @@ On créé un nouveau scénario :
 - Choisissez Réseau > Get HTTP
 - Dans le champ Serveur:Port cliquez sur l'étiquette pour mettre la variable **%GladysUrlServeurWeb**
 - Dans le champ Chemin tapez : /event/create?code=left-home&token=%GladysToken&house=1&user=1
-- **A faire uniquement si vous utilisez le SSL** : cochez la case "*Faire confiance à tout certificat*" tout en bas (⇒ [Aperçu de l'écran](https://i.imgur.com/ucLENbZ.png))
+- **A faire uniquement si vous utilisez le SSL** : cochez la case "*Faire confiance à tout certificat*" tout en bas 
+<img alt="Control Gladys" src="/assets/images/documentation/control-gladys/control-5.png" class="img-responsive"/>
 - Valider en revenant en arrière
 
 Et voila ! Si vous activez/désactivez le wifi de votre téléphone vous verrez les différentes notifications sur le dashboard de Gladys. 
 
-![timeline](https://i.imgur.com/uQglM1H.png)
+<img alt="Control Gladys" src="/assets/images/documentation/control-gladys/control-6.png" class="img-responsive"/>
 
-![pm2 logs gladys](https://i.imgur.com/TZDTOi3.png)
+<img alt="Control Gladys" src="/assets/images/documentation/control-gladys/control-7.png" class="img-responsive"/>
 
 **Note** : Si vous constatez que les notifications s’enchaînent lorsque le téléphone est en veille, c'est que votre wifi (du téléphone) n'est pas configuré pour rester actif en veille.
 
