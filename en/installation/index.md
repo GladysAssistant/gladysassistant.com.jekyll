@@ -58,7 +58,7 @@ Finally, all you have to do is to connect your Raspberry Pi to your local networ
 
 Last step is to expand the partition on the SD card. If you don't do it, the system won't have access to the full size of your SD card, and you will run out of disk space.
 
-Expanding the SD card is really easy. You have to connect to your Raspberry Pi (directly or threw SSH). If you don't know how SSH works, there are some great tutorial for [Windows](https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md) and [Mac/Linux](https://www.raspberrypi.org/documentation/remote-access/ssh/unix.md).
+Expanding the SD card is really easy. You have to connect to your Raspberry Pi (directly or through SSH). If you don't know how SSH works, there are some great tutorial for [Windows](https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md) and [Mac/Linux](https://www.raspberrypi.org/documentation/remote-access/ssh/unix.md).
 
 Credentials are the same that the default Raspbian image (user : pi, password : raspberry).
 
@@ -78,7 +78,7 @@ To access Gladys, open your favorite browser, on any computer on the local netwo
 
 You should arrive on Gladys web interface where you can configure your account !
 
-**Note :** If it don't work, you can access Gladys directly by typing the IP of your Raspberry Pi in your browser. To find the IP, just type `ifconfig` on the Raspberry Pi shell, or you can use a network scanner app to find his IP ([Network Scanner](https://play.google.com/store/apps/details?id=com.easymobile.lan.scanner&hl=fr) on Android or [iNet](https://itunes.apple.com/fr/app/inet-network-scanner/id340793353?mt=8) on iOS)
+**Note :** If it doesn't work, you can access Gladys directly by typing the IP of your Raspberry Pi in your browser. To find the IP, just type `ifconfig` on the Raspberry Pi shell, or you can use a network scanner app to find the IP ([Network Scanner](https://play.google.com/store/apps/details?id=com.easymobile.lan.scanner&hl=fr) on Android or [iNet](https://itunes.apple.com/fr/app/inet-network-scanner/id340793353?mt=8) on iOS)
 
 #### Manual installation
 
