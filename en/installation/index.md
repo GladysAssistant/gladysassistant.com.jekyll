@@ -58,7 +58,7 @@ Finally, all you have to do is to connect your Raspberry Pi to your local networ
 
 Last step is to expand the partition on the SD card. If you don't do it, the system won't have access to the full size of your SD card, and you will run out of disk space.
 
-Expanding the SD card is really easy. You have to connect to your Raspberry Pi (directly or through SSH). If you don't know how SSH works, there are some great tutorial for [Windows](https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md) and [Mac/Linux](https://www.raspberrypi.org/documentation/remote-access/ssh/unix.md).
+Expanding the SD card is really easy. You have to connect to your Raspberry Pi (directly or through SSH). If you don't know how SSH works, there are some great tutorials for [Windows](https://www.raspberrypi.org/documentation/remote-access/ssh/windows.md) and [Mac/Linux](https://www.raspberrypi.org/documentation/remote-access/ssh/unix.md).
 
 Credentials are the same that the default Raspbian image (user : pi, password : raspberry).
 
