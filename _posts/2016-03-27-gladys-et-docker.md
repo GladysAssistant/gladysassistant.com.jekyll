@@ -56,7 +56,7 @@ On sélectionne ensuite le tarif que l'on souhaite, ici 5$ suffira amplement, Gl
 
 Ensuite, DigitalOcean vous propose d'entrer une clé SSH pour pouvoir vous connecter au serveur, je vous recommande très fortement de le faire, se loguer avec mot de passe c'est pas super secure. 
 
-Pour mettre en place les clés SSH, je vous conseille [ce tutotiel](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets).
+Pour mettre en place les clés SSH, je vous conseille [ce tutoriel](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets).
 
 **Note:** Si vous n'arrivez vraiment pas à vous servir des clés SSH, vous pouvez toujours laisser l'option décochée, DigitalOcean vous enverra le mot de passe root par mail. C'est pas secure sur le long terme, mais bon pour prototyper... :)
 
