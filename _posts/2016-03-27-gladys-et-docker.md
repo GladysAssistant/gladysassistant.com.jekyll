@@ -114,7 +114,7 @@ Pour cela, il suffit de faire la commande :
 docker run --name gladys-node-init \
 -v /root/hooks:/src/api/hooks \
 -e NODE_ENV=development \
--e MYSQL_HOST=mysql \
+-e MYSQL_HOST=mariadb \
 -e MYSQL_PASSWORD=mysecretpassword \
 -e MYSQL_PORT=3306 \
 -e TZ=Europe/Paris \
@@ -133,7 +133,7 @@ docker run --name gladys-node \
 -p 80:8080 \
 -v /root/hooks:/src/api/hooks \
 -e NODE_ENV=production \
--e MYSQL_HOST=mysql \
+-e MYSQL_HOST=mariadb \
 -e MYSQL_PASSWORD=mysecretpassword \
 -e MYSQL_PORT=3306 \
 -e TZ=Europe/Paris \
