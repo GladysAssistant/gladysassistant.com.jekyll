@@ -82,27 +82,27 @@ Sur Windows vous pouvez utiliser [Putty](http://www.putty.org/).
 
 **Remarque 2:** Si vous n'aviez pas donné de clé SSH à DigitalOcean, lors de la connexion en SSH le terminal vous demandera de taper le mot de passe root que DigitalOcean vous aura envoyé par mail. Sur Windows vous devez normalement pouvoir spécifier à Putty un mot de passe.
 
-## Lancer MySQL
+## Lancer MariaDB
 
-Nous allons maintenant pouvoir lancer un container MySQL. Pour cela, vous n'avez qu'à lancer la commande sur le serveur : 
+Nous allons maintenant pouvoir lancer un container MariaDB. Pour cela, vous n'avez qu'à lancer la commande sur le serveur : 
 
 ```bash
-docker run --name gladys-mysql \
+docker run --name gladys-mariadb \
 --restart=always \
 -v /var/lib/mysql:/var/lib/mysql \
 -e MYSQL_ROOT_PASSWORD=mysecretpassword \
 -e MYSQL_DATABASE=gladys \
--d mysql:latest
+-d mariadb:latest
 ```
 
-Lorsque vous allez exécuter cette commande, Docker va télécharger l'image MySQL depuis le Docker Hub, cela devrait prendre 20/30 secondes environ. Pensez à mettre un mot de passe custom ! ( même si cela ne change pas grand chose, vu que nous n'allons pas exposer le container MySQL à l'extérieur, seul le container Gladys local pourra y accéder )
+Lorsque vous allez exécuter cette commande, Docker va télécharger l'image MariaDB depuis le Docker Hub, cela devrait prendre 20/30 secondes environ. Pensez à mettre un mot de passe custom ! ( même si cela ne change pas grand chose, vu que nous n'allons pas exposer le container MariaDB à l'extérieur, seul le container Gladys local pourra y accéder )
 
 **Explications**
 
 - `--restart=always` => nous voulons que si le container/la machine crash, il redémarre automatiquement
-- `-v /var/lib/mysql:/var/lib/mysql` => Ici, nous montons un volume au container afin que les fichiers enregistrés par MySQL soit enregistrés sur la machine "parente". Car lorsqu'un container est mis à jour/relancé, tout son contenu est supprimé, il ne faut rien enregistrer dans un container Docker ! Du coup ici les données MySQL seront préservées même en cas de suppression du container.
-- `-e MYSQL_ROOT_PASSWORD=mysecretpassword` et `\ -e MYSQL_DATABASE=gladys \` => on spécifie ici les variables d'environnements qui seront lues par MySQL pour définir le mot de passe root et le nom de la base de donnée.
-- `-d mysql:latest` => L'option '-d' signifie 'detached', c'est à dire que le container va tourner en arrière-plan. "mysql:latest" est le nom de l'image que l'on veut lancer ( mysql est l'image officielle MySQL Docker), et "latest" signifie que nous voulons la dernière version de MySQL ( 5.7 ici ).
+- `-v /var/lib/mysql:/var/lib/mysql` => Ici, nous montons un volume au container afin que les fichiers enregistrés par MariaDB soit enregistrés sur la machine "parente". Car lorsqu'un container est mis à jour/relancé, tout son contenu est supprimé, il ne faut rien enregistrer dans un container Docker ! Du coup ici les données MariaDB seront préservées même en cas de suppression du container.
+- `-e MYSQL_ROOT_PASSWORD=mysecretpassword` et `\ -e MYSQL_DATABASE=gladys \` => on spécifie ici les variables d'environnements qui seront lues par MariaDB pour définir le mot de passe root et le nom de la base de donnée.
+- `-d mariadb:latest` => L'option '-d' signifie 'detached', c'est à dire que le container va tourner en arrière-plan. "mariadb:latest" est le nom de l'image que l'on veut lancer ( mariadb est l'image officielle MariaDB Docker), et "latest" signifie que nous voulons la dernière version de MariaDB ( version 10 ici ).
 
 ## Initialiser Gladys
 
@@ -117,7 +117,8 @@ docker run --name gladys-node-init \
 -e MYSQL_HOST=mysql \
 -e MYSQL_PASSWORD=mysecretpassword \
 -e MYSQL_PORT=3306 \
---link gladys-mysql:mysql \
+-e TZ=Europe/Paris \
+--link gladys-mariadb:mariadb \
 gladysproject/gladys \
 node init.js
 ```
@@ -135,15 +136,17 @@ docker run --name gladys-node \
 -e MYSQL_HOST=mysql \
 -e MYSQL_PASSWORD=mysecretpassword \
 -e MYSQL_PORT=3306 \
---link gladys-mysql:mysql \
+-e TZ=Europe/Paris \
+--link gladys-mariadb:mariadb \
 -d gladysproject/gladys
 ```
 
-Pensez aussi ici à remettre votre mot de passe MySQL. 
+Pensez aussi ici à remettre votre mot de passe Mariadb. 
 
 **Explications:**
 
 - `-p 80:8080` => On map le port 80 du droplet au port 8080 du container, pour pouvoir accéder à Gladys depuis notre navigateur sur le port 80. 
+- `-e TZ=Europe/Paris` => On définit le fuseau horaire qu'utilisera le conteneur. Vous pouvez consulter [cette liste](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) sur wikipédia si vous ne savez quelle valeur renseigner.
 - J'expliquerais sûrement dans un prochain tuto comment mettre en place un proxy Nginx avec Docker devant le serveur Node.js, afin de pouvoir installer un certificat SSL par exemple, faire du load-balancing, de la compression gzip des assets, mais pour ce tuto l'objectif c'était d'être simple !
 
 ## Gladys is live !
