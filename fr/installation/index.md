@@ -63,7 +63,7 @@ Une fois connecté en ligne de commande sur le Raspberry Pi, il faut juste taper
 
     sudo raspi-config
 
-Et sélectionner l'option "1\. Expand Filesystem". Le système va vous proposer de rebooter, il faut le faire afin de prendre en compte la modification.
+Il faut tout d'abord se rendre dans le menu "7 Advanced Options", et sélectionner l'option "A1 Expand Filesystem". Le système va vous proposer de rebooter, il faut le faire afin de prendre en compte la modification.
 
 Et c'est tout ! Gladys est prête, et tourne déjà :)
 
