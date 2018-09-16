@@ -55,7 +55,7 @@ Petit point sur le porte clé Bluetooth Nut. On me l'a conseillé à la Maker Fa
 
 J'ai donc écris un petit programme, dites bonjour à gladys-bluetooth, disponible sur [GitHub](https://github.com/GladysProject/gladys-bluetooth) ! Ce programme a la particularité de ne pas avoir besoin de Gladys pour tourner. 
 
-Son principe est simple, il scan le Bluetooth, et dès qu'il voit un périphérique il envoie la nouvelle à Gladys via une bête requête HTTP. On peut donc avoir de multiple instances de gladys-bluetooth sur un ensemble de Raspberry Pi Zero distribué, qui remontent l'information à un Raspberry Pi 3 central qui fait tourner Gladys.
+Son principe est simple, il scan le Bluetooth, et dès qu'il voit un périphérique il envoie la nouvelle à Gladys via une belle requête HTTP. On peut donc avoir de multiple instances de gladys-bluetooth sur un ensemble de Raspberry Pi Zero distribué, qui remontent l'information à un Raspberry Pi 3 central qui fait tourner Gladys.
 
 ### Pré-requis
 
@@ -105,7 +105,7 @@ Ensuite, il faut autoriser Node.js à accéder au Bluetooth sans être root en e
 sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)
 ```
 
-Ensuite, il faut lancer la phase "dévouverte" du module afin que vous puissiez inclure votre objet Bluetooth dans Gladys. La phase découverte n'est pas active tout le temps, cela évite que des périphériques inconnus apparaissent dans votre Gladys :)
+Ensuite, il faut lancer la phase "découverte" du module afin que vous puissiez inclure votre objet Bluetooth dans Gladys. La phase découverte n'est pas active tout le temps, cela évite que des périphériques inconnus apparaissent dans votre Gladys :)
 
 Pour lancer la phase découverte, lancez la commande sur le Raspberry Pi : 
 
@@ -113,7 +113,7 @@ Pour lancer la phase découverte, lancez la commande sur le Raspberry Pi :
 node /home/pi/gladys-bluetooth/setup.js
 ```
 
-Placez vos objets Bluetooth a proximité. Ils devraient être ajouté dans Gladys. Une fois que tous les objets sont dans Gladys, vous pouvez stopper cette commande en faisant "Ctrl + C".
+Placez vos objets Bluetooth à proximité. Ils devraient être ajouté dans Gladys. Une fois que tous les objets sont dans Gladys, vous pouvez stopper cette commande en faisant "Ctrl + C".
 
 Enfin, je vous propose de lancer Gladys Bluetooth avec pm2 : 
 
