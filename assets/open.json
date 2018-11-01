@@ -206,6 +206,23 @@
           "value": 501
         }
       ]
+    },
+    {
+      "month": "10-2018",
+      "sources": [
+        {
+          "name": "Selz",
+          "value": 780
+        },
+        {
+          "name": "Amazon Affiliate",
+          "value": 57
+        },
+        {
+          "name": "Patreon",
+          "value": 540
+        }
+      ]
     }
   ]
 }
