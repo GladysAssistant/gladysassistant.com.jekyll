@@ -12,3 +12,10 @@
   to = "/en"
   status = 302
   force = true
+
+[[redirects]]
+  from = "/fr_feed.xml"
+  to = "/feed.xml"
+  status = 301
+  force = true
+
