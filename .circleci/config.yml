@@ -37,5 +37,5 @@ jobs:
               docker tag app gladysproject/website
               docker login -u $DOCKER_USER -p $DOCKER_PASS
               docker push gladysproject/website
-              ssh -q deploy@$SERVER_IP '/root/upgrade-website.sh'
+              ssh -o StrictHostKeyChecking=no -q deploy@$SERVER_IP '/root/upgrade-website.sh'
             fi
