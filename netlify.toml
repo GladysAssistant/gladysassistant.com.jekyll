@@ -19,3 +19,11 @@
   status = 301
   force = true
 
+
+[[redirects]]
+  from = "http://dazzling-jennings-ad108b.netlify.com/*"
+  to = "http://gladysproject.com/:splat"
+  status = 301
+  force = true
+
+  
