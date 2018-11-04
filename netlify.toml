@@ -12,4 +12,3 @@
   to = "/en"
   status = 302
   force = true
-  conditions = {Language = ["en", "es", "zh", "de", "el", "ht", "id", "ga", "it", "ja", "ko", "no", "sx", "sw", "ts", "vo", "cy", "ji", "sb", "ru"]}
