@@ -35,7 +35,7 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               docker tag app gladysproject/website
-              docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+              docker login -u $DOCKER_USER -p $DOCKER_PASS
               docker push gladysproject/website
               ssh -q deploy@$SERVER_IP '/root/upgrade-website.sh'
             fi
