@@ -1,0 +1,31 @@
+version: '2'
+services:
+  nginx-proxy:
+    image: jwilder/nginx-proxy:alpine
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /root/certs:/etc/nginx/certs:ro
+      - /etc/nginx/vhost.d
+      - /usr/share/nginx/html
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - /root/config/proxy.conf:/etc/nginx/proxy.conf:ro
+  lets-encrypt-companion:
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    restart: always
+    volumes:
+      - /root/certs:/etc/nginx/certs:rw
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    volumes_from: 
+      - nginx-proxy
+  gladys-website:
+    image: gladysproject/website
+    expose:
+      - "80"
+    restart: always
+    environment:
+      - VIRTUAL_HOST=gladysproject.com
+      - LETSENCRYPT_HOST=gladysproject.com
+      - LETSENCRYPT_EMAIL=hello@gladysproject.com
