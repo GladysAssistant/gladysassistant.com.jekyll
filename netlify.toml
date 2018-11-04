@@ -21,9 +21,7 @@
 
 
 [[redirects]]
-  from = "http://dazzling-jennings-ad108b.netlify.com/*"
-  to = "http://gladysproject.com/:splat"
+  from = "dazzling-jennings-ad108b.netlify.com/*"
+  to = "gladysproject.com/:splat"
   status = 301
   force = true
-
-  
