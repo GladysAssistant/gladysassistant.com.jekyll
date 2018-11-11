@@ -3,7 +3,7 @@ title: Le Package Communauté Gladys
 description: Un accès illimité au Gladys Gateway, au Slack privée Gladys et la meilleure façon de soutenir le projet
 lang: fr
 layout: gladys-community-package-fr
-image: /assets/images/landing/gladys-telegram-cover.jpg
+image: /assets/images/gateway/gladys-community-package-og.png
 permalink: /fr/gladys-community-package/
 ---
 

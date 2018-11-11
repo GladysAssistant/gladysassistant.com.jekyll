@@ -125,7 +125,8 @@ homepage:
     firstText: Gladys, c'est aussi une communauté d'utilisateurs, de développeurs, qui se retrouvent pour échanger et parler du futur de la maison connectée.
     secondText: Envie d'une conférence Gladys dans votre établissement/Fablab/Entreprise ? Merci de me contacter sur le forum de contact du site =>
     contactMe: Contactez-moi ici
-    patreonMessage: Envie de soutenir le projet ? Gladys est sur 
+    communityPackageMessage: Envie de soutenir le projet et de faire partie de la communauté ? Rejoignez le
+    communityPackageLink: package communauté Gladys
 
   starterKit:
     title: Le pack de démarrage

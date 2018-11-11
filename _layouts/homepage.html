@@ -219,8 +219,8 @@ layout: default
                     <a href="/{{page.lang}}/contact">{{site.data.i18n[page.lang].homepage.community.contactMe}}</a>.
                 </p>
                 <p>
-                    {{site.data.i18n[page.lang].homepage.community.patreonMessage}}
-                    <a href="https://www.patreon.com/gladysproject/overview">Patreon</a> !
+                    {{site.data.i18n[page.lang].homepage.community.communityPackageMessage}}
+                    <a href="/{{page.lang}}/gladys-community-package">{{site.data.i18n[page.lang].homepage.community.communityPackageLink}}</a> !
                 </p>
             </div>
         </div>
@@ -232,16 +232,22 @@ layout: default
     {% if page.lang == 'fr' %}
         <div class="container">
                 <div class="page-header">
-                    <h2 class="text-center">{{site.data.i18n[page.lang].homepage.starterKit.title}}</h2>
+                    <h2 class="text-center">Le package communauté Gladys</h2>
                 </div>
 
-                {% include starter-pack-panel-large.html %}
+                {% include gladys-community-package-panel-fr.html %}
 
         </div>
 
     {% else %}
-        <div style="margin-top:30px"></div>
+    <div class="container">
+        <div class="page-header">
+            <h2 class="text-center">Gladys Community Package</h2>
+        </div>
+
+        {% include gladys-community-package-panel-en.html %}
+
+    </div>
     {% endif %}
-
-
+    
 </div>

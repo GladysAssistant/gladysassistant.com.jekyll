@@ -3,7 +3,7 @@ title: Gladys Community Package
 description: Access the Gladys Gateway, join our private Slack community and become a Gladys supporter!
 lang: fr
 layout: gladys-community-package-en
-image: /assets/images/landing/gladys-telegram-cover.jpg
+image: /assets/images/gateway/gladys-community-package-og.png
 permalink: /en/gladys-community-package/
 ---
 

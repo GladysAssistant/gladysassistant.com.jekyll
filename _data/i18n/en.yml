@@ -123,7 +123,8 @@ homepage:
     firstText: Gladys, it's a community of users, developers, that often meet to discuss about the future of the connected home.
     secondText: Want a Gladys conference in your School/Fablab/Company/Event ? Contact me directly on Gladys contact page =>
     contactMe: Contact me here
-    patreonMessage: Want to support Gladys? Gladys is on 
+    communityPackageMessage: You want to contribute to the project and help it grow? Subscribe to the
+    communityPackageLink: Gladys Community Package
 
   installGladys:
     button: Install Gladys
