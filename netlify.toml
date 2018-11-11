@@ -1,5 +1,3 @@
-
-
 [[redirects]]
   from = "/"
   to = "/fr"
@@ -19,6 +17,31 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/gladys-community-package"
+  to = "/fr/gladys-community-package"
+  status = 302
+  force = true
+  conditions = {Language = ["fr"]}
+
+[[redirects]]
+  from = "/gladys-community-package"
+  to = "/en/gladys-community-package"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/gateway"
+  to = "/fr/gladys-community-package"
+  status = 302
+  force = true
+  conditions = {Language = ["fr"]}
+
+[[redirects]]
+  from = "/gateway
+  to = "/en/gladys-community-package"
+  status = 302
+  force = true
 
 [[redirects]]
   from = "http://dazzling-jennings-ad108b.netlify.com/*"
