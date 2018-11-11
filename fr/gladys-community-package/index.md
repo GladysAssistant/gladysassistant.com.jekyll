@@ -9,9 +9,9 @@ permalink: /fr/gladys-community-package/
 
 Salut à tous,
 
-👋 Je m'appelle [Pierre-Gilles Leymarie](), j'ai 24 ans, et depuis 5 ans je travaille sur un programme open-source de domotique disponible gratuitement sur GitHub, [Gladys]().
+👋 Je m'appelle [Pierre-Gilles Leymarie](https://twitter.com/pierregillesl), j'ai 24 ans, et depuis 5 ans je travaille sur un programme open-source de domotique disponible gratuitement sur GitHub, [Gladys](https://github.com/GladysProject/Gladys).
 
-⭐️ Mon rêve est de permettre à chacun d'avoir son propre assistant Jarvis à la maison, comme dans Iron Man, sans avoir à installer une solution propriétaire qui ne respecte pas la vie privée de ses utilisateurs. 
+⭐️ Mon rêve est de permettre à chacun d'avoir son propre assistant Jarvis à la maison, comme dans Iron Man, sans avoir à installer une solution propriétaire qui ne respecte pas la vie privée de ses utilisateurs.
 
 🚀 Mon objectif long terme pour le projet, c'est de faire de Gladys une référence en terme de domotique open-source.
 
@@ -47,15 +47,21 @@ Le Gladys Gateway, c'est une passerelle web qui vous permet de vous connecter à
 
 C'est un produit très poussé technologiquement, qui m'a demandé beaucoup de recherches sur l'état de l'art. Je l'ai conçu avec un souci de performance et de respect de la vie privée, et je suis très fier du résultat.
 
-C'est pour cela qu'aujourd'hui je suis très heureux de lancer le package communauté Gladys qui vient remplacer le Patreon. Ce package vous donne accès à un ensemble de services autour de Gladys: Un accès au Slack privée Gladys, un accès au Gladys Gateway tout naturellement, et pour les 100 premiers inscrits il vous donne accès à un ensemble de surprises.... 😏
+C'est pour cela qu'aujourd'hui je suis très heureux de lancer le package communauté Gladys qui vient remplacer le Patreon. 
 
-➡️ Déjà, le Gladys Starter Pack est **gratuit** pour les 100 premiers inscrits !!
+Ce package vous donne accès à un ensemble de services autour de Gladys: 
 
-➡️ Ensuite, les 100 premiers inscrits recevront **des stickers Gladys** avec le nouveau logo.
+💬 Un accès au Slack privée Gladys pour échanger avec la communauté!
 
-➡️ Enfin, je tirerais au sort parmis les 100 premiers inscrits un ensemble de cadeaux: **Un Raspberry Pi 3** avec Gladys pré-installé, une **ampoule connectée LIFX**, et des **micro-SD** avec Gladys pré-installé !
+🌎 Un accès illimité au Gladys Gateway pour vous, votre famille, vos amis
 
-➡️ Et surtout, en souscrivant à ce package, vous devenez contributeur Gladys et vous soutenez financièrement le projet. C'est uniquement grâce à ces contributions que le projet peut aller plus loin 🚀
+🎉 Petite surprise, le [Gladys Starter Pack](https://gladysproject.com/fr/gladys-starter-pack/) est **gratuit** pour les 100 premiers inscrits !!
+
+😎 Ensuite, les 100 premiers inscrits recevront **des stickers Gladys** avec le nouveau logo.
+
+🎁 Enfin, je tirerais au sort parmis les 100 premiers inscrits un ensemble de cadeaux: **Un Raspberry Pi 3** avec Gladys pré-installé, une **ampoule connectée LIFX**, et des **micro-SD** avec Gladys pré-installé !
+
+💪 Et surtout, en souscrivant à ce package, vous devenez contributeur Gladys et vous soutenez financièrement le projet. C'est uniquement grâce à ces contributions que le projet peut aller plus loin 🚀
 
 Merci à tous ceux qui ont ou vont contribuer, c'est grâce à vous que ce projet existe 🙏
 
