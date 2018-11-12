@@ -2,6 +2,7 @@ documentation:
   installation: Installation
   configureHouse: Configure your house
   configureDevices: Configure your devices
+  accessGladysRemotely: Access Gladys Remotely
   talkingToGladys: Talking to Gladys
   developModule: Developing a module
   developScript: Developing a script

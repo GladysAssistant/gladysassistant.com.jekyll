@@ -312,7 +312,17 @@
 								<p>
 									Bien entendu ! Si ce package communauté ne te donne pas entière satisfaction, envoie moi un email et je te rembourserais directement, sans discussion. N'hésite pas à me donner ton retour dans le mail pour que je puisse améliorer le service 🙂
 								</p>
-							</div>
+              </div>
+              
+              <div class="faq">
+                  <h5>Peux-tu parler du chiffrement de bout en bout ?</h5>
+                  <p>
+                    J'ai passé beaucoup de temps à lire sur l'état de l'art en matière de chiffrement de bout en bout. J'ai notamment lu le <a href="https://www.apple.com/business/site/docs/iOS_Security_Guide.pdf">Security White Paper d'Apple</a> sur le chiffrement de bout en bout d'iMessage, le white paper de <a href="https://www.dashlane.com/download/Dashlane_SecurityWhitePaper_October2018.pdf">Dashlane</a>, 
+                    j'ai lu la documentation et discuté avec le fondateur d'<a href="https://support.insomnia.rest/article/57-encryption">Insomnia</a> et j'ai lu la documentation de ProtonMail à propos de leur implémentation du protocole <a href="https://en.wikipedia.org/wiki/Secure_Remote_Password_protocol">Remote Secure Password</a>. <br /><br />
+
+                    Le Gladys Gateway chiffre vos commandes Gladys grâce à l'algorithme AES-GCM 256bits et une clé unique généré à chaque message. Cette clé est ensuite chiffrée grâce à la clé publique de l'instance Gladys et l'algorithme RSA-OAEP 2048bits. Enfin, chaque message est signé grâce à l'algorithme ECDSA P-256, et accompagné d'une date d'expiration afin d'éviter les <a href="https://en.wikipedia.org/wiki/Replay_attack">Replay Attack</a>. Côté Gladys, l'utilisateur doit valider manuellement chaque clé publique afin d'éviter qu'un attaquant puisse prendre contrôle de votre Gladys grâce à une attaque <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">Man In The Middle</a>. Ainsi, si le Gateway est compromis, l'attaquant ne pourra absolument rien faire car sans clé privée il n'a pas contrôle sur votre Gladys. 
+                  </p>
+                </div>
 							
 						</div>
 					
