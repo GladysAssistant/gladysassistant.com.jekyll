@@ -38,7 +38,7 @@
   conditions = {Language = ["fr"]}
 
 [[redirects]]
-  from = "/gateway
+  from = "/gateway"
   to = "/en/gladys-community-package"
   status = 302
   force = true
