@@ -1,6 +1,6 @@
 ---
 title: Le Package Communauté Gladys
-description: Un accès illimité au Gladys Gateway, au Slack privée Gladys et la meilleure façon de soutenir le projet
+description: Un accès illimité au Gladys Gateway, au Slack privé Gladys et la meilleure façon de soutenir le projet
 lang: fr
 layout: gladys-community-package-fr
 image: /assets/images/gateway/gladys-community-package-og.png
@@ -51,7 +51,7 @@ C'est pour cela qu'aujourd'hui je suis très heureux de lancer le package commun
 
 Ce package vous donne accès à un ensemble de services autour de Gladys: 
 
-💬 Un accès au Slack privée Gladys pour échanger avec la communauté!
+💬 Un accès au Slack privé Gladys pour échanger avec la communauté!
 
 🌎 Un accès illimité au Gladys Gateway pour vous, votre famille, vos amis
 
