@@ -1,0 +1,178 @@
+[
+    {
+        "name": "Fibaro FGD-212",
+        "description": "Micromodule variateur Z-Wave permettant de contrôler n'importe quelle lampe ou plafonnier.",
+        "img": "fibaro-dimmer-2-fgd-212-micro-module-interrupteur-variateur-de-lumiere-sans-neutre-zwave-avec-mesure-de-consommation.jpg",
+        "price": 59.9,
+        "amazon_link": "https://www.amazon.fr/Fibaro-FGD-212-Dimmer-Variateur-Lumi%C3%A8re/dp/B012X0I8JY/ref=pd_sbs_421_2?_encoding=UTF8&pd_rd_i=B012X0I8JY&pd_rd_r=334b1c99-ed5a-11e8-8f7c-734f98c58a09&pd_rd_w=hsczJ&pd_rd_wg=Step2&pf_rd_i=desktop-dp-sims&pf_rd_m=A1X6FK5RDHNB96&pf_rd_p=5d361e0c-9e85-4b01-8261-3ff932bec9c8&pf_rd_r=J14PVFW3PAPHRYPMCCFS&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=J14PVFW3PAPHRYPMCCFS&tag=gladproj-21",
+        "categories": [
+            "Z-wave",
+            "Lampes"
+        ],
+        "categoriesFlatten": "Z-wave,Lampes",
+        "img_file": "Fibaro-FGD-212.jpg"
+    },
+    {
+        "name": "Philips Hue",
+        "description": "Les Philips Hue sont des ampoules de grandes qualités, qui sont entièrement gérée par Gladys via le module Gladys-hue !",
+        "img": "philips-hue.jpg",
+        "price": 158,
+        "amazon_link": "https://amzn.to/2zmj8kh",
+        "gladys_tutorial": "https://developer.gladysproject.com/fr/modules/hue",
+        "categories": [
+            "Zigbee",
+            "Lampes"
+        ],
+        "categoriesFlatten": "Zigbee,Lampes",
+        "img_file": "Philips-Hue.jpg"
+    },
+    {
+        "name": "Enceinte Ryght",
+        "description": "Petite enceinte jack fonctionnelle. /!\\ Attention -->le port usb dois être branché sur un autre port usb que celui du raspberry sinon gresillement !",
+        "img": "51fVI2WD0QL._SL1000_.jpg",
+        "price": 13.52,
+        "amazon_link": "https://www.amazon.fr/gp/product/B01LPDF3TS/ref=oh_aui_detailpage_o06_s01?ie=UTF8&psc=1&tag=gladproj-21",
+        "categories": [
+            "Musique"
+        ],
+        "categoriesFlatten": "Musique",
+        "img_file": "Enceinte-Ryght.jpg"
+    },
+    {
+        "name": "Sonoff Basic",
+        "description": "Relais connecté avec retour d'état, destiné à ceux qui s'y connaissent, car besoin de modifier le firmware. Acheter le sur Banggood (moins chers et fiable\n)\n",
+        "img": "51CeKOEKNeL._SL1000_.jpg",
+        "price": 8.99,
+        "discount_price": 4.3,
+        "amazon_link": "https://www.amazon.fr/Commutateur-Intelligent-Universel-T%C3%A9l%C3%A9commande-Minuterie/dp/B078B8N4P3/ref=sr_1_1_sspa?ie=UTF8&qid=1542726256&sr=8-1-spons&keywords=sonoff+Basic&psc=1&tag=gladproj-21",
+        "other_store_link": "https://www.banggood.com/DIY-Wi-Fi-Wireless-Switch-For-Smart-Home-With-ABS-Shell-p-1019971.html?rmmds=search&cur_warehouse=CN",
+        "categories": [
+            "Wi-Fi",
+            "Capteurs",
+            "Promotion"
+        ],
+        "categoriesFlatten": "Wi-Fi,Capteurs,Promotion",
+        "img_file": "Sonoff-Basic.jpg"
+    },
+    {
+        "name": "Nut Mini",
+        "description": "Le Nut Mini est un porte clé Bluetooth à 8€ qui permet à Gladys de savoir quand vous rentrez ou quand vous partez de chez vous.",
+        "img": "nut-mini.jpg",
+        "price": 9.99,
+        "amazon_link": "https://amzn.to/2TmuehH",
+        "gladys_tutorial": "http://gladysproject.com/fr/article/detecter-presence-porte-cle-bluetooth",
+        "categories": [
+            "Bluetooth"
+        ],
+        "categoriesFlatten": "Bluetooth",
+        "img_file": "Nut-Mini.jpg"
+    },
+    {
+        "name": "PS3 EYE",
+        "description": "Micro fiable pour reconnaissance vocal Gladys, USB",
+        "img": "41MxVZE5vSL.jpg",
+        "price": 9.95,
+        "amazon_link": "https://www.amazon.fr/dp/B00LME2JGQ/ref=sxbs_sxwds-stvp_1?pf_rd_m=A1X6FK5RDHNB96&pf_rd_p=5d0191a5-ae83-4ee7-a38a-057b2dad9c26&pd_rd_wg=umVpF&pf_rd_r=0G6PYV8AWFYRJGTPETBX&pf_rd_s=desktop-sx-bottom-slot&pf_rd_t=301&pd_rd_i=B00LME2JGQ&pd_rd_w=5jrto&pf_rd_i=ps3+eye&pd_rd_r=25bc88a6-6d08-4093-9065-24a8fd2aa9dc&ie=UTF8&qid=1542726052&sr=1&tag=gladproj-21",
+        "gladys_tutorial": "https://community.gladysproject.com/t/tutoriel-gladys-et-la-reconnaissance-vocale/1419",
+        "categories": [
+            "Microphone",
+            "Caméra"
+        ],
+        "categoriesFlatten": "Microphone,Caméra",
+        "img_file": "PS3-EYE.jpg"
+    },
+    {
+        "name": "Respeaker 2 mic PHat",
+        "description": "Carte de type Hat pour raspberry pi avec 2 micros pour la reconnaissance vocale",
+        "img": "DSC_0048-1024x780.jpg",
+        "price": 8.69,
+        "amazon_link": "https://www.amazon.fr/MakerHawk-ReSpeaker-dextension-Microphone-Applications/dp/B07D9FJMWH/ref=sr_1_1?ie=UTF8&qid=1542726307&sr=8-1&keywords=respeaker&tag=gladproj-21",
+        "other_store_link": "https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html",
+        "categories": [
+            "Raspberry Pi"
+        ],
+        "categoriesFlatten": "Raspberry Pi",
+        "img_file": "Respeaker-2-mic-PHat.jpg"
+    },
+    {
+        "name": "Raspberry Pi 3 B+ - Starter Kit",
+        "description": "Ce pack de démarrage est le top pour commencer sur Gladys!\n",
+        "img": "61-4P0b1qHL._SL1200_.jpg",
+        "price": 57.99,
+        "amazon_link": "https://amzn.to/2DA9iym",
+        "gladys_tutorial": "https://gladysproject.com/fr/installation/",
+        "categories": [
+            "Raspberry Pi"
+        ],
+        "categoriesFlatten": "Raspberry Pi",
+        "img_file": "Raspberry-Pi-3-B-Starter-Kit.jpg"
+    },
+    {
+        "name": "Netatmo Thermostat",
+        "description": "Contrôlez votre chauffage à distance, Faites des économies d'énergie, Réduisez votre empreinte carbone, Personnalisez la couleur de votre Thermostat dessiné par Starck",
+        "img": "81TRoXeInOL._SX679_.jpg",
+        "price": 179,
+        "discount_price": 165.89,
+        "amazon_link": "https://www.amazon.fr/Thermostat-Connect%C3%A9-pour-chaudi%C3%A8re-individuelle/dp/B00GWKW8SY/ref=sr_1_2?ie=UTF8&qid=1542740631&sr=8-2&keywords=netatmo&tag=gladproj-21",
+        "categories": [
+            "Thermostat",
+            "Wi-Fi",
+            "Promotion"
+        ],
+        "categoriesFlatten": "Thermostat,Wi-Fi,Promotion",
+        "img_file": "Netatmo-Thermostat.jpg"
+    },
+    {
+        "name": "Raspberry Pi 3 B+",
+        "description": "Le Raspberry Pi est essentiel, c'est lui qui fait tourner Gladys ! Il a l'avantage d'être peu cher, performant et silencieux.",
+        "img": "raspberry-pi.jpg",
+        "price": 36.63,
+        "amazon_link": "https://amzn.to/2OU6RIH",
+        "categories": [
+            "Raspberry Pi"
+        ],
+        "categoriesFlatten": "Raspberry Pi",
+        "img_file": "Raspberry-Pi-3-B.jpg"
+    },
+    {
+        "name": "MakerHawk ReSpeaker 4-Mic Array",
+        "description": "MakerHawk ReSpeaker 4-Mic Array, Smart Voice Quad-Microphone sur AC108, Conçu pour l'IA et les applications vocales pour Raspberry Pi Zero / Zéro W / 3B / 2B / B +",
+        "img": "71erlElYxpL._SL1400_.jpg",
+        "price": 66.99,
+        "discount_price": 33.99,
+        "amazon_link": "https://www.amazon.fr/dp/B07FP78ZGX/?coliid=IMGVU18VJK9OT&colid=3JXYS9XSSMAEI&psc=0&ref_=lv_ov_lig_dp_it&tag=gladproj-21",
+        "categories": [
+            "Raspberry Pi",
+            "Promotion"
+        ],
+        "categoriesFlatten": "Raspberry Pi,Promotion",
+        "img_file": "MakerHawk-ReSpeaker-4-Mic-Array.jpg"
+    },
+    {
+        "name": "Netatmo Capteur de qualité de l'air",
+        "description": "Mesure la qualité de l'air, l'humidité, la température et le bruit (pas de module encore, mais quand je le reçois j'y travail !)",
+        "img": "616oH1cxjdL._SX522_.jpg",
+        "price": 99.99,
+        "discount_price": 69.99,
+        "amazon_link": "https://www.amazon.fr/Netatmo-int%C3%A9rieur-Connect%C3%A9-Temp%C3%A9rature-humidit%C3%A9/dp/B01LZAZ4LS/ref=lp_3493865031_1_3?srs=3493865031&ie=UTF8&qid=1542748945&sr=8-3&tag=gladproj-21",
+        "categories": [
+            "Capteurs",
+            "Wi-Fi",
+            "Promotion"
+        ],
+        "categoriesFlatten": "Capteurs,Wi-Fi,Promotion",
+        "img_file": "Netatmo-Capteur-de-qualite-de-lair.jpg"
+    },
+    {
+        "name": "Fibaro motion sensor  FGMS-001 Capteur de Mouvement",
+        "description": "Capteur Z-Wave de mouvements, luminosité, température et antismique.",
+        "img": "51mCD0TcvmL._SL1000_.jpg",
+        "price": 41.49,
+        "amazon_link": "https://www.amazon.fr/Fibaro-FGMS-001-Capteur-de-Mouvement/dp/B01CPR7VX4/ref=asc_df_B01CPR7VX4/?tag=gladproj-21&linkCode=df0&hvadid=106808755441&hvpos=1o1&hvnetw=g&hvrand=12213093612937684263&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9056561&hvtargid=pla-196309123201&psc=1",
+        "categories": [
+            "Capteurs"
+        ],
+        "categoriesFlatten": "Capteurs",
+        "img_file": "Fibaro-motion-sensor-FGMS-001-Capteur-de-Mouvement.jpg"
+    }
+]

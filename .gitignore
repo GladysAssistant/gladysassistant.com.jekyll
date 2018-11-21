@@ -5,3 +5,5 @@ node_modules
 production.css
 production.min.css
 _comments/*.txt
+.env
+products-crowdsourced

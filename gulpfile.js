@@ -4,8 +4,16 @@ var uglify = require('gulp-uglify');
 var cleanCSS = require('gulp-clean-css');
 var rename = require('gulp-rename');
 var imageminJpegRecompress = require('imagemin-jpeg-recompress');
+var axios = require('axios');
+const URL = require('url').URL;
+const fs = require('fs');
+const download = require('download');
+const path = require('path');
+const slug = require('slug');
 
-gulp.task('build', ['minify-css'], function() {
+require('dotenv').config();
+
+gulp.task('build', ['minify-css', 'get-products-airtable'], function() {
     console.log('DONE !');
 });
 
@@ -40,3 +48,81 @@ gulp.task('compress-images', function () {
         .pipe(imageminJpegRecompress({loops: 6, quality:'medium', target:0.60})())
         .pipe(gulp.dest('./web/assets/images/products/compressed'));
 });
+
+
+gulp.task('get-products-airtable', function () {
+
+  var products = [];
+  
+  // retrieving AirTable Spreadsheet
+  return axios({
+    method: 'get',
+    url: 'https://api.airtable.com/v0/appTl6H2qEPMTU98o/Produits',
+    headers: {
+      authorization: 'Bearer ' + process.env.AIRTABLE_API_KEY
+    }
+  })
+  .then((result) => {
+    data = result.data;
+    
+    data.records.forEach((record) => {
+      var tempProduct = {
+        name: record.fields['Nom du produit'],
+        description: record.fields['Description'],
+        img: record.fields['Image du produit (1000x647)'],
+        price: record.fields['Prix normal'],
+        discount_price: record.fields['Prix en promotion'],
+        amazon_link: record.fields['Lien Amazon'],
+        other_store_link: record.fields['Lien autre magasin'],
+        gladys_tutorial: record.fields['Lien vers tutoriel Gladys']
+      };
+
+      if(tempProduct.discount_price) {
+        record.fields['Catégorie'].push('Promotion');
+      }
+
+      if(record.fields['Catégorie']) {
+        tempProduct.categories = record.fields['Catégorie'];
+        tempProduct.categoriesFlatten = flattenArray(tempProduct.categories);
+      }
+
+      if(tempProduct.name && tempProduct.description && tempProduct.img && tempProduct.price && tempProduct.amazon_link) {
+        products.push(tempProduct);
+      }
+    });
+
+    products.forEach((product) => {
+      if(product.amazon_link && product.amazon_link.indexOf('www.amazon.fr') !== -1) {
+        var amazonUrl = new URL(product.amazon_link);
+        amazonUrl.searchParams.set('tag', 'gladproj-21');
+        product.amazon_link = amazonUrl.toString();
+      }
+
+      product.img_file = slug(product.name) + path.parse(product.img).ext;
+    });
+  })
+  .then(() => {
+    
+    // downloading all product images so it's served under gladysproject domain
+    return Promise.all(products.map(product => download(product.img, 'assets/images/products-crowdsourced', {filename: product.img_file}))).then(() => {
+        console.log('files downloaded!');
+    });
+  })
+  .then(() => {
+    
+    products.forEach((product) => {
+      product.img = path.parse(product.img).base;
+    });
+
+    return fs.writeFileSync('./_data/hardware-crowdsourced/fr.json', JSON.stringify(products, null, 4));
+  });
+});
+
+function flattenArray(array) {
+  var text = '';
+  array.forEach((item) => {
+    if(text.length) text += ',';
+    text += item;
+  });
+  return text;
+}
