@@ -77,6 +77,8 @@ gulp.task('get-products-airtable', function () {
         gladys_tutorial: record.fields['Lien vers tutoriel Gladys']
       };
 
+      record.fields['Catégorie'] = record.fields['Catégorie'] || [];
+
       if(tempProduct.discount_price) {
         record.fields['Catégorie'].push('Promotion');
       }
