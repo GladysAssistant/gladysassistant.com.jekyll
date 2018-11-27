@@ -249,5 +249,37 @@ layout: default
 
     </div>
     {% endif %}
+
+
+    {% if page.lang == 'en' %}
+      <div class="container">
+        <div class="page-header">
+            <h2 class="text-center">Latest News</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+              <img class="img-responsive" 
+                    src="/assets/images/gateway/macbook-mockup-1000.png"  
+                    alt="Gladys starter pack">
+          </div>
+          <div class="col-md-6">
+            <h3 style="margin-top: 40px">Gladys Gateway release <small>Nov, 12th 2018</small></h3>
+            <p>
+               The Gladys Gateway enables you to control your Gladys instance from whenever you are in the world. 
+               Read more about it on the launch post <a href="/{{page.lang}}/gladys-community-package">here</a>.
+            </p>
+            <hr />
+            <h3>Blockstack Integration <small>Nov, 27th 2018</small></h3>
+            <p>
+              You can now easily sync your Gladys Home preferences in the BlockStack network. 
+              Read more about how to install the BlockStack module on the <a href="https://github.com/GladysProject/gladys-blockstack">gladys-blockstack repository</a>.
+            </p>
+          </div>
+        </div>
+
+  </div>
+
+    {% endif %}
     
 </div>
