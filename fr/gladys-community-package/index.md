@@ -55,12 +55,6 @@ Ce package vous donne accès à un ensemble de services autour de Gladys:
 
 🌎 Un accès illimité au Gladys Gateway pour vous, votre famille, vos amis
 
-🎉 Petite surprise, le [Gladys Starter Pack](https://gladysproject.com/fr/gladys-starter-pack/) est **gratuit** pour les 100 premiers inscrits !!
-
-😎 Ensuite, les 100 premiers inscrits recevront **des stickers Gladys** avec le nouveau logo.
-
-🎁 Enfin, je tirerais au sort parmis les 100 premiers inscrits un ensemble de cadeaux: **Un Raspberry Pi 3** avec Gladys pré-installé, une **ampoule connectée LIFX**, et des **micro-SD** avec Gladys pré-installé !
-
 💪 Et surtout, en souscrivant à ce package, vous devenez contributeur Gladys et vous soutenez financièrement le projet. C'est uniquement grâce à ces contributions que le projet peut aller plus loin 🚀
 
 Merci à tous ceux qui ont ou vont contribuer, c'est grâce à vous que ce projet existe 🙏
