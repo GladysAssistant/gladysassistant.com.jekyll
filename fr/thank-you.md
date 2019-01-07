@@ -9,7 +9,7 @@ permalink: /fr/thank-you/
 
 # Merci !
 
-Merci de suivre le projet :) N'hésitez pas à nous suivre aussi sur [Twitter](https://twitter.com/gladysproject), [Facebook](https://facebook.com/gladysproject) ou [Instagram](https://instagram.com/gladysproject).
+Merci de suivre le projet :) N'hésitez pas à nous suivre aussi sur [Twitter](https://twitter.com/gladysassistant), [Facebook](https://facebook.com/gladysassistant) ou [Instagram](https://instagram.com/gladysassistant).
 
 Voilà un premier tutoriel vidéo pour installer Gladys facilement sur un Raspberry Pi!
 
@@ -23,7 +23,7 @@ Voilà un premier tutoriel vidéo pour installer Gladys facilement sur un Raspbe
 
 <br>
 
-Si vous avez des questions, des difficultés à installer Gladys, que vous souhaitez participer au développement du projet, rejoignez la communauté sur le forum Gladys (+600 inscrits déjà!) => [https://community.gladysproject.com/](https://community.gladysproject.com/).
+Si vous avez des questions, des difficultés à installer Gladys, que vous souhaitez participer au développement du projet, rejoignez la communauté sur le forum Gladys (+600 inscrits déjà!) => [https://community.gladysassistant.com/](https://community.gladysassistant.com/).
 
 Merci à tous de supporter et de suivre le projet avec tant d'ardeur, c'est grâce à vous que le projet va si loin !
 

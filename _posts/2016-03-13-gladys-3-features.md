@@ -19,7 +19,7 @@ Voici donc un récapitulatif des features et des concepts qui vont apparaître d
 
 ## L'unification des périphériques
 
-J'en parlais dans mon [bilan de l'année 2015](http://gladysproject.com/fr/article/bilan-2015-et-projets-pour-2016), avec Gladys 2.0, de nombreux utilisateurs se sont inscrits en tant que développeur Gladys sur le site développeur, et ont commencés à développer des modules pour étendre les possibilités de Gladys. 
+J'en parlais dans mon [bilan de l'année 2015](/fr/article/bilan-2015-et-projets-pour-2016), avec Gladys 2.0, de nombreux utilisateurs se sont inscrits en tant que développeur Gladys sur le site développeur, et ont commencés à développer des modules pour étendre les possibilités de Gladys. 
 
 Cela m'a permis de voir les usages et les demandes des développeurs, et surtout de remarquer une chose: La plupart des modules que les développeurs créent sont des modules pour ajouter des compatibilités avec du matériel, et souvent dans Gladys 2.0 ils se voyaient obligés de tout réinventer, ils devaient gérer absolument tout: créer leur service, créer leurs routes d'API, gérer l'affichage sur le dashboard, etc... 
 
@@ -173,7 +173,7 @@ L'avantage de Docker c'est qu'ils ont un repo d'images toute prête alimenté pa
 
 Du coup j'ai publié une image Docker Gladys sur le docker hub ! Cette image est buildée **automatiquement** par le Docker hub à chaque push sur le git. Actuellement ce repo ne build que la branche v3, du coup ce n'est pas encore utilisable en prod, mais dès que je mergerais la branche v3 du git dans master, il sera possible de lancer sur un serveur gladys en une seule ligne avec un `docker run`.
 
-Vous trouverez Gladys sur [le docker hub](https://hub.docker.com/r/gladysproject/gladys/), après c'est la version 3.0 en plein dev qui est dessus ( sous le tag v3 ), du coup **ce n'est pas à utiliser en production.**
+Vous trouverez Gladys sur [le docker hub](https://hub.docker.com/r/gladysassistant/gladys/), après c'est la version 3.0 en plein dev qui est dessus ( sous le tag v3 ), du coup **ce n'est pas à utiliser en production.**
 
 La raison pour laquelle je n'ai pas fais de build Docker de la version actuelle de Gladys ( 2.1.8 ) est qu'actuellement Gladys intègre certaines dépendances qui ne peuvent pas être installées sur un serveur ( je pense à lame pour le son, car un serveur n'a pas de carte son ). Dans Gladys 3.0, j'ai essayé de rendre le core de Gladys très très léger et sans dépendances liés au matériel. **La partie "voix" et "musique" est désormais déportée dans un module externe à Gladys** pour permettre l'installation sur un serveur !
 

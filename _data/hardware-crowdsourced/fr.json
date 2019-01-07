@@ -1,19 +1,113 @@
 [
     {
+        "name": "LG OLED 55C7V",
+        "description": "Télévision pilotable via l'os LG (WEBOS).",
+        "img": "81bChn1DuTL._SX522_.jpg",
+        "price": 1441,
+        "amazon_link": "https://www.amazon.fr/LG-OLED55C7V/dp/B06XTL2GHC/ref=sr_1_1?ie=UTF8&qid=1542800468&sr=8-1&keywords=lg+oled+c7v&tag=gladproj-21",
+        "gladys_tutorial": "https://developer.gladysproject.com/fr/modules/lgwebos",
+        "categories": [
+            "Wi-Fi"
+        ],
+        "categoriesFlatten": "Wi-Fi",
+        "img_file": "LG-OLED-55C7V.jpg"
+    },
+    {
         "name": "Fibaro FGD-212",
         "description": "Micromodule variateur Z-Wave permettant de contrôler n'importe quelle lampe ou plafonnier.",
         "img": "fibaro-dimmer-2-fgd-212-micro-module-interrupteur-variateur-de-lumiere-sans-neutre-zwave-avec-mesure-de-consommation.jpg",
         "price": 59.9,
         "amazon_link": "https://www.amazon.fr/Fibaro-FGD-212-Dimmer-Variateur-Lumi%C3%A8re/dp/B012X0I8JY/ref=pd_sbs_421_2?_encoding=UTF8&pd_rd_i=B012X0I8JY&pd_rd_r=334b1c99-ed5a-11e8-8f7c-734f98c58a09&pd_rd_w=hsczJ&pd_rd_wg=Step2&pf_rd_i=desktop-dp-sims&pf_rd_m=A1X6FK5RDHNB96&pf_rd_p=5d361e0c-9e85-4b01-8261-3ff932bec9c8&pf_rd_r=J14PVFW3PAPHRYPMCCFS&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=J14PVFW3PAPHRYPMCCFS&tag=gladproj-21",
         "categories": [
-            "Z-wave",
+            "Z-Wave",
             "Lampes"
         ],
-        "categoriesFlatten": "Z-wave,Lampes",
+        "categoriesFlatten": "Z-Wave,Lampes",
         "img_file": "Fibaro-FGD-212.jpg"
     },
     {
-        "name": "Philips Hue",
+        "name": "Philips Hue 1 Détecteur de mouvement Motion Sensor + 1 Télécommande nomade variateur de lumière Hue ",
+        "description": "Un kit qui va vous permettre de compléter votre installation déjà en place de Philipps Hue. Il faut déjà une passerelle pour ajouter ce matériel.",
+        "img": "61n4PGivldL._SL1500_.jpg",
+        "price": 56.99,
+        "discount_price": 39.8,
+        "amazon_link": "https://www.amazon.fr/dp/B075MDTJCK?tag=gladproj-21",
+        "gladys_tutorial": "https://developer.gladysproject.com/fr/modules/hue",
+        "categories": [
+            "Lampes",
+            "Zigbee",
+            "Promotion"
+        ],
+        "categoriesFlatten": "Lampes,Zigbee,Promotion",
+        "img_file": "Philips-Hue-1-Detecteur-de-mouvement-Motion-Sensor-1-Telecommande-nomade-variateur-de-lumiere-Hue.jpg"
+    },
+    {
+        "name": "Prise Z-Wave Neo CoolCam",
+        "description": "Cette prise Z-wave permet d'être contrôlée à distance via le protocole Z-wave. Elle peut également remonter en temps réel la consommation électrique",
+        "img": "31q9+ZxPlhL._AC_US200_.jpg",
+        "price": 34.09,
+        "amazon_link": "https://www.amazon.fr/Neo-Coolcam-d%C3%A9nergie-Intelligente-%C3%A9criture/dp/B073SNQXLX/ref=sr_1_1?s=lawn-garden&ie=UTF8&qid=1542946487&sr=8-1&keywords=Z-Wave+Neo+CoolCam&tag=gladproj-21",
+        "categories": [
+            "Z-Wave"
+        ],
+        "categoriesFlatten": "Z-Wave",
+        "img_file": "Prise-Z-Wave-Neo-CoolCam.jpg"
+    },
+    {
+        "name": "Kit émetteur/récepteur 433Mhz",
+        "description": "Ce kit émetteur-récepteur 433Mhz vous permet de capter les signaux des différents détecteurs de votre logement.",
+        "img": "433mhz-kit.jpg",
+        "price": 6.29,
+        "amazon_link": "https://www.amazon.fr/AZDelivery-r%C3%A9cepteur-433-Transmitter-Raspberry/dp/B01N5GV39I/ref=sr_1_2?s=electronics&ie=UTF8&qid=1542785883&sr=1-2&keywords=433Mhz+RF+Wireless+Transmitter+%2B+Receiver+Link+Kit+Modul+for+Arduino&tag=gladproj-21",
+        "gladys_tutorial": "https://gladysproject.com/fr/article/utiliser-des-detecteurs-sans-fils",
+        "categories": [
+            "RF 433Mhz"
+        ],
+        "categoriesFlatten": "RF 433Mhz",
+        "img_file": "Kit-emetteurrecepteur-433Mhz.jpg"
+    },
+    {
+        "name": "Xiaomi capteur température et humidité",
+        "description": "Capteur de température compatible Xiaomi. Fonctionne en Zigbee avec le Gateway Xiaomi Wifi.",
+        "img": "310TpyjgC3L.jpg",
+        "price": 13.99,
+        "amazon_link": "https://www.amazon.fr/LightInTheBox-Xiaomi-Capteur-temp%C3%A9rature-dhumidit%C3%A9/dp/B077N7WPRC/ref=pd_sbs_201_4?_encoding=UTF8&pd_rd_i=B077N7WPRC&pd_rd_r=29e973a7-eed5-11e8-8e9d-dde34b3ccda1&pd_rd_w=Neasg&pd_rd_wg=Re4JL&pf_rd_i=desktop-dp-sims&pf_rd_m=A1X6FK5RDHNB96&pf_rd_p=5d361e0c-9e85-4b01-8261-3ff932bec9c8&pf_rd_r=3ZDVB96PZ4ZDGF9VVH06&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=3ZDVB96PZ4ZDGF9VVH06&tag=gladproj-21",
+        "categories": [
+            "Zigbee",
+            "Capteurs"
+        ],
+        "categoriesFlatten": "Zigbee,Capteurs",
+        "img_file": "Xiaomi-capteur-temperature-et-humidite.jpg"
+    },
+    {
+        "name": "Philips Hue kit 3 lampes White & color",
+        "description": "Les Philips Hue sont des ampoules de grandes qualités, qui sont entièrement gérée par Gladys via le module Gladys-hue !",
+        "img": "5109fFFgOeL._SL1154_.jpg",
+        "price": 133.82,
+        "discount_price": 79.9,
+        "amazon_link": "https://www.amazon.fr//dp/B076H4PTTV?tag=gladproj-21",
+        "gladys_tutorial": "https://developer.gladysproject.com/fr/modules/hue",
+        "categories": [
+            "Zigbee",
+            "Lampes",
+            "Promotion"
+        ],
+        "categoriesFlatten": "Zigbee,Lampes,Promotion",
+        "img_file": "Philips-Hue-kit-3-lampes-White-and-color.jpg"
+    },
+    {
+        "name": "Onkyo TXNR676 7.2",
+        "description": "Prise en charge du son Dolby Atmos 5.2.2 canaux et DTS:X - 165 W par canal - 7 entrées HDMI (1 en façade)/sortie principale et sortie secondaire Compatibilité 4K/60 Hz, HDR10, Dolby Vision, BT.2020 et fonction de transmission HDCP 2.2 - Amplification audio dynamique avec prise en charge des enceintes 4 ohms et compatible avec Gladys",
+        "img": "Onkyo%20TX-NR676E%28B%29_MMPBA_AngleL.jpg",
+        "price": 615,
+        "amazon_link": "https://www.amazon.fr/Onkyo-TXNR676-Noir-Amplificateur-Homecin%C3%A9ma/dp/B06Y5YY3GY/ref=sr_1_7?ie=UTF8&qid=1542873070&sr=8-7&keywords=onkyo&refinements=p_89%3AOnkyo&tag=gladproj-21",
+        "gladys_tutorial": "https://developer.gladysproject.com/fr/modules/onkyo",
+        "categories": [],
+        "categoriesFlatten": "",
+        "img_file": "Onkyo-TXNR676-72.jpg"
+    },
+    {
+        "name": "Philips Hue Kit GU10",
         "description": "Les Philips Hue sont des ampoules de grandes qualités, qui sont entièrement gérée par Gladys via le module Gladys-hue !",
         "img": "philips-hue.jpg",
         "price": 158,
@@ -24,19 +118,35 @@
             "Lampes"
         ],
         "categoriesFlatten": "Zigbee,Lampes",
-        "img_file": "Philips-Hue.jpg"
+        "img_file": "Philips-Hue-Kit-GU10.jpg"
     },
     {
         "name": "Enceinte Ryght",
         "description": "Petite enceinte jack fonctionnelle. /!\\ Attention -->le port usb dois être branché sur un autre port usb que celui du raspberry sinon gresillement !",
         "img": "51fVI2WD0QL._SL1000_.jpg",
-        "price": 13.52,
+        "price": 14.99,
+        "discount_price": 13.52,
         "amazon_link": "https://www.amazon.fr/gp/product/B01LPDF3TS/ref=oh_aui_detailpage_o06_s01?ie=UTF8&psc=1&tag=gladproj-21",
         "categories": [
-            "Musique"
+            "Musique",
+            "Promotion"
         ],
-        "categoriesFlatten": "Musique",
+        "categoriesFlatten": "Musique,Promotion",
         "img_file": "Enceinte-Ryght.jpg"
+    },
+    {
+        "name": "Philips Hue Kit E14",
+        "description": "Les Philips Hue sont des ampoules de grandes qualités, qui sont entièrement gérée par Gladys via le module Gladys-hue !",
+        "img": "philips-hue.jpg",
+        "price": 132.39,
+        "amazon_link": "https://www.amazon.fr/dp/B0754J1GR1?tag=gladproj-21",
+        "gladys_tutorial": "https://developer.gladysproject.com/fr/modules/hue",
+        "categories": [
+            "Zigbee",
+            "Lampes"
+        ],
+        "categoriesFlatten": "Zigbee,Lampes",
+        "img_file": "Philips-Hue-Kit-E14.jpg"
     },
     {
         "name": "Sonoff Basic",
@@ -55,17 +165,107 @@
         "img_file": "Sonoff-Basic.jpg"
     },
     {
+        "name": "Détecteur ouverture porte 433Mhz",
+        "description": "Ce détecteur d'ouverture de portes low-cost 433Mhz transmet à Gladys un signal via un récepteur 433Mhz quand la porte s'ouvre.",
+        "img": "door-opener-433.jpg",
+        "price": 2.48,
+        "amazon_link": "https://www.amazon.fr/gp/product/B00L316F68/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00L316F68&linkCode=as2&tag=gladproj-21",
+        "gladys_tutorial": "https://gladysproject.com/fr/article/utiliser-des-detecteurs-sans-fils",
+        "categories": [
+            "Lampes"
+        ],
+        "categoriesFlatten": "Lampes",
+        "img_file": "Detecteur-ouverture-porte-433Mhz.jpg"
+    },
+    {
+        "name": "Wemo Switch",
+        "description": "Les prises Wemo sont des prises Wi-Fi avec retour d'état!",
+        "img": "item_XL_5226749_2056889.jpg",
+        "price": 36.74,
+        "amazon_link": "https://www.amazon.fr/Belkin-F7C027ea-Interrupteur-compatible-smartphones/dp/B008TPVZNY/ref=sr_1_fkmr0_1?s=computers&ie=UTF8&qid=1542786193&sr=1-1-fkmr0&keywords=Belkin+-+WeMo+Insight+Switch&tag=gladproj-21",
+        "gladys_tutorial": "https://gladysproject.com/fr/article/controler-prises-wemo-insight-switch",
+        "categories": [
+            "Wi-Fi"
+        ],
+        "categoriesFlatten": "Wi-Fi",
+        "img_file": "Wemo-Switch.jpg"
+    },
+    {
+        "name": "Qubino ZMNHJD1",
+        "description": "Pilotage radiateur fil pilote 6 modes en Zwave (confort,horsgel, eco,confort-1,confort-2) sonde temperature et commande interrupteur possible",
+        "img": "41DsinQNFxL.jpg",
+        "price": 59.9,
+        "amazon_link": "https://www.amazon.fr/ZMNHJD1-Module-pilote-radiateur-%C3%A9lectrique/dp/B01HHCCVGY/ref=sr_1_3?ie=UTF8&qid=1542715057&sr=8-3&keywords=Qubino+ZMNHJD1&tag=gladproj-21",
+        "other_store_link": "https://www.domotique-store.fr/domotique/modules-domotiques/thermostats/502-qubino-zmnhjd1-micromodule-fil-pilote-6-ordres-z-wave-plus-remplace-le-zmnhja2.html",
+        "categories": [
+            "Z-Wave",
+            "Thermostat"
+        ],
+        "categoriesFlatten": "Z-Wave,Thermostat",
+        "img_file": "Qubino-ZMNHJD1.jpg"
+    },
+    {
+        "name": "Tags NFC",
+        "description": "Collés partout dans la maison, les tags NFC vous permettent de déclencher des actions quand vous posez votre téléphone dessus.",
+        "img": "tag-nfc.jpg",
+        "price": 10.55,
+        "amazon_link": "https://www.amazon.fr/gp/product/B00M5PC0FG/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00M5PC0FG&linkCode=as2&tag=gladproj-21",
+        "gladys_tutorial": "https://gladysproject.com/fr/article/gladys-and-nfc",
+        "categories": [],
+        "categoriesFlatten": "",
+        "img_file": "Tags-NFC.jpg"
+    },
+    {
+        "name": "Philips Hue Lot de 3 Ampoules connectées White Ambiance flamme E14",
+        "description": "Un lot d'ampoules qui va vous permettre de compléter votre installation déjà en place de Philipps Hue. Il faut déjà une passerelle pour ajouter ce matériel.",
+        "img": "71Amm-XGw8L._SL1500_.jpg",
+        "price": 74.89,
+        "discount_price": 49.9,
+        "amazon_link": "https://www.amazon.fr/dp/B076GYTXLX?tag=gladproj-21",
+        "gladys_tutorial": "https://developer.gladysproject.com/fr/modules/hue",
+        "categories": [
+            "Promotion"
+        ],
+        "categoriesFlatten": "Promotion",
+        "img_file": "Philips-Hue-Lot-de-3-Ampoules-connectees-White-Ambiance-flamme-E14.jpg"
+    },
+    {
+        "name": "Broadlink RM mini 3",
+        "description": "Il s’agit d’un contrôleur Infrarouge qui communique en Wifi avec votre réseau local et comme pour l’Orvibo le RM Mini permet de contrôler vos différents équipements infrarouge via l’application mobile mais aussi via Gladys lors de la sortie du module.\n\nJe l'utilise principalement pour contrôler mon aspirateur robot !",
+        "img": "61Vi8vqjG%2BL._SY355_.jpg",
+        "price": 15.8,
+        "amazon_link": "https://www.amazon.fr/Broadlink-SmartHome-Universel-T%C3%A9l%C3%A9commande-T%C3%A9l%C3%A9phone/dp/B076TGXRWS/ref=sr_1_1?ie=UTF8&qid=1523190832&sr=8-1&keywords=RM+Mini+3+de+Broadlink&dpID=41UBC9JY3OL&preST=_SY300_QL70_&dpSrc=srch&tag=gladproj-21",
+        "gladys_tutorial": "https://community.gladysproject.com/t/commander-un-robot-aspirateur-avec-gladys/3742/3",
+        "categories": [
+            "Lampes"
+        ],
+        "categoriesFlatten": "Lampes",
+        "img_file": "Broadlink-RM-mini-3.jpg"
+    },
+    {
         "name": "Nut Mini",
         "description": "Le Nut Mini est un porte clé Bluetooth à 8€ qui permet à Gladys de savoir quand vous rentrez ou quand vous partez de chez vous.",
         "img": "nut-mini.jpg",
         "price": 9.99,
         "amazon_link": "https://amzn.to/2TmuehH",
-        "gladys_tutorial": "http://gladysproject.com/fr/article/detecter-presence-porte-cle-bluetooth",
         "categories": [
-            "Bluetooth"
+            "Bluetooth",
+            "Capteurs"
         ],
-        "categoriesFlatten": "Bluetooth",
+        "categoriesFlatten": "Bluetooth,Capteurs",
         "img_file": "Nut-Mini.jpg"
+    },
+    {
+        "name": "Everspring - Contrôleur USB Z-Wave+",
+        "description": "Ce dongle USB bon marché vous permet de contrôler dans Gladys n'importe quel périphérique Z-wave reconnu par Open-Zwave.",
+        "img": "31JTMJhlXjL._AC_US200_.jpg",
+        "price": 24.9,
+        "amazon_link": "https://www.amazon.fr/Everspring-Contr%C3%B4leur-USB-Z-Wave/dp/B01LQZ9BLG/ref=sr_1_1?s=lawn-garden&ie=UTF8&qid=1542946505&sr=8-1&keywords=Everspring+-+Contr%C3%B4leur+USB+Z-Wave%2B&tag=gladproj-21",
+        "categories": [
+            "Z-Wave"
+        ],
+        "categoriesFlatten": "Z-Wave",
+        "img_file": "Everspring-Controleur-USB-Z-Wave.jpg"
     },
     {
         "name": "PS3 EYE",
@@ -85,13 +285,15 @@
         "name": "Respeaker 2 mic PHat",
         "description": "Carte de type Hat pour raspberry pi avec 2 micros pour la reconnaissance vocale",
         "img": "DSC_0048-1024x780.jpg",
-        "price": 8.69,
+        "price": 38.99,
+        "discount_price": 21.99,
         "amazon_link": "https://www.amazon.fr/MakerHawk-ReSpeaker-dextension-Microphone-Applications/dp/B07D9FJMWH/ref=sr_1_1?ie=UTF8&qid=1542726307&sr=8-1&keywords=respeaker&tag=gladproj-21",
         "other_store_link": "https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html",
         "categories": [
-            "Raspberry Pi"
+            "Raspberry Pi",
+            "Promotion"
         ],
-        "categoriesFlatten": "Raspberry Pi",
+        "categoriesFlatten": "Raspberry Pi,Promotion",
         "img_file": "Respeaker-2-mic-PHat.jpg"
     },
     {
@@ -108,12 +310,43 @@
         "img_file": "Raspberry-Pi-3-B-Starter-Kit.jpg"
     },
     {
+        "name": "Enceinte Sonos",
+        "description": "Les enceintes Wi-Fi multi-room Sonos sont des enceintes de très bonne facture. Elles sont compatible Gladys !",
+        "img": "sonos-play-1.jpg",
+        "price": 229,
+        "discount_price": 179,
+        "amazon_link": "https://www.amazon.fr/Sonos-Play-multiroom-haut-parleur-ordinateur/dp/B00FSCNLME/ref=sr_1_6?s=electronics&ie=UTF8&qid=1542785964&sr=1-6&keywords=Sonos+play&tag=gladproj-21",
+        "gladys_tutorial": "https://gladysproject.com/fr/article/gerer-musique-gladys-sonos",
+        "categories": [
+            "Musique",
+            "Wi-Fi",
+            "Promotion"
+        ],
+        "categoriesFlatten": "Musique,Wi-Fi,Promotion",
+        "img_file": "Enceinte-Sonos.jpg"
+    },
+    {
+        "name": "Détecteur mouvement 433Mhz",
+        "description": "Ce détecteur de mouvement low-cost 433Mhz transmet un signal à un récepteur 433Mhz dès qu'un mouvement est détecté dans la pièce.",
+        "img": "motion-433.jpg",
+        "price": 4.8,
+        "amazon_link": "https://www.amazon.fr/gp/product/B00L318FUW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00L318FUW&linkCode=as2&tag=gladproj-21",
+        "gladys_tutorial": "https://gladysproject.com/fr/article/utiliser-des-detecteurs-sans-fils",
+        "categories": [
+            "RF 433Mhz"
+        ],
+        "categoriesFlatten": "RF 433Mhz",
+        "img_file": "Detecteur-mouvement-433Mhz.jpg"
+    },
+    {
         "name": "Netatmo Thermostat",
-        "description": "Contrôlez votre chauffage à distance, Faites des économies d'énergie, Réduisez votre empreinte carbone, Personnalisez la couleur de votre Thermostat dessiné par Starck",
+        "description": "Contrôlez votre chauffage à distance, Faites des économies d'énergie, Réduisez votre empreinte carbone, Personnalisez la couleur de votre Thermostat dessiné par Starck\n\n/!\\ Sur le shop de Netatmo le thermostat est à 134,99 € : https://shop.netatmo.com/eur_fr/thermostat.html ",
         "img": "81TRoXeInOL._SX679_.jpg",
         "price": 179,
         "discount_price": 165.89,
         "amazon_link": "https://www.amazon.fr/Thermostat-Connect%C3%A9-pour-chaudi%C3%A8re-individuelle/dp/B00GWKW8SY/ref=sr_1_2?ie=UTF8&qid=1542740631&sr=8-2&keywords=netatmo&tag=gladproj-21",
+        "other_store_link": "https://shop.netatmo.com/eur_fr/thermostat.html",
+        "gladys_tutorial": "https://developer.gladysproject.com/fr/modules/netatmo",
         "categories": [
             "Thermostat",
             "Wi-Fi",
@@ -121,6 +354,34 @@
         ],
         "categoriesFlatten": "Thermostat,Wi-Fi,Promotion",
         "img_file": "Netatmo-Thermostat.jpg"
+    },
+    {
+        "name": "Netatmo Station Météo Intérieur Extérieur Connectée",
+        "description": "Netatmo Station Météo Intérieur Extérieur Connectée Wifi pour Smartphone - Capteur Sans fil - Thermomètre, Hygromètre, Baromètre, Sonomètre, Qualité de l'air",
+        "img": "81lyFwKcZ5L._SL1500_.jpg",
+        "price": 169,
+        "discount_price": 119.99,
+        "amazon_link": "https://www.amazon.fr/Netatmo-Intrieur-Extrieur-Connecte-Smartphone/dp/B0098MGWA8?psc=1&SubscriptionId=AKIAJ3DDKRN5MPEVLCKA&tag=gladproj-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0098MGWA8",
+        "categories": [
+            "Capteurs",
+            "Wi-Fi",
+            "Promotion"
+        ],
+        "categoriesFlatten": "Capteurs,Wi-Fi,Promotion",
+        "img_file": "Netatmo-Station-Meteo-Interieur-Exterieur-Connectee.jpg"
+    },
+    {
+        "name": "Z-wave.Me USB",
+        "description": "Ce dongle USB bon marché vous permet de contrôler dans Gladys n'importe quel périphérique Z-wave reconnu par Open-Zwave.",
+        "img": "zwave-me.jpg",
+        "price": 30,
+        "amazon_link": "https://www.amazon.fr/gp/product/B00QJEY6OC/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00QJEY6OC&linkCode=as2&tag=gladproj-21",
+        "gladys_tutorial": "https://developer.gladysproject.com/fr/modules/zwave",
+        "categories": [
+            "Z-Wave"
+        ],
+        "categoriesFlatten": "Z-Wave",
+        "img_file": "Z-waveMe-USB.jpg"
     },
     {
         "name": "Raspberry Pi 3 B+",
@@ -135,6 +396,46 @@
         "img_file": "Raspberry-Pi-3-B.jpg"
     },
     {
+        "name": "DSP-W215",
+        "description": "Prises connectées wi-fi",
+        "img": "dda92771-97e0-4771-b328-7a4feb078065.jpg",
+        "price": 35,
+        "amazon_link": "https://www.amazon.fr/D-Link-DSP-W215-FR-Prise-intelligente/dp/B00OK34DBK?tag=gladproj-21",
+        "categories": [
+            "Wi-Fi"
+        ],
+        "categoriesFlatten": "Wi-Fi",
+        "img_file": "DSP-W215.jpg"
+    },
+    {
+        "name": "Lot de 3 kits de gestion de chauffage fil pilote en 433 MHz",
+        "description": "Commande radiateur 433MHZ Orno ORN_SH1704.",
+        "img": "31kQA82dNyL.jpg",
+        "price": 46.95,
+        "discount_price": 53.95,
+        "amazon_link": "https://www.amazon.fr/Lot-kits-gestion-chauffage-pilote/dp/B07JQ5DPLD/ref=sr_1_1?s=lawn-garden&ie=UTF8&qid=1542946231&sr=8-1&keywords=Orno+ORN_SH1704&tag=gladproj-21",
+        "categories": [
+            "RF 433Mhz",
+            "Thermostat",
+            "Promotion"
+        ],
+        "categoriesFlatten": "RF 433Mhz,Thermostat,Promotion",
+        "img_file": "Lot-de-3-kits-de-gestion-de-chauffage-fil-pilote-en-433-MHz.jpg"
+    },
+    {
+        "name": "Lampes Milight",
+        "description": "L'alternative chinoise des Philips Hue : Peu chère, et avec une API assez ouverte ! Elles sont entièrement gérée par Gladys.",
+        "img": "milight-lamp.jpg",
+        "price": 19,
+        "amazon_link": "https://www.amazon.fr/gp/search/ref=as_li_qf_sp_sr_il_tl?ie=UTF8&camp=1642&creative=6746&index=aps&keywords=milight+lamp&linkCode=as2&tag=gladproj-21",
+        "gladys_tutorial": "https://gladysproject.com/fr/article/controler-des-ampoules-connectees",
+        "categories": [
+            "Lampes"
+        ],
+        "categoriesFlatten": "Lampes",
+        "img_file": "Lampes-Milight.jpg"
+    },
+    {
         "name": "MakerHawk ReSpeaker 4-Mic Array",
         "description": "MakerHawk ReSpeaker 4-Mic Array, Smart Voice Quad-Microphone sur AC108, Conçu pour l'IA et les applications vocales pour Raspberry Pi Zero / Zéro W / 3B / 2B / B +",
         "img": "71erlElYxpL._SL1400_.jpg",
@@ -147,6 +448,36 @@
         ],
         "categoriesFlatten": "Raspberry Pi,Promotion",
         "img_file": "MakerHawk-ReSpeaker-4-Mic-Array.jpg"
+    },
+    {
+        "name": "Philips Hue Kit de démarrage 2 ampoules White & Color E27 + pont de connexion ",
+        "description": "Les Philips Hue sont des ampoules de grandes qualités, qui sont entièrement gérée par Gladys via le module Gladys-hue !",
+        "img": "51O6t6CxuoL._SL1446_.jpg",
+        "price": 136.11,
+        "amazon_link": "https://www.amazon.fr/Philips-dmarrage-ampoules-White-connexion/dp/B0797WGVWW?tag=gladproj-21",
+        "gladys_tutorial": "https://developer.gladysproject.com/fr/modules/hue",
+        "categories": [
+            "Zigbee"
+        ],
+        "categoriesFlatten": "Zigbee",
+        "img_file": "Philips-Hue-Kit-de-demarrage-2-ampoules-White-and-Color-E27-pont-de-connexion.jpg"
+    },
+    {
+        "name": "Philips Hue Kit E27 White",
+        "description": "Les Philips Hue sont des ampoules de grandes qualités, qui sont entièrement gérée par Gladys via le module Gladys-hue !",
+        "img": "philips-hue.jpg",
+        "price": 139.99,
+        "discount_price": 76.06,
+        "amazon_link": "https://www.amazon.fr/Philips-D%C3%A9marrage-Blanc-avec-inclus/dp/B016H0R7SE/ref=sr_1_4?s=lawn-garden&ie=UTF8&qid=1542946557&sr=8-4&keywords=Philips+Hue+Kit+E27+White&tag=gladproj-21",
+        "other_store_link": "https://www.boulanger.com/ref/1115760",
+        "gladys_tutorial": "https://developer.gladysproject.com/fr/modules/hue",
+        "categories": [
+            "Zigbee",
+            "Lampes",
+            "Promotion"
+        ],
+        "categoriesFlatten": "Zigbee,Lampes,Promotion",
+        "img_file": "Philips-Hue-Kit-E27-White.jpg"
     },
     {
         "name": "Netatmo Capteur de qualité de l'air",
@@ -164,15 +495,58 @@
         "img_file": "Netatmo-Capteur-de-qualite-de-lair.jpg"
     },
     {
+        "name": "ELEGOO Carte Arduino UNO R3",
+        "description": "Arduino Uno",
+        "img": "81xSV1TGCLL._SL1500_.jpg",
+        "price": 30.99,
+        "discount_price": 8.79,
+        "amazon_link": "https://www.amazon.fr/Elegoo-ATmega328P-ATMEGA16U2-Controller-Microcontr%C3%B4leur/dp/B01N91PVIS/ref=sr_1_4_sspa?s=electronics&ie=UTF8&qid=1542708085&sr=1-4-spons&keywords=adruino+uno&psc=1&tag=gladproj-21",
+        "categories": [
+            "RF 433Mhz",
+            "Arduino",
+            "Promotion"
+        ],
+        "categoriesFlatten": "RF 433Mhz,Arduino,Promotion",
+        "img_file": "ELEGOO-Carte-Arduino-UNO-R3.jpg"
+    },
+    {
+        "name": "Pont Wi-Fi Milight",
+        "description": "Le pont Wi-Fi Milight permet de faire le lien entre votre box internet et vos ampoules Mi-light. Il est nécessaire pour contrôler les ampoules Milights.",
+        "img": "milight-box.jpg",
+        "price": 21.96,
+        "amazon_link": "https://www.amazon.fr/gp/search/ref=as_li_qf_sp_sr_il_tl?ie=UTF8&camp=1642&creative=6746&index=aps&keywords=milight+wifi&linkCode=as2&tag=gladproj-21",
+        "gladys_tutorial": "https://gladysproject.com/fr/article/controler-des-ampoules-connectees",
+        "categories": [
+            "Lampes",
+            "Wi-Fi"
+        ],
+        "categoriesFlatten": "Lampes,Wi-Fi",
+        "img_file": "Pont-Wi-Fi-Milight.jpg"
+    },
+    {
+        "name": "Arduino Nano",
+        "description": "L'arduino est connecté en USB au Raspeberry Pi, et permet à Gladys de recevoir des signaux 433Mhz, ce qui soulage le Raspberry Pi.",
+        "img": "arduino-nano.jpg",
+        "price": 2.4,
+        "amazon_link": "https://www.amazon.fr/gp/product/B00QPUEFNW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00QPUEFNW&linkCode=as2&tag=gladproj-21",
+        "gladys_tutorial": "https://gladysproject.com/fr/article/connecter-un-arduino-au-raspberry-pi",
+        "categories": [
+            "Arduino"
+        ],
+        "categoriesFlatten": "Arduino",
+        "img_file": "Arduino-Nano.jpg"
+    },
+    {
         "name": "Fibaro motion sensor  FGMS-001 Capteur de Mouvement",
         "description": "Capteur Z-Wave de mouvements, luminosité, température et antismique.",
         "img": "51mCD0TcvmL._SL1000_.jpg",
         "price": 41.49,
         "amazon_link": "https://www.amazon.fr/Fibaro-FGMS-001-Capteur-de-Mouvement/dp/B01CPR7VX4/ref=asc_df_B01CPR7VX4/?tag=gladproj-21&linkCode=df0&hvadid=106808755441&hvpos=1o1&hvnetw=g&hvrand=12213093612937684263&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9056561&hvtargid=pla-196309123201&psc=1",
         "categories": [
-            "Capteurs"
+            "Capteurs",
+            "Z-Wave"
         ],
-        "categoriesFlatten": "Capteurs",
+        "categoriesFlatten": "Capteurs,Z-Wave",
         "img_file": "Fibaro-motion-sensor-FGMS-001-Capteur-de-Mouvement.jpg"
     }
 ]

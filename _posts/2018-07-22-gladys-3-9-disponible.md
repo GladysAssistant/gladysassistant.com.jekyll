@@ -182,7 +182,7 @@ Merci à tous ceux qui ont contribués !
 
 Pour ceux qui ont loupés la nouvelle, j'ai annoncé début juillet que [j'allais passer à temps partiel sur Gladys](/fr/article/grande-nouvelle-gladys) 🚀😀
 
-A l'occasion, j'ai lancé un [Patreon](https://www.patreon.com/gladysproject/overview) afin de demander un soutien financier à la part de communauté pour pouvoir mener à bien ce projet !
+A l'occasion, j'ai lancé un [Patreon](https://www.patreon.com/gladysassistant/overview) afin de demander un soutien financier à la part de communauté pour pouvoir mener à bien ce projet !
 
 A ce jour, la communauté contribue à hauteur de 438$/mois au projet, et le prochain objectif à 500$ n'est pas loin !
 

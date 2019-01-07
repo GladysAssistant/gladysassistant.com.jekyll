@@ -5,7 +5,7 @@
   img: "raspberry-pi.jpg"
   description: "The Raspberry Pi is essential. It's the little computer which runs Gladys Software."
   link: "raspberry"
-  tutorial: "https://gladysproject.com/en/installation"
+  tutorial: "https://gladysassistant.com/en/installation"
   idx: 1
   url: "https://www.amazon.com/gp/product/B01C6Q2GSY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01C6Q2GSY&linkId=0837cd1b3cc2b715934805ef5eb11723"
 -
@@ -15,7 +15,7 @@
   img: "philips-hue.jpg"
   description: "Philips Hue are high quality lamps with 16 million colors and 50,000 shades of white light."
   link: "philips-hue"
-  tutorial: "https://developer.gladysproject.com/en/modules/hue"
+  tutorial: "https://developer.gladysassistant.com/en/modules/hue"
   idx: 2
   url: "https://www.amazon.com/gp/product/B01KJYSO68/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01KJYSO68&linkId=c9e44f73388d48e3a748ba0ea6c95cf4"
 -
@@ -25,7 +25,7 @@
   img: "arduino-nano.jpg"
   description: "This arduino is connected threw USB to Gladys to receive 433Mhz signals."
   link: "arduino-nano"
-  tutorial: "https://developer.gladysproject.com/en/modules/serial"
+  tutorial: "https://developer.gladysassistant.com/en/modules/serial"
   idx: 3
   url: "https://www.amazon.com/gp/product/B00761NDHI/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00761NDHI&linkId=0363b059470bf09201ce91108678adfa"
 -
@@ -35,7 +35,7 @@
   img: "sonos-play-1.jpg"
   description: "The Sonos speaker is a really good Wi-Fi sound system and works well with Gladys !"
   link: "sonos-play-1"
-  tutorial: "https://developer.gladysproject.com/en/modules/sonos"
+  tutorial: "https://developer.gladysassistant.com/en/modules/sonos"
   idx: 4
   url: "https://www.amazon.com/gp/product/B00EWCUK98/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00EWCUK98&linkId=0545a657d3d024093d8b6cc05d3d612c"
 -
@@ -45,7 +45,7 @@
   img: "zwave-me.jpg"
   description: "This Z-wave+ USB dongle allows you to control Z-wave peripherals in your house."
   link: "zwave-me"
-  tutorial: "https://developer.gladysproject.com/en/modules/zwave"
+  tutorial: "https://developer.gladysassistant.com/en/modules/zwave"
   idx: 5
   url: "https://www.amazon.com/gp/product/B00QJEY6OC/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00QJEY6OC&linkId=7f945b072a98aacdb549834042a45d1a"
 -
@@ -55,7 +55,7 @@
   img: "fibaro-motion-sensor.jpg"
   description: "This Z-wave+ sensor detects motion, temperature, light and vibrations."
   link: "fibaro-motion"
-  tutorial: "https://developer.gladysproject.com/en/modules/zwave"
+  tutorial: "https://developer.gladysassistant.com/en/modules/zwave"
   idx: 6
   url: "https://www.amazon.com/gp/product/B01KOGDETI/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01KOGDETI&linkId=31e05f3a5b0c860c05395305d8eac27c"
 -
@@ -65,7 +65,7 @@
   img: "tag-nfc.jpg"
   description: "NFC tags allows you to trigger scenario in Gladys when your phone touch them."
   link: "tag-nfc"
-  tutorial: "https://gladysproject.com/en/article/gladys-and-nfc"
+  tutorial: "https://gladysassistant.com/en/article/gladys-and-nfc"
   idx: 7
   url: "https://www.amazon.com/gp/product/B00KSR0636/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=gladproj-20&creative=9325&linkCode=as2&creativeASIN=B00KSR0636&linkId=9f59aab2ae011b13d9ab33af255c0c86"
 -
@@ -75,7 +75,7 @@
   img: "433mhz-kit.jpg"
   description: "This kit allows you to receive and emit 433Mhz signals. "
   link: "RF-433-kit"
-  tutorial: "https://developer.gladysproject.com/en/modules/serial"
+  tutorial: "https://developer.gladysassistant.com/en/modules/serial"
   idx: 8
   url: "https://www.amazon.com/gp/product/B00WH7FHG6/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00WH7FHG6&linkId=034099c3a58d58ee63506c9f801ffec0"
 -
@@ -85,7 +85,7 @@
   img: "motion-433.jpg"
   description: "This low-cost motion sensor send a 433Mhz signal to Gladys when a motion is detected."
   link: "motion-sensor-433"
-  tutorial: "https://developer.gladysproject.com/en/modules/serial"
+  tutorial: "https://developer.gladysassistant.com/en/modules/serial"
   idx: 9
   url: "https://www.amazon.com/gp/product/B01BR12DN2/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01BR12DN2&linkId=7bcc3a7710a43137493d239cdc14962f"
 -
@@ -95,7 +95,7 @@
   img: "door-opener-433.jpg"
   description: "This sensor sends a 433Mhz signal to Gladys when the door is opened"
   link: "door-sensor-433"
-  tutorial: "https://developer.gladysproject.com/en/modules/serial"
+  tutorial: "https://developer.gladysassistant.com/en/modules/serial"
   idx: 10
   url: "https://www.amazon.com/gp/product/B01BR12DVO/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01BR12DVO&linkId=a93564ba12fd7dbb7a8506675e1a3212"
 -
@@ -105,7 +105,7 @@
   img: "milight-lamp.jpg"
   description: "Chinese Philips Hue, with an easy-to-use API. Cheap but works well !"
   link: "milight-lamp"
-  tutorial: "https://developer.gladysproject.com/en/modules/milight"
+  tutorial: "https://developer.gladysassistant.com/en/modules/milight"
   idx: 11
   url: "http://amzn.to/1hI2X5s"
 -
@@ -115,7 +115,7 @@
   img: "milight-box.jpg"
   description: "The bridge allows you to connect your Mi-light lamp to your Wi-Fi network"
   link: "milight-wifi-bridge"
-  tutorial: "https://developer.gladysproject.com/en/modules/milight"
+  tutorial: "https://developer.gladysassistant.com/en/modules/milight"
   idx: 12
   url: "https://www.amazon.com/gp/product/B01I4F1ALA/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01I4F1ALA&linkId=7eb9f260ca6c90244e5c1520a062c922"
 -
@@ -125,6 +125,6 @@
   img: "wemo-insight-switch.jpg"
   description: "With this plug, you can control devices in your house and see the electricity consumption !"
   link: "belkin-wemo-insight-switch"
-  tutorial: "https://developer.gladysproject.com/en/modules/wemo"
+  tutorial: "https://developer.gladysassistant.com/en/modules/wemo"
   idx: 13
   url: "http://amzn.to/1hI2L6c"

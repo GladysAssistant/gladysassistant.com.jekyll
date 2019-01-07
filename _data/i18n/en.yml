@@ -142,8 +142,8 @@ installation:
 #Blog Page
 blog:
   meta:
-    title: Blog | Gladys Project
-    description: The blog about the Gladys project. Find here all news, tutorials about Gladys.
+    title: Blog | Gladys Assistant
+    description: The blog about the Gladys Assistant. Find here all news, tutorials about Gladys.
   title: Blog
   noArticles: No articles available in this language !
   readmore: Read more
@@ -170,7 +170,7 @@ press:
 
 #Contact page
 contact:
-  title: Contact | Gladys Project
+  title: Contact | Gladys Assistant
   description: Contact me if you have questions about the project. It will be a pleasure to answer !
   sentence: If you have questions about the project, if you want to help... Don't hesitate to contact me !
   name: Name

@@ -24,7 +24,7 @@ To solve this problem, we built the Gladys Gateway.
 
 ## The Gladys Gateway
 
-The Gladys Gateway is an end-to-end encrypted gateway, that allows you to control your Gladys instance from a simple web based UI availabe at [gateway.gladysproject.com](https://gateway.gladysproject.com/login).
+The Gladys Gateway is an end-to-end encrypted gateway, that allows you to control your Gladys instance from a simple web based UI availabe at [gateway.gladysassistant.com](https://gateway.gladysassistant.com/login).
 
 All communications between your local Raspberry Pi and the web client are end-to-end encrypted, so you privacy is respected.
 

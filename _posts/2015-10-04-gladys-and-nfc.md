@@ -62,7 +62,7 @@ code=going-to-sleep
 user=1
 ```
 
-Vous pouvez mettre n'importe quel code parmi la liste d'events suivants : [https://github.com/GladysProject/gladys-data/blob/master/events/fr.json](https://github.com/GladysProject/gladys-data/blob/master/events/fr.json). 
+Vous pouvez mettre n'importe quel code parmi la liste d'events suivants : [https://github.com/gladysassistant/gladys-data/blob/master/events/fr.json](https://github.com/gladysassistant/gladys-data/blob/master/events/fr.json). 
 
 Le user est l'ID du user que vous voulez affecter par l'event. Si vous allez vous coucher, mettez votre ID ( vous pouvez trouver votre ID dans les paramètres de Gladys, rubrique `Mon compte` )
 

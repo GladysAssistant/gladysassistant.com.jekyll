@@ -48,7 +48,7 @@ Une fois que nous avons reçu la réponse du service sous forme d'un texte, il f
 
 Et bien rappelez-vous, il y a quelques mois, je vous avais demandé lors d'un sondage : "Et vous, si vous pouviez parler à Gladys, que lui demanderiez-vous ?" ( Sondage disponible [ici](https://docs.google.com/forms/d/e/1FAIpQLSfDDj2Gkx5kqPWuUup-ZCx-90aNxLp4ej6QyutUv-VD6no_wg/viewform), vous pouvez encore y répondre si vous avez envie de voir certaines phrases dans Gladys ! ) 
 
-L'objectif de ce sondage était de récolter un maximum de phrases, puis d'entrainer un modèle à partir de ce lot de données pour apprendre à classifier ces phrases. L'objectif est juste d'apposer un tag sur chaque phrase. La liste des phrases qui entrainent le modèle actuel dans Gladys est [sur GitHub](https://github.com/GladysProject/gladys-data/blob/master/sentences/fr.json). Vous pouvez proposer des PR, elles sont les bienvenues :)
+L'objectif de ce sondage était de récolter un maximum de phrases, puis d'entrainer un modèle à partir de ce lot de données pour apprendre à classifier ces phrases. L'objectif est juste d'apposer un tag sur chaque phrase. La liste des phrases qui entrainent le modèle actuel dans Gladys est [sur GitHub](https://github.com/gladysassistant/gladys-data/blob/master/sentences/fr.json). Vous pouvez proposer des PR, elles sont les bienvenues :)
 
 Ainsi, grâce à vos contributions, lorsque le texte est détecté, il est passé dans le modèle ( le modèle est généré en local chez vous lorsque vous installez Gladys, et à chaque mise à jour des données Gladys ), puis il est classifié, et enfin le service correspondant à la commande est appelé.
 
@@ -77,7 +77,7 @@ Attention, les données sont téléchargées dans la langue de votre user. Seuls
 
 J'ai mis la reconnaissance vocale sous la forme d'un module séparé, car pour moi ça n'a rien à faire dans le core de Gladys. Il faut voir ça comme un petit agent très léger que l'on peut installer n'importe où. L'objectif de le séparer de Gladys est que du coup on peut l'installer sur plein de machines ( voir même sur un poste fixe, sur un Raspberry Pi Zero que l'on scotch derrière un meuble, enfin on fait ce que l'on veut !) pour pouvoir faire de la reconnaissance vocale depuis n'importe quelle pièce, vers une instance Gladys principale qui va gérer les commandes.
 
-L'agent de reconnaissance vocale Gladys est disponible [sur GitHub](https://github.com/GladysProject/gladys-voice), et pour l'installer toutes les instructions sont dans le README ! 
+L'agent de reconnaissance vocale Gladys est disponible [sur GitHub](https://github.com/gladysassistant/gladys-voice), et pour l'installer toutes les instructions sont dans le README ! 
 
 Attention, ce n'est pas un module Gladys comme les modules qui sont sur le Store Gladys, c'est un simple agent qui écoute, reconnait la voix, la transforme en texte, et l'envoie à Gladys via une requête HTTP. C'est donc un simple client !
 
@@ -86,7 +86,7 @@ Attention, ce n'est pas un module Gladys comme les modules qui sont sur le Store
 
 Une petite démonstration de ce que ça donne chez moi !
 
-<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">First demo of Gladys voice recognition system! Excited?! <a href="https://t.co/RZRVSIQnWN">pic.twitter.com/RZRVSIQnWN</a></p>&mdash; Gladys Project (@gladysproject) <a href="https://twitter.com/gladysproject/status/783751152571678721">5 octobre 2016</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">First demo of Gladys voice recognition system! Excited?! <a href="https://t.co/RZRVSIQnWN">pic.twitter.com/RZRVSIQnWN</a></p>&mdash; Gladys Assistant (@gladysassistant) <a href="https://twitter.com/gladysassistant/status/783751152571678721">5 octobre 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 

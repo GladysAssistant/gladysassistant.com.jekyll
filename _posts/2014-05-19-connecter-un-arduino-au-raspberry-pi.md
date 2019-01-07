@@ -97,7 +97,7 @@ Vous devriez voir apparaître les données envoyées par l'arduino via USB dans 
 - Téléchargez la librairie [RCswitch](https://code.google.com/p/rc-switch/downloads/list)
 - Extraire le zip et placer le dossier "RCswitch" dans le dossier "C:UsersUSER_NAMEDocumentsArduinolibraries" de votre PC.
 - Relancez le soft arduino sur votre PC!
-- Téléchargez [le programme pour arduino](https://github.com/GladysProject/Gladys-arduino), ouvrez le dans le logiciel arduino, et chargez le dans l'arduino.
+- Téléchargez [le programme pour arduino](https://github.com/gladysassistant/Gladys-arduino), ouvrez le dans le logiciel arduino, et chargez le dans l'arduino.
 - Vous pouvez tester le bon fonctionnement du code en lançant le moniteur série ( "Outils" => "Moniteur série" ), et en déclenchant un détecteur de mouvement/ouverture de porte 433Mhz à côté de l'arduino. Si quelque chose s'affiche dans le moniteur, c'est bon!
 
 ## Récupérer les valeurs de l'arduino sur le Raspberry

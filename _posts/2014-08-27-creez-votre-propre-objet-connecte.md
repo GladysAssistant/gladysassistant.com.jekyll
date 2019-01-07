@@ -65,7 +65,7 @@ Le logiciel est très simple, j'ai utilisé plusieurs librairies (dont je remerc
 
 Pour importer les librairies, téléchargez-les ( sur github faites "Download zip" à droite ), puis placez le dossier ( en le renommant sans le "-master" de github ) dans "Documents/arduino/libraries", puis relancez votre logiciel arduino, elles seront importées automatiquement.
 
-Le programme pour l'arduino de cet objet connecté est disponible en téléchargement [ici](https://gist.github.com/GladysProject/b0a1d6f24d266437b87e).  
+Le programme pour l'arduino de cet objet connecté est disponible en téléchargement [ici](https://gist.github.com/gladysassistant/b0a1d6f24d266437b87e).  
 Pensez bien avant de charger le code sur l'arduino de bien modifier le type de carte ( Outils => type de carte => Arduino Nano Atmega 328 ), puis chargez le code sur la carte !
 
 Ici, le code fait tout simplement deux choses : lorsque l'objet est posé à l'endroit, il envoit le signal "2" en 433Mhz, et lorsqu'il est posé à l'envers, le signal "1" ( seulement lors des changements de sens, et pas en continu ). Pour expliquer en détail le programme, l'arduino vérifie le sens du capteur, si il y a changement de sens il émet un signal, puis il dort pour 2 secondes, et ainsi de suite.

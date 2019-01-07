@@ -27,7 +27,7 @@ During 3 months, I worked really hard to built a new product: the Gladys Gateway
 
 I noticed there was a main problem with Gladys: It's easy to access your Raspberry Pi installation when you are at home, but when you are outside it's hard to make Gladys publicly accessible without having security issues: bot trying to hack your Raspberry Pi, that kind of creepy stuff.
 
-So I thought about it, and decided to build the Gladys Gateway: The first End-To-End Encrypted Gateway for Home Automation. It's a web base UI accessible at [gateway.gladysproject.com](https://gateway.gladysproject.com/login) that allows you to control your Gladys instance from anywhere in the world, without having to open your local network to the public, so your Raspberry Pi stays safe.
+So I thought about it, and decided to build the Gladys Gateway: The first End-To-End Encrypted Gateway for Home Automation. It's a web base UI accessible at [gateway.gladysassistant.com](https://gateway.gladysassistant.com/login) that allows you to control your Gladys instance from anywhere in the world, without having to open your local network to the public, so your Raspberry Pi stays safe.
 
 The main feature of this Gateway is that all communications between your Gladys and the web UI are end-to-end encrypted. 
 

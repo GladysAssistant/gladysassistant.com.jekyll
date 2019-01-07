@@ -153,7 +153,7 @@ J’ai créé un Patreon pour Gladys. Pour ceux qui ne connaissent pas, Patreon 
 
 J’ai mis différents niveaux de contributions, qui vont du simple don d’un café, à d’autres contributions avec des avantages pour vous 😉
 
-Le Patreon est disponible ici => [https://www.patreon.com/gladysproject/overview](https://www.patreon.com/gladysproject/overview)
+Le Patreon est disponible ici => [https://www.patreon.com/gladysassistant/overview](https://www.patreon.com/gladysassistant/overview)
 
 Merci à tous ceux qui soutiendront Gladys, c’est grâce à eux que des solutions indépendantes open-source existe ! 🙂
 
@@ -163,4 +163,4 @@ Pierre-Gilles
 
 PS: A l’occasion de ce lancement, j’ai mis pour la première fois le Gladys Starter Pack a [32€ au lieu de 49€](/fr/gladys-starter-pack/) ! Profitez-en ;)
 
-PS2: Pour ceux qui veulent faire un don unique au projet, c’est possible via [PayPal](https://www.paypal.me/gladysproject/35), même si je vous recommande l'option [Patreon](https://www.patreon.com/gladysproject/overview) pour les avantages 😉
+PS2: Pour ceux qui veulent faire un don unique au projet, c’est possible via [PayPal](https://www.paypal.me/gladysproject/10), même si je vous recommande l'option [Patreon](https://www.patreon.com/gladysassistant/overview) pour les avantages 😉

@@ -26,7 +26,7 @@ C'est pour ça que j'ai créé le Gladys Gateway!
 
 ## Le Gladys Gateway
 
-Le Gladys Gateway est une passerelle chiffrée de bout en bout, avec une interface web disponible à [gateway.gladysproject.com](https://gateway.gladysproject.com/login) qui vous permet d'accéder à Gladys très simplement.
+Le Gladys Gateway est une passerelle chiffrée de bout en bout, avec une interface web disponible à [gateway.gladysassistant.com](https://gateway.gladysassistant.com/login) qui vous permet d'accéder à Gladys très simplement.
 
 Toutes les communications entre cette interface web et votre Raspberry Pi sont chiffrées de bout en bout, et ainsi votre vie privée est respectée. 
 

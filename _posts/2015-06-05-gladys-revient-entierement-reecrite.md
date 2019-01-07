@@ -25,7 +25,7 @@ Au niveau du programme développeur, il va encore plus loin sur cette version. I
 
 J'espère que cette version vous plaira, cela fait beaucoup de temps que je travaille dessus et je suis heureux de pouvoir la sortir aujourd'hui !
 
-<blockquote class="twitter-tweet" lang="fr"><p lang="en" dir="ltr">Gladys is now available! Fully rewritten with <a href="https://twitter.com/sailjs">@sailjs</a> and <a href="https://twitter.com/angularjs">@angularJS</a>. <a href="https://twitter.com/hashtag/RT?src=hash">#RT</a> to help the project! <a href="http://t.co/H5NRfzDrPL">http://t.co/H5NRfzDrPL</a> <a href="http://t.co/9MJzD6GEz3">pic.twitter.com/9MJzD6GEz3</a></p>&mdash; Gladys Project (@gladysproject) <a href="https://twitter.com/gladysproject/status/606788848555819008">5 Juin 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="fr"><p lang="en" dir="ltr">Gladys is now available! Fully rewritten with <a href="https://twitter.com/sailjs">@sailjs</a> and <a href="https://twitter.com/angularjs">@angularJS</a>. <a href="https://twitter.com/hashtag/RT?src=hash">#RT</a> to help the project! <a href="http://t.co/H5NRfzDrPL">http://t.co/H5NRfzDrPL</a> <a href="http://t.co/9MJzD6GEz3">pic.twitter.com/9MJzD6GEz3</a></p>&mdash; Gladys Assistant (@gladysassistant) <a href="https://twitter.com/gladysassistant/status/606788848555819008">5 Juin 2015</a></blockquote>
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 

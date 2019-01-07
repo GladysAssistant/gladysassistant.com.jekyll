@@ -34,4 +34,4 @@ Scripts are running in a sandbox, you don't have access to the full Node.js nati
 
 ### Available functions
 
-You call all Gladys functions, and all function exposed by Gladys modules. Functions are listed in the [Gladys Node.js API documentation](https://developer.gladysproject.com/en/documentation/api-nodejs-gladys). 
+You call all Gladys functions, and all function exposed by Gladys modules. Functions are listed in the [Gladys Node.js API documentation](https://developer.gladysassistant.com/en/documentation/api-nodejs-gladys). 

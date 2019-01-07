@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A New Brand Identity for Gladys Project
+title: A New Brand Identity for Gladys Assistant
 description: Thanks to the work of a talented designer, we now have a new logo and a new homepage!
 author: Pierre-Gilles Leymarie
 lang: en

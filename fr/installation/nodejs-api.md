@@ -13,13 +13,13 @@ Que vous soyez dans des scripts, ou dans un module Gladys, vous pouvez accéder 
 
 Ces fonctions sont regroupés sous la variable `gladys` accessible partout.
 
-La documentation de l'API Node.js Gladys est disponible ici => [https://documentation.gladysproject.com/jsdoc/](https://documentation.gladysproject.com/jsdoc/)
+La documentation de l'API Node.js Gladys est disponible ici => [https://documentation.gladysassistant.com/jsdoc/](https://documentation.gladysassistant.com/jsdoc/)
 
 ### Core
 
 Ces fonctions font partie du `core` de Gladys, ce sont des fonctions qui intéragissent avec des concepts clés du système. 
 
-Pour voir toutes les catégories du core, voir [sur le github](https://github.com/GladysProject/Gladys/tree/master/api/core).
+Pour voir toutes les catégories du core, voir [sur le github](https://github.com/gladysassistant/Gladys/tree/master/api/core).
 
 Prenons un exemple, dans le core vous avez un dossier `alarm`, il contient tout le code relatif aux alarmes.
 

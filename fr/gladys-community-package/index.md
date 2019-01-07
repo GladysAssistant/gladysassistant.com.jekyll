@@ -9,7 +9,7 @@ permalink: /fr/gladys-community-package/
 
 Salut à tous,
 
-👋 Je m'appelle [Pierre-Gilles Leymarie](https://twitter.com/pierregillesl), j'ai 24 ans, et depuis 5 ans je travaille sur un programme open-source de domotique disponible gratuitement sur GitHub, [Gladys](https://github.com/GladysProject/Gladys).
+👋 Je m'appelle [Pierre-Gilles Leymarie](https://twitter.com/pierregillesl), j'ai 24 ans, et depuis 5 ans je travaille sur un programme open-source de domotique disponible gratuitement sur GitHub, [Gladys](https://github.com/gladysassistant/Gladys).
 
 ⭐️ Mon rêve est de permettre à chacun d'avoir son propre assistant Jarvis à la maison, comme dans Iron Man, sans avoir à installer une solution propriétaire qui ne respecte pas la vie privée de ses utilisateurs.
 
@@ -39,7 +39,7 @@ Vous l'avez compris, j'ai choisis la deuxième option, et **j'ai choisi de dédi
 
 J'ai donc décidé de jouer carte sur table avec ma communauté. J'ai expliqué dans un long post quels était mes objectifs sur Gladys et les développements que j'avais en tête pour les mois à venir.
 
-Afin que cela soit viable financièrement pour moi, j'ai créé en Juillet un [Patreon](https://www.patreon.com/gladysproject/overview), qui m'a permis de récolter en moyenne 500$ par mois durant ces 3 premiers mois à temps plein sur le projet.
+Afin que cela soit viable financièrement pour moi, j'ai créé en Juillet un [Patreon](https://www.patreon.com/gladysassistant/overview), qui m'a permis de récolter en moyenne 500$ par mois durant ces 3 premiers mois à temps plein sur le projet.
 
 Durant ces 3 mois, j'ai développé un nouveau produit autour de Gladys, le **Gladys Gateway**. 
 

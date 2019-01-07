@@ -150,7 +150,7 @@ installation:
 #Blog Page
 blog:
   meta:
-    title: Blog | Gladys Project
+    title: Blog | Gladys Assistant
     description: Le blog du projet Gladys. Retrouvez ici des news, tutoriels à propos du projet.
   title: Blog
   noArticles: Aucun article disponible en français !
@@ -159,8 +159,8 @@ blog:
 rss:
   title: Le blog du projet Gladys !
   description: Retrouve toutes les actualités autour du projet, les tutoriels, les tests !
-  feedUri: http://gladysproject.com/fr_feed.xml
-  websiteUri: http://gladysproject.com
+  feedUri: http://gladysassistant.com/fr_feed.xml
+  websiteUri: http://gladysassistant.com
 
 
 
@@ -187,7 +187,7 @@ press:
 
 #Contact page
 contact:
-  title: Contact | Gladys Project
+  title: Contact | Gladys Assistant
   description: Contactez moi si vous avez des questions sur le projet, je vous répondrai avec plaisir.
   sentence: Si vous avez des questions/remarques, que vous voulez en savoir plus sur le projet, que vous voulez aider, proposer des idées, des solutions... Ce formulaire est fait pour vous !
   name: Nom

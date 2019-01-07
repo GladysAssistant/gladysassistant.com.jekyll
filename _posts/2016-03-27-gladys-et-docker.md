@@ -119,7 +119,7 @@ docker run --name gladys-node-init \
 -e MYSQL_PORT=3306 \
 -e TZ=Europe/Paris \
 --link gladys-mariadb:mariadb \
-gladysproject/gladys \
+gladysassistant/gladys \
 node init.js
 ```
 
@@ -138,7 +138,7 @@ docker run --name gladys-node \
 -e MYSQL_PORT=3306 \
 -e TZ=Europe/Paris \
 --link gladys-mariadb:mariadb \
--d gladysproject/gladys
+-d gladysassistant/gladys
 ```
 
 Pensez aussi ici à remettre votre mot de passe Mariadb. 
@@ -177,9 +177,9 @@ Pour l'ID, inutile de le taper en entier, vous pouvez taper les 2 premiers carac
 
 Et voilà, en quelques minutes on a pu mettre en place une instance de Gladys v3 ! 
 
-Si vous voulez avoir la liste les fonctions présentes, allez sur le github dans le dossier `api/core` ( [ici](https://github.com/GladysProject/Gladys/tree/v3/api/core) ), dedans vous trouverez une liste de dossiers, chaque dossier correspond à un ensemble de fonction lié à une feature particulière et est accessible sous la variable "gladys" dans les scripts. Certaines sont documentées, pas toutes car je n'ai pas encore eu le temps, mais promis ça arrive ! Un exemple de documentation : [Documentation des alarmes](https://github.com/GladysProject/Gladys/blob/v3/api/core/alarm/README.md).
+Si vous voulez avoir la liste les fonctions présentes, allez sur le github dans le dossier `api/core` ( [ici](https://github.com/gladysassistant/Gladys/tree/v3/api/core) ), dedans vous trouverez une liste de dossiers, chaque dossier correspond à un ensemble de fonction lié à une feature particulière et est accessible sous la variable "gladys" dans les scripts. Certaines sont documentées, pas toutes car je n'ai pas encore eu le temps, mais promis ça arrive ! Un exemple de documentation : [Documentation des alarmes](https://github.com/gladysassistant/Gladys/blob/v3/api/core/alarm/README.md).
 
-Si vous voulez voir toutes les routes d'API de Gladys 3.0, le plus simple est d'aller voir [la liste des routes](https://github.com/GladysProject/Gladys/blob/v3/config/routes.js).
+Si vous voulez voir toutes les routes d'API de Gladys 3.0, le plus simple est d'aller voir [la liste des routes](https://github.com/gladysassistant/Gladys/blob/v3/config/routes.js).
 
 
 N'hésitez pas si vous avez des questions, et bonne Pâques à tous ! 

@@ -23,7 +23,7 @@ L'objectif de ce post est de faire un petit point des essentiels pour commencer 
 
 Pour faire tourner Gladys, il vous faut forcément une machine qui va l'exécuter. Cette machine, c'est souvent un Raspberry Pi : un nano-ordinateur petit, consommant peu, silencieux et surtout à bas prix!
 
-<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/7cyO2Xhq9P/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Installing Gladys in my new flat ! #RaspberryPi #GladysProject #homeautomation #DIY</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Une publication partagée par Gladys Project (@gladysproject) le <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-09-10T12:16:57+00:00">10 Sept. 2015 à 5h16 PDT</time></p></div></blockquote> <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/7cyO2Xhq9P/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Installing Gladys in my new flat ! #RaspberryPi #gladysassistant #homeautomation #DIY</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Une publication partagée par Gladys Assistant (@gladysassistant) le <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-09-10T12:16:57+00:00">10 Sept. 2015 à 5h16 PDT</time></p></div></blockquote> <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 
 Cette carte existe depuis maintenant 2012, et a fait depuis tout un bout de chemin. A la base peu puissant, le Raspberry Pi 3 c'est désormais une machine ARM Quad Core 1.2Ghz avec 1Go de RAM, bref un vrai petit PC prêt à contrôler toute notre maison !
 
@@ -46,7 +46,7 @@ En bref, ça marche super bien! Le seul truc que je trouve "marrant" avec ce gat
 - <a href="https://fr.gearbest.com/smart-light-bulb/pp_257679.html?wid=55" rel="nofollow" >Le Xiaomi Switch, bouton connecté à 6€ sur Gearbest</a>
 - <a href="https://fr.gearbest.com/access-control/pp_626703.html?wid=5" rel="nofollow" >Le Xiaomi Aqara détecteur ouverture porte et fenêtre à 6€ sur Gearbest</a>
 
-Mon article [Gladys devient compatible Xiaomi Home](https://gladysproject.com/fr/article/gladys-devient-compatible-xiaomi-home).
+Mon article [Gladys devient compatible Xiaomi Home](https://gladysassistant.com/fr/article/gladys-devient-compatible-xiaomi-home).
 
 ## Détecter votre présence grâce à un porte clé Bluetooth
 
@@ -77,7 +77,7 @@ L'autre option, c'est les ampoules Milight, des ampoules chinoises plus abordabl
 
 ## La musique dans Gladys
 
-Pour gérer la musique, deux options, soit vous optez pour le module [Gladys MP3 Player](https://developer.gladysproject.com/fr/modules/mp3-player) qui vous permet de jouer la musique directement sur le Raspberry Pi (que vous branchez ensuite en jack/HDMI à vos enceintes).
+Pour gérer la musique, deux options, soit vous optez pour le module [Gladys MP3 Player](https://developer.gladysassistant.com/fr/modules/mp3-player) qui vous permet de jouer la musique directement sur le Raspberry Pi (que vous branchez ensuite en jack/HDMI à vos enceintes).
 
 <img src="/assets/images/articles/gladys-sonos/gladys-sonos.jpg" alt="Sonos" class="img-responsive" />
 
@@ -93,7 +93,7 @@ A l'occasion de Noël, le Gladys Starter Pack est en promotion à <b>37,90€ au
 
 L'occasion de soutenir le projet à bas prix !
 
-Le Gladys Starter Pack est disponible ici => [https://gladysproject.com/fr/gladys-starter-pack/](https://gladysproject.com/fr/gladys-starter-pack/)
+Le Gladys Starter Pack est disponible ici => [https://gladysassistant.com/fr/gladys-starter-pack/](/fr/gladys-starter-pack/)
 
 Merci à tous ceux qui l'ont déjà acheté et soutiennent ainsi le projet :) 
 

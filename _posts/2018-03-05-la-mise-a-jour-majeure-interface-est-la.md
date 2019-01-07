@@ -71,7 +71,7 @@ Cela veut dire que désormais **vous pouvez créer un seul scénario de réveil*
 
 Cette mise à jour apporte un lot de corrections et d'améliorations assez importante. Par exemple, jusque là, afin d'avoir la météo sur l'écran d'accueil, il fallait forcément être en HTTPS afin de pouvoir géolocaliser l'utilisateur. Ce n'est plus le cas. Maintenant, si l'utilisateur n'est pas géolocalisable, il y a un fallback sur la latitude et la longitude de la maison de l'utilisateur.
 
-Pour voir toutes les nouveautés de cette mise à jour, rendez-vous sur le [CHANGELOG](https://github.com/GladysProject/Gladys/blob/master/CHANGELOG.md).
+Pour voir toutes les nouveautés de cette mise à jour, rendez-vous sur le [CHANGELOG](https://github.com/gladysassistant/Gladys/blob/master/CHANGELOG.md).
 
 ### Une nouvelle image Raspbian
 
@@ -105,7 +105,7 @@ Ensuite, récupérez ce fichier de backup en local sur votre machine (le fichier
 
 ### Flashez votre carte SD
 
-Maintenant, vous pouvez installer la nouvelle version de Gladys sur votre carte SD. Pour cela, téléchargez sur la page [installation](https://gladysproject.com/fr/installation/) du site la nouvelle image Raspbian.
+Maintenant, vous pouvez installer la nouvelle version de Gladys sur votre carte SD. Pour cela, téléchargez sur la page [installation](https://gladysassistant.com/fr/installation/) du site la nouvelle image Raspbian.
 
 Ensuite, clonez-là sur une carte SD (soit une nouvelle, soit la même qu'avant si vous n'en avez qu'une). Vous pouvez suivre le [tutoriel d'installation de Gladys](https://www.youtube.com/watch?v=rx1PmlMGh38), rien n'a changé tout est pareil :)
 
@@ -168,4 +168,4 @@ Deuxième point, si vous aviez installé des modules externe type module bluetoo
 
 Je suis super heureux de pouvoir enfin sortir cette release. J'espère qu'elle se passera bien chez vous et qu'elle vous plaira :)
 
-A l'occasion de cette importante release pour le projet, le Gladys Starter Pack est en promotion à 34€ au lieu de 49€ avec le code promo "GLADYS_3_8" ! Disponible ici => [https://gladysproject.com/fr/gladys-starter-pack/](https://gladysproject.com/fr/gladys-starter-pack/). L'occasion de commencer sur Gladys avec cette super release, et de soutenir le projet :)
+A l'occasion de cette importante release pour le projet, le Gladys Starter Pack est en promotion à 34€ au lieu de 49€ avec le code promo "GLADYS_3_8" ! Disponible ici => [https://gladysassistant.com/fr/gladys-starter-pack/](/fr/gladys-starter-pack/). L'occasion de commencer sur Gladys avec cette super release, et de soutenir le projet :)

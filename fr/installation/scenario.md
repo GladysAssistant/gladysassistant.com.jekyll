@@ -15,7 +15,7 @@ Les scénarios dans Gladys sont faciles à aborder. Ils sont basés sur un conce
 - Ensuite, il y a des Conditions. Par exemple : "**ET** qu'il est plus de 21h".
 - Enfin, il y a des Actions. Par exemple : "**ALORS** éteins toutes les lumières **ET** exécute ce script."
 
-Les différents types de déclencheurs ('triggers'), de conditions et d'actions sont définis dans un [repo Git à part](https://github.com/GladysProject/Gladys-data) via un ensemble de fichiers JSON, et peuvent être mis à jour directement depuis Gladys.
+Les différents types de déclencheurs ('triggers'), de conditions et d'actions sont définis dans un [repo Git à part](https://github.com/gladysassistant/Gladys-data) via un ensemble de fichiers JSON, et peuvent être mis à jour directement depuis Gladys.
 Vous pourrez ensuite créer vos scénarios à partir de ces différents types directement depuis l'interface de Gladys.
 
 ### Étendre les possibilités des scénarios
@@ -68,4 +68,4 @@ En l'occurrence, Gladys nous propose de spécifier le titre et le contenu de not
 
 Cliquez sur `Enregistrer scénario`. Voilà, vous avez créé votre premier scénario !
 
-Pour le tester, vous n'avez plus qu'à créer une alarme qui correspond à la définition de votre scénario (se référer en cas de besoin au tutoriel [Comment créer une alarme dans Gladys](https://developer.gladysproject.com/fr/documentation/alarm)) !
+Pour le tester, vous n'avez plus qu'à créer une alarme qui correspond à la définition de votre scénario (se référer en cas de besoin au tutoriel [Comment créer une alarme dans Gladys](https://developer.gladysassistant.com/fr/documentation/alarm)) !

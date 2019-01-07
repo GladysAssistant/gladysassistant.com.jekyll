@@ -70,4 +70,4 @@ You should arrive on Gladys web interface where you can configure your account !
 
 #### Manual installation
 
-To install Gladys, you just need to follow the instructions on [GitHub](https://github.com/GladysProject/Gladys).
+To install Gladys, you just need to follow the instructions on [GitHub](https://github.com/gladysassistant/Gladys).

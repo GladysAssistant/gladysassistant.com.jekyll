@@ -169,11 +169,11 @@ Bien entendu si vous changez de channel, mettez à jour le code décimal en fonc
 
 ## Contrôler les prises dans Gladys
 
-Pour contrôler les prises dans Gladys, nous allons nous appuyer sur deux modules: [Serial](https://developer.gladysproject.com/fr/modules/serial) et [Radioemitter](https://developer.gladysproject.com/fr/modules/radioemitter).
+Pour contrôler les prises dans Gladys, nous allons nous appuyer sur deux modules: [Serial](https://developer.gladysassistant.com/fr/modules/serial) et [Radioemitter](https://developer.gladysassistant.com/fr/modules/radioemitter).
 
 - Installez tout d'abord le module Serial dans Gladys. (Dans le dashboard Gladys, allez dans l'onglet "Modules" => "Store" => Cliquez sur le module => "Installer" )
 - Puis, sans rebooter, installez le module Radioemitter
-- Téléversez ce [code arduino](https://github.com/GladysProject/gladys-radioemitter/blob/master/arduino-code.ino) sur votre arduino grâce à [l'IDE Arduino](https://www.arduino.cc/en/main/software). Vous devez avoir les librairires `ArduinoJson` et `RCSwitch` installés dans l'IDE. Pour installer ces librairies, dans l'IDE (version > 1.6) allez à "Sketch" => "Include Library" => "Manage Libraries". Puis cherchez "ArduinoJson" et cliquez sur "install". Pareil pour "RCSwitch".
+- Téléversez ce [code arduino](https://github.com/gladysassistant/gladys-radioemitter/blob/master/arduino-code.ino) sur votre arduino grâce à [l'IDE Arduino](https://www.arduino.cc/en/main/software). Vous devez avoir les librairires `ArduinoJson` et `RCSwitch` installés dans l'IDE. Pour installer ces librairies, dans l'IDE (version > 1.6) allez à "Sketch" => "Include Library" => "Manage Libraries". Puis cherchez "ArduinoJson" et cliquez sur "install". Pareil pour "RCSwitch".
 - Rebootez Gladys
 - Connectez votre arduino en USB au Raspberry Pi
 - Cliquez sur le bouton "Configuration" du module Serial dans la vue "modules" du dashboard Gladys. Cela devrait chercher votre arduino sur le ports USB du Raspberry Pi, et ajouter votre arduino dans la liste des devices dans Gladys.
@@ -201,4 +201,4 @@ Voilà ce que j'obtiens chez moi:
 
 J'espère que ce tutoriel vous a plus, il a été écrit à l'origine en 2014, et a été remasterisé en 2017 afin d'être compatible Gladys v3 (enfin!).
 
-N'hésitez pas à poser vos questions sur le [forum Gladys](https://community.gladysproject.com/) ou en commentaire.
+N'hésitez pas à poser vos questions sur le [forum Gladys](https://community.gladysassistant.com/) ou en commentaire.
