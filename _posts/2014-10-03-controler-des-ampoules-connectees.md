@@ -29,7 +29,7 @@ Pour faire fonctionner les ampoules, c'est comme avec les Hue, il faut une ou pl
 
 L'installation est relativement simple et est expliqué sur un petit manuel dans la boite du module Wifi, ainsi que sur le site de Mi-light [ici](http://www.milight.com/support/). Mais voici un petit résumé de l'installation :
 
-- Téléchargez l'application Mi-light sur [Android](https://play.google.com/store/apps/details?id=com.lierda.wificontroller&hl=fr_FR) ou [iOS](https://itunes.apple.com/fr/app/milight/id680443167?mt=8)  
+- Téléchargez l'application Mi-light sur [Android](https://play.google.com/store/apps/details?id=com.irainxun.wifilight&hl=fr) ou [iOS](https://itunes.apple.com/fr/app/milight/id680443167?mt=8)  
 - Branchez le module Wifi  
 - Allez dans les paramètres Wifi de votre smartphone, et connectez vous au réseau "Milight"  
 - Allez sur l'application Milight, dans "AP Configuration", puis entrez les informations de connexions au Wifi de votre box. Une fois les informations rentrées, l'application va vous demander si vous voulez redémarrer le module Wifi, dites "oui" !  

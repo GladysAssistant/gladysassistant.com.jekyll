@@ -13,7 +13,7 @@ permalink: /fr/article/lancement-de-gladys
 
 Ca y est, Gladys est disponible !
 
-Vous pouvez télécharger le programme directement depuis la page d'accueil du site ( [ici](/accueil)), et l'installer avec les instructions de la page développeur :[Développeur](/developpeur)
+Vous pouvez télécharger le programme directement depuis la page d'accueil du site, et l'installer avec les instructions de la page d'installation.
 
 N'hésitez pas à parler du projet autour de vous, à partager sur les réseaux sociaux le site du projet, plus on sera nombreux et plus le projet avancera loin ! ;)
 

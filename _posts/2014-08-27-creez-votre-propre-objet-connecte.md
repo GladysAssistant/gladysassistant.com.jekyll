@@ -26,7 +26,7 @@ Pour le matériel, je suis quasiment passé entièrement par Tinydeal, un fourni
 J'ai pris cet arduino car c'était un bon compromis entre le arduino Uno ( trop cher, et trop gros ), et le choix de juste prendre un Atmega "nu" ( ce que je ferais sûrement dans un prochain tutoriel ). Si vous voulez un arduino encore moins cher il y a l'arduino Pro Mini à 3€80 [ici](http://www.tinydeal.com/fr/pro-mini-atmega328p-microcontroller-board-p-115635.html), qui à l'avantage de prendre encore moins de place, d'être moins cher, et qui est équivalent au Nano, le port USB en moins ( des adaptateurs USB sont disponible pour 1/2€ pour pouvoir charger le programme sur la carte )  
 - Un accéléromètre ( acheté pour 2€50 [ici](http://www.tinydeal.com/fr/gy-291-digital-3-axis-acceleration-of-gravity-tilt-module-p-115214.html) )  
 - Un émetteur RF 433Mhz ( acheté pour 2€98 [ici](http://www.tinydeal.com/fr/433mhz-rf-transmitter-receiver-link-kit-green-p-119800.html) )  
-- Un connecteur de pile 9V ( acheté pour 0€46 [ici](http://www.banggood.com/9V-Battery-Clip-Holder-Connectors-Plug-Snap-Clip-On-Type-Lead-Wire-p-89478.html) )
+- Un connecteur de pile 9V ( acheté pour 0€46 [ici](https://www.banggood.com/fr/search/9v-connector-arduino.html) )
 
 Pour récapituler, on se retrouve avec un objet connecté à 10,11€ .. Plutôt honnête !
 

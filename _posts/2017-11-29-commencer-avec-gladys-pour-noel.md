@@ -44,7 +44,7 @@ En bref, ça marche super bien! Le seul truc que je trouve "marrant" avec ce gat
 - <a href="https://fr.gearbest.com/living-appliances/pp_344667.html?wid=55" rel="nofollow" >Le Gateway Xiaomi à 24€ sur Gearbest</a>
 - <a href="https://fr.gearbest.com/access-control/pp_626702.html?wid=55" rel="nofollow" >Le Xiaomi Aqara Capteur d'humidité + Température à 7€ sur Gearbest</a>
 - <a href="https://fr.gearbest.com/smart-light-bulb/pp_257679.html?wid=55" rel="nofollow" >Le Xiaomi Switch, bouton connecté à 6€ sur Gearbest</a>
-- <a href="https://fr.gearbest.com/access-control/pp_626703.html?wid=5" rel="nofollow" >Le Xiaomi Aqara détecteur ouverture porte et fenêtre à 6€ sur Gearbest</a>
+- <a href="https://fr.gearbest.com/xiaomi-aqara-_gear/" rel="nofollow" >Le Xiaomi Aqara détecteur ouverture porte et fenêtre à 6€ sur Gearbest</a>
 
 Mon article [Gladys devient compatible Xiaomi Home](https://gladysassistant.com/fr/article/gladys-devient-compatible-xiaomi-home).
 
