@@ -31,7 +31,7 @@ Luckily, two days after arriving in Canggu, I met a designer at Dojo Bali barbec
 </div>
 
 <div class="col-md-8">
-<p>Oliver is a designer and illustrator from London, who works remotely like me. You can see his work on <a href="https://dribbble.com/twinburne">Dribbble</a> or on his website <a href="https://www.oliverswinburne.com/">oliverswinburne.com </a>.</p>
+<p>Oliver is a designer and illustrator from London, who works remotely like me. You can see his work on <a href="http://oliverswinburne.dribbble.com/">Dribbble</a> or on his website <a href="https://www.oliverswinburne.com/">oliverswinburne.com </a>.</p>
 </div>
 
 </div>

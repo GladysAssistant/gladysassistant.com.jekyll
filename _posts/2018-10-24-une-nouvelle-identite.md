@@ -30,7 +30,7 @@ Et coup de chance, après seulement 2 jours sur place, je rencontre un designer 
 </div>
 
 <div class="col-md-8">
-<p>Oliver est un designer venant de Londres, qui comme moi sillonne la planète tout en travaillant à distance pour divers clients. Vous pouvez retrouver ses travaux sur <a href="https://dribbble.com/twinburne">Dribbble</a> ou sur son site <a href="https://www.oliverswinburne.com/">oliverswinburne.com </a>.</p>
+<p>Oliver est un designer venant de Londres, qui comme moi sillonne la planète tout en travaillant à distance pour divers clients. Vous pouvez retrouver ses travaux sur <a href="http://oliverswinburne.dribbble.com/">Dribbble</a> ou sur son site <a href="https://www.oliverswinburne.com/">oliverswinburne.com </a>.</p>
 </div>
 
 </div>
