@@ -25,7 +25,7 @@ Pour ce tuto, nous aurons besoin :
 
 ## Mettre en place l'arduino
 
-Si vous ne connaissez pas bien le fonctionnement d'un arduino, rassurez vous : c'est très simple ! Je vous conseille d'ailleurs vivement si vous débutez d'aller faire un tour sur le tutoriel sur Openclassrooms : [Arduino pour bien commencer en électronique et en programmation](http://uploads.siteduzero.com/pdf/515602-arduino-pour-bien-commencer-en-electronique-et-en-programmation.pdf).
+Si vous ne connaissez pas bien le fonctionnement d'un arduino, rassurez vous : c'est très simple ! Je vous conseille d'ailleurs vivement si vous débutez d'aller faire un tour sur le tutoriel sur Openclassrooms : [Arduino pour bien commencer en électronique et en programmation](https://openclassrooms.com/fr/courses/2778161-programmez-vos-premiers-montages-avec-arduino).
 
 Mais en gros c'est très simple, il vous suffit de télécharger un petit utilitaire sur votre PC Windows/Mac/Linux ( sur [le site d'arduino](http://arduino.cc/en/Main/Software) ), vous codez depuis l'interface dans un langage très proche du C, puis en connectant votre carte en USB à votre PC, le soft envoie tout seul le programme compilé sur la bête :)
 
