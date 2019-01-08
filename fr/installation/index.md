@@ -83,7 +83,7 @@ Vous devriez arriver sur l'interface de Gladys. Vous pouvez désormais configure
 
 **Note :** Si cela ne marche pas, pas de panique. Vous pouvez taper directement l'IP de votre Raspberry Pi dans la barre de votre navigateur. Pour trouver l'IP du Raspberry Pi, vous pouvez soit taper `ifconfig` en ligne de commande sur le Rpi, ou alors utiliser des outils de scan réseaux pour trouver son IP ([Network Scanner](https://play.google.com/store/apps/details?id=com.easymobile.lan.scanner&hl=fr) sur Android par exemple, ou [iNet](https://itunes.apple.com/fr/app/inet-network-scanner/id340793353?mt=8) sur iOS)
 
-**Note 2:** Si vous avez un quelconque problème lors de l'installation, n'hésitez pas à venir en parler sur le [forum Gladys](http://gladysassistant.com/forum/), en général quelqu'un vous répondra assez rapidement !
+**Note 2:** Si vous avez un quelconque problème lors de l'installation, n'hésitez pas à venir en parler sur le [forum Gladys](https://community.gladysassistant.com/), en général quelqu'un vous répondra assez rapidement !
 
 #### Installation manuelle depuis GitHub
 
