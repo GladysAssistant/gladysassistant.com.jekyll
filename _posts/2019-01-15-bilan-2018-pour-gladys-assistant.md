@@ -174,7 +174,7 @@ Les dépenses sont diverses:
 - Le matériel que j'ai pu acheter, autant domotique que mes outils de travail (laptop & casque à réduction de bruits)
 - Les dépenses diverses exceptionnelles.
 
-La plus grosse dépense récente étant le redesign complet de l'identité visuelle de Gladys réalisées par un designer professionel, ainsi que l'impression et l'expédition des stickers.
+La plus grosse dépense récente étant le [redesign complet de l'identité visuelle](/fr/article/une-nouvelle-identite-visuelle-pour-gladys) de Gladys réalisée par un designer professionel, ainsi que l'impression et l'expédition des stickers.
 
 Les taxes c'est assez simple, c'est mon frais n°1 😁 
 
