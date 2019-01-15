@@ -127,6 +127,14 @@ Une progression naturelle comme toujours.
 
 La progression la plus importante cette année est sur [mon Twitter personnel](https://twitter.com/pierregillesl), j'ai préféré tweeter sur ce compte toute l'année afin que ce soit plus personnel. Je suis passé à 1 397 followers alors que je ne devais avoir qu'une centaine en début d'année.
 
+### Un lancement ProductHunt réussi
+
+En octobre, alors que j'étais à l'extérieur avec des amis, quelqu'un a posté Gladys sur ProductHunt (voir le [post ici](https://www.producthunt.com/posts/gladys)), un site qui permet à n'importe qui de poster des nouveaux produits innovants. 
+
+D'un coup, le site Gladys s'est mis à recevoir des centaines de visiteurs (sans broncher, merci le CDN), et j'ai du gérer ce lancement inattendu en revenant chez moi vers 1h du matin, et ce jusqu'à 3h ^^
+
+Cette publication sur un site à forte audience, notamment dans plein de pays anglophones, a permis de faire connaitre encore plus Gladys. Un vrai succès, inattendu, qui ne fait que confirmer l'intérêt qu'a le public pour des assistants intelligents respectueux de la vie privée de leurs utilisateurs.
+
 ### Les événements
 
 2018 a été une année super chargée niveau événement, avec une conférence Gladys à Orléans en début d'année:
@@ -150,7 +158,7 @@ Et tout ça c'est sans compter tous les appels mensuels avec la communauté, en 
 
 ### Les revenues Gladys
 
-Gladys est un projet transparent, ainsi je publie chaque mois le chiffre d'affaire de Gladys sur la page [/open](/open) du site.
+Je veux être transparent sur Gladys, ainsi je publie chaque mois le chiffre d'affaire de Gladys sur la page [/open](/open) du site.
 
 Quelques remarques: 
 
@@ -199,7 +207,7 @@ Au niveau des développements, 2019 va s'articuler au niveau de deux axes:
 - Des nouvelles fonctionnalités pour le Gladys Gateway: Open API, compatibilités Alexa/Google Home, app mobile
 - Gladys 4.0, la prochaine version majeure de Gladys. J'ai publié un [manifeste technique](https://docs.google.com/document/d/1zqH0vvIRICOiXsgJVHRanInBgJ8aoTWtnrNpyASW9b0/edit?usp=sharing) en décembre à propos de cette version. Attention le manifeste est en anglais, car il s'agit d'un dossier technique avec du vocabulaire principalement en anglais.
 
-Au niveau du site, de la communauté, de la communication autour de Gladys, je compte dédier plus de temps à ces aspects. Certes, ce que j'aime c'est le développement, mais le projet manque de beaucoup de choses au niveau communication, documentation, marketing.
+Au niveau du site, de la communauté, de la communication autour de Gladys, je compte dédier plus de temps à ces aspects. Certes, ce que j'aime c'est le développement, mais Gladys manque de beaucoup de choses au niveau communication, documentation, marketing.
 
 Je pense que je dois trouver une organisation du travail qui me permette de répartir mieux mon temps entre le travail sur le produit et la communication autour de celui-ci. 
 
@@ -209,7 +217,7 @@ Dans tous les cas, je veux que globalement sur 2019, je passe beaucoup plus de t
 
 ### Merci à tous
 
-Et finalement, j'aimerais remercier la formidable communauté qui permet à ce projet d'exister.
+Et finalement, j'aimerais remercier la formidable communauté qui permet à Gladys d'exister.
 
 Gladys, c'est un logiciel que nous avons conçu tous ensemble, grâce aux retours de tous les membres de la communauté.
 
