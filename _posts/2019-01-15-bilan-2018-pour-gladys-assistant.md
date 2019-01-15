@@ -169,7 +169,7 @@ Quelques remarques:
 Les dépenses sont diverses: 
 
 - Les frais récurrents (serveurs, domaines, services en ligne, etc...)
-- Les commmissions de paiements des plateformes que j'utilise pour le paiement (Stripe & Selz) 
+- Les commissions de paiements des plateformes que j'utilise pour le paiement (Stripe & Selz) 
 - Les espaces de coworking où je travaille (environ 160/200€ par mois en moyenne)
 - Le matériel que j'ai pu acheter, autant domotique que mes outils de travail (laptop & casque à réduction de bruits)
 - Les dépenses diverses exceptionnelles.
