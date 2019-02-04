@@ -11,6 +11,8 @@ categories:
 permalink: /fr/article/controler-gladys-avec-siri
 ---
 
+Article in English available [here](/en/article/control-gladys-with-siri)
+
 Salut à tous!
 
 Je le disais dans mon dernier article, mon focus sur l'année 2019 est sur le développement du Gladys Gateway et de Gladys 4.
