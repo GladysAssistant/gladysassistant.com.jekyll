@@ -265,6 +265,27 @@
           "value": 1086
         }
       ]
+    },
+    {
+      "month": "01-2019",
+      "sources": [
+        {
+          "name": "Selz",
+          "value": 576
+        },
+        {
+          "name": "Amazon Affiliate",
+          "value": 113
+        },
+        {
+          "name": "Patreon",
+          "value": 236
+        },
+        {
+          "name": "Gladys Community Package",
+          "value": 954
+        }
+      ]
     }
   ]
 }
