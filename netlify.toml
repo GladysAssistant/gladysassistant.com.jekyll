@@ -18,6 +18,12 @@
   force = true
 
 [[redirects]]
+  from = "/fr/products"
+  to = "/fr/compatibilities/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/gladys-community-package"
   to = "/fr/gladys-community-package"
   status = 302

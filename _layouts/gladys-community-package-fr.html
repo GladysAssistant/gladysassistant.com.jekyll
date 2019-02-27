@@ -86,7 +86,7 @@
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<h1 class="text-white">Rejoignez la communauté Gladys</h1>
-							<h5>Accès au Gladys Gateway, au Slack privé et plein d'autres avantages !</h5>
+							<h5>Accès au Gladys Gateway, au Slack privé et soutenez le développement de Gladys !</h5>
 						</div>
 					</div>
 				
@@ -153,7 +153,7 @@
 				<div class="container">
 					<div class="row v-align-children">
 						<div class="col-sm-4 col-md-5 text-left">
-							<h3>Inscrivez-vous maintenant - recevez le Gladys Starter Pack gratuitement</h3>
+							<h3>Inscrivez-vous maintenant</h3>
 							<p>
 								“La rapidité du Gateway est super bluffante !”
 							</p>
@@ -221,8 +221,9 @@
 					<div class="row v-align-children">
 						
 						<div class="col-sm-6 col-md-5 col-md-offset-1 feature">
-							<h4>Bientôt: Intégration avec des services tiers</h4>
-							<p>Ce Gladys Gateway va nous permettre de développer plus simplement un grand nombre d'intégrations nécessitant la réception de webhooks: Amazon Alexa, Google Home, Siri, IFTTT, notifications iOS et Android.</p>
+							<h4>Intégration avec des services tiers</h4>
+              <p>L'Open API du Gladys Gateway vous permet d'envoyer des requêtes HTTP depuis n'importe quel service (Tasker, IFTTT, Siri). Vous pouvez par exemple <a href="/fr/article/controler-gladys-avec-siri">contrôler Gladys avec Siri</a>.</p>
+              <p>Vous pouvez déjà contrôler Gladys via Alexa/Google Home via IFTTT, mais une intégration directe sera développée.</p>
 						</div>
 
 						<div class="col-sm-6 text-center feature">
@@ -269,7 +270,7 @@
 				<div class="container">
 					<div class="row v-align-children">
 						<div class="col-sm-4 col-md-5 text-left">
-							<h3>Inscrivez-vous maintenant - recevez le Gladys Starter Pack gratuitement</h3>
+							<h3>Inscrivez-vous maintenant</h3>
 							<p>
 								“La rapidité du Gateway est super bluffante !”
 							</p>
@@ -297,7 +298,7 @@
 							<div class="faq">
 								<h5>Pourquoi s'inscrire au package communauté ?</h5>
 								<p>
-									Tu as envie d'intéragir avec une communauté passionné ? Accéder simplement à ton instance Gladys de n'importe où dans le monde ? Soutenir un projet open-source français en pleine croissance ? Tu veux recevoir le Gladys Starter Pack gratuitement et commencer à domotiser ton logement ? Le package communauté est fait pour toi !
+									Tu as envie d'intéragir avec une communauté passionné ? Accéder simplement à ton instance Gladys de n'importe où dans le monde ? Soutenir un projet open-source français en pleine croissance ? Le package communauté est fait pour toi !
 								</p>
 							</div>
 
@@ -352,7 +353,7 @@
 				
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h4>Des questions? Envoyez moi un tweet à <a target="_blank" href="https://twitter.com/gladysassistant">@gladysassistant</a> !</h4>
+							<h5>Des questions? Contactez-moi sur la <a href="/fr/contact">la page de contact !</a></h5>
 						</div>
 					</div>
 				</div>
@@ -388,8 +389,9 @@
 	
 	{% if jekyll.environment == "production" %}
 		{% include google-analytics.html %}
-		{% include pixel.html %}
-  	{% endif %}
+    {% include pixel.html %}
+    {% include drift.html %}
+  {% endif %}
 	
 	<script>
 		if(window.fbq) {

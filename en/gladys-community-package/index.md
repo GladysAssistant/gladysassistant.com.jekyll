@@ -39,8 +39,6 @@ I decided to create a Package, the **Gladys Community Package**, that allows you
 
 💬 Access our Private Slack so you can exchange with the community
 
-🎁 Receive Gladys stickers in you are in the first 100 subscribers!
-
 💪 Support this open-source projet, help me cover the costs, and help me live from my project!
 
 This package is **available at 9.99€/month**, and you can cancel at anytime of course!

@@ -39,7 +39,7 @@ Vous l'avez compris, j'ai choisis la deuxième option, et **j'ai choisi de dédi
 
 J'ai donc décidé de jouer carte sur table avec ma communauté. J'ai expliqué dans un long post quels était mes objectifs sur Gladys et les développements que j'avais en tête pour les mois à venir.
 
-Afin que cela soit viable financièrement pour moi, j'ai créé en Juillet un [Patreon](https://www.patreon.com/gladysassistant/overview), qui m'a permis de récolter en moyenne 500$ par mois durant ces 3 premiers mois à temps plein sur le projet.
+Afin que cela soit viable financièrement pour moi, j'ai créé en Juillet un Patreon, qui m'a permis de récolter en moyenne 500$ par mois durant ces 3 premiers mois à temps plein sur le projet.
 
 Durant ces 3 mois, j'ai développé un nouveau produit autour de Gladys, le **Gladys Gateway**. 
 
