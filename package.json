@@ -5,6 +5,7 @@
   "author": "Pierre-Gilles Leymarie",
   "dependencies": {
     "axios": "^0.18.0",
+    "bluebird": "^3.5.3",
     "dotenv": "^6.1.0",
     "download": "^7.1.0",
     "gulp": "^3.9.1",

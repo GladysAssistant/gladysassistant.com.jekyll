@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
+const Promise = require('bluebird');
 var uglify = require('gulp-uglify');
 var cleanCSS = require('gulp-clean-css');
 var rename = require('gulp-rename');
@@ -104,9 +105,13 @@ gulp.task('get-products-airtable', function () {
     });
   })
   .then(() => {
-    
+    console.log('downloading images');
     // downloading all product images so it's served under gladysproject domain
-    return Promise.all(products.map(product => download(product.img, 'assets/images/products-crowdsourced', {filename: product.img_file}))).then(() => {
+    return Promise.map(products, product => {
+      console.log('downloading ' + product.img);
+      return download(product.img, 'assets/images/products-crowdsourced', {filename: product.img_file}); 
+    }, { concurrency: 15 })
+    .then(() => {
         console.log('files downloaded!');
     });
   })
