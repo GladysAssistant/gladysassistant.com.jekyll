@@ -7,4 +7,3 @@ production.min.css
 _comments/*.txt
 .env
 products-crowdsourced
-/lambda

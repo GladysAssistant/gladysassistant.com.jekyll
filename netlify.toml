@@ -62,5 +62,5 @@
   force = true
 
 [build]
-  Functions = "lambda"
+  Functions = "_site/lambda"
   Command = "npm run build:lambda"
