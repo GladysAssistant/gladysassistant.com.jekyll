@@ -60,3 +60,7 @@
   to = "https://gladysassistant.com/:splat"
   status = 301
   force = true
+
+[build]
+  Functions = "lambda"
+  Command = "npm run build:lambda"
