@@ -107,9 +107,9 @@ $(function(){
         $("#subscribeNewsletterButton").html(buttonName);
 
         if(msg.language === 'fr') {
-          swal("Good job!", "Please confirm your email by clicking the link in your inbox!", "success");
-        } else {
           swal("Top!", "Merci de confirmer votre email en cliquant sur le lien que nous vous avons envoyé!", "success");
+        } else {
+          swal("Good job!", "Please confirm your email by clicking the link in your inbox!", "success");
         }
         ga('send', 'event', 'button', 'newsletter', 'subscribe');
 
