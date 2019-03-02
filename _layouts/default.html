@@ -25,11 +25,9 @@
     </script>
   {% endif %}
 
-  {% if page.url == '/fr/contact/' or page.url == '/en/contact/' %}
-      <link rel="stylesheet" href="/assets/css/sweetalert.css">
-      <script src="/assets/js/sweetalert.min.js"></script>
-      <script src="/assets/js/app.js"></script>
-  {% endif %}
+  <link rel="stylesheet" href="/assets/css/sweetalert.css">
+  <script src="/assets/js/sweetalert.min.js"></script>
+  <script src="/assets/js/app.js"></script>
 
   {% if jekyll.environment == "production" %}
     {% include google-analytics.html %}
