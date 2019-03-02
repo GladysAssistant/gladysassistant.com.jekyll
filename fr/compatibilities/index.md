@@ -1,5 +1,5 @@
 ---
-layout: compatibilities
+layout: compatibilities-with-search
 title: Compatibilitées
 description: Découvrez les périphériques compatibles Gladys !
 lang: fr

@@ -14,10 +14,10 @@ function addpointsto(elementId){
     }
 }
 
-function resetPoints (elementId){
+function resetPoints (elementId, text){
     if(waitingFor){
         points = 0;
-        $(elementId).html("Poster ");
+        $(elementId).html(text);
         setTimeout(function(){ addpointsto(elementId); }, duration);
     }
 }
@@ -32,7 +32,7 @@ $(function(){
     $("#btnContactUs").click(function(){
         waitingFor = true;
         buttonName = $("#btnContactUs").attr("value");
-        resetPoints("#btnContactUs");
+        resetPoints("#btnContactUs", buttonName);
 
         var msg = {
             name: $('#name').val(),
@@ -71,5 +71,60 @@ $(function(){
         });
         return false;
     });
+
+    $("#subscribeNewsletterButton").click(function(e){
+      e.preventDefault();
+      waitingFor = true;
+      buttonName = $("#subscribeNewsletterButton").attr("value");
+      resetPoints("#subscribeNewsletterButton", buttonName);
+
+      var msg = {
+          email: $('#emailNewsletter').val(),
+          firstname: $('#firstnameNewsletter').val(),
+          language: $('#languageNewsletter').val()
+      };
+
+      if(!validateEmail(msg.email)){
+          waitingFor = false;
+          resetPoints("#subscribeNewsletterButton", buttonName);
+          if(msg.language === 'fr') {
+            sweetAlert("Oops...", 'Invalid email !', "error");
+          } else {
+            sweetAlert("Oops...", 'Email invalide!', "error");
+          }
+          return ;
+      }
+
+      $.ajax({
+          url: 'https://gladysassistant.com/.netlify/functions/new-subscriber',
+          type: 'POST',
+          data: JSON.stringify(msg),
+          contentType: 'application/json'
+      })
+      .done(function(data){
+        
+        waitingFor = false;
+        $("#subscribeNewsletterButton").html(buttonName);
+
+        if(msg.language === 'fr') {
+          swal("Top!", "Merci de confirmer votre email en cliquant sur le lien que nous vous avons envoyé!", "success");
+        } else {
+          swal("Good job!", "Please confirm your email by clicking the link in your inbox!", "success");
+        }
+        ga('send', 'event', 'button', 'newsletter', 'subscribe');
+
+      })
+      .fail(function(){
+          waitingFor = false;
+          $("#subscribeNewsletterButton").html(buttonName);
+          if(msg.language === 'fr') {
+            sweetAlert("Oops...", "Une erreur est survenue. Merci de re-essayer plus tard!", "error");
+          } else {
+            sweetAlert("Oops...", "Something bad happened. Please try again later", "error");
+          }
+          ga('send', 'event', 'button', 'newsletter', 'subscribe-failed');
+      });
+      return false;
+  });
 
 });

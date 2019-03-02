@@ -46,7 +46,13 @@ layout: default
                 <a href="https://twitter.com/pierregillesl">
                     <h4>Pierre-Gilles Leymarie</h4>
                 </a>
-                {{site.data.i18n[page.lang].contact.legalMention.sentence}}
+                {{site.data.i18n[page.lang].contact.legalMention.sentence}} 
+
+                {% if page.lang == 'fr' %}
+                  <a href="/fr/article/grande-nouvelle-gladys">"J'ai une très grande nouvelle pour le projet"</a>
+                {% else %}
+                <a href="https://www.patreon.com/gladysassistant/overview">Story of the project on Patreon</a>
+                {% endif %}
             </div>
 
         </div>

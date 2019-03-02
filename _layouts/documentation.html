@@ -8,18 +8,23 @@ layout: default
         <div class="col-md-4">
 
             {% assign installationPage = '/' | append:page.lang | append:'/installation/' %}
+            {% assign upgradingPage = '/' | append:page.lang | append:'/installation/upgrading-gladys/' %}
             {% assign configureHousePage = '/' | append:page.lang | append:'/installation/configure-house/' %}
             {% assign configureDevicesPage = '/' | append:page.lang | append:'/installation/configure-devices/' %}
+            {% assign accessGladysRemotelyPage = '/' | append:page.lang | append:'/installation/access-gladys-remotely/' %}
             {% assign talkingToGladysPage = '/' | append:page.lang | append:'/installation/talking-to-gladys/' %}
             {% assign developModulePage = '/' | append:page.lang | append:'/installation/develop-module/' %}
             {% assign developScriptPage = '/' | append:page.lang | append:'/installation/develop-script/' %}
             {% assign restApiPage = '/' | append:page.lang | append:'/installation/rest-api/' %}
             {% assign nodejsApiPage = '/' | append:page.lang | append:'/installation/nodejs-api/' %}
 
+
             <div class="list-group">
             <a href="/{{ page.lang }}/installation/" class="list-group-item {% if page.url == installationPage  %} active {% endif %}">{{site.data.i18n[page.lang].documentation.installation}}</a>
+            <a href="/{{ page.lang }}/installation/upgrading-gladys/" class="list-group-item {% if page.url == upgradingPage  %} active {% endif %}">{{site.data.i18n[page.lang].documentation.upgrade}}</a>
             <a href="/{{ page.lang }}/installation/configure-house/" class="list-group-item {% if page.url == configureHousePage  %} active {% endif %}">{{site.data.i18n[page.lang].documentation.configureHouse}}</a>
             <a href="/{{ page.lang }}/installation/configure-devices/" class="list-group-item {% if page.url == configureDevicesPage  %} active {% endif %}">{{site.data.i18n[page.lang].documentation.configureDevices}}</a>
+            <a href="/{{ page.lang }}/installation/access-gladys-remotely/" class="list-group-item {% if page.url == accessGladysRemotelyPage  %} active {% endif %}">{{site.data.i18n[page.lang].documentation.accessGladysRemotely}}</a>
             <a href="/{{ page.lang }}/installation/talking-to-gladys/" class="list-group-item {% if page.url == talkingToGladysPage  %} active {% endif %}">{{site.data.i18n[page.lang].documentation.talkingToGladys}}</a>
             <a href="/{{ page.lang }}/installation/develop-module/" class="list-group-item {% if page.url == developModulePage  %} active {% endif %}">{{site.data.i18n[page.lang].documentation.developModule}}</a>
             <a href="/{{ page.lang }}/installation/develop-script/" class="list-group-item {% if page.url == developScriptPage  %} active {% endif %}">{{site.data.i18n[page.lang].documentation.developScript}}</a>

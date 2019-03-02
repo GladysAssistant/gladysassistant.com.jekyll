@@ -3,7 +3,7 @@ title: Configurer votre logement
 description: Découvrez comment configurer votre logement dans Gladys !
 layout: documentation
 lang: fr
-image: /assets/images/presentation/facebook_share_gladys.png
+image: /assets/images/presentation/gladys-og-image.png
 permalink: /fr/installation/configure-house/
 ---
 

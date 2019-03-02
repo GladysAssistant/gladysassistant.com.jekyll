@@ -28,7 +28,7 @@ Et le beau pic que l'on voit en plein milieu correspond au concours Raspberry Pi
 
 J'ai eu la chance en début d'année d'être convié par une agence d'architectes Strasbourgeoise, Notes de Styles, pour faire une démonstration de Gladys devant les caméras de TF1 pour le JT. C'était une formidable expérience de parler du projet devant les caméras dans un cadre superbe (une maison tout équipée en domotique, entièrement connectée, des hauts parleurs dans chaque pièce, ça change de mon petit appart!). Malheureusement nous ne sommes passés que quelques secondes au JT (coupé au dernier moment au montage, faute de temps dans le JT), mais l'expérience reste la même, c'était une super journée !
 
-<img alt="Gladys sur TF1 2015" src="http://gladysproject.com/assets/images/press/Gladys_TF1.png" class="img-responsive" />
+<img alt="Gladys sur TF1 2015" src="/assets/images/press/Gladys_TF1.png" class="img-responsive" />
 
 
 Dernière statistique intéressante, depuis le début du projet, toute version de Gladys confondue, Gladys a été téléchargée plus de **8 800 fois** ! Et je parle juste de téléchargements via sourceforge, hors clonage github.
@@ -39,7 +39,7 @@ Le projet ne serait rien sans toute la communauté derrière qui me donne des re
 
 #### Le forum
 
-Vous êtes désormais 377 sur [le forum](http://gladysproject.com/forum/index.php) à avoir posté plus de 4 500 messages. Et honnêtement, la communauté est vraiment dynamique et me surprend chaque jour, les questions de chacuns font avancer le projet, et pour l'instant on a pas eu tant que ça de troll (espérons que ça dure).
+Vous êtes désormais 377 sur [le forum](https://community.gladysassistant.com) à avoir posté plus de 4 500 messages. Et honnêtement, la communauté est vraiment dynamique et me surprend chaque jour, les questions de chacuns font avancer le projet, et pour l'instant on a pas eu tant que ça de troll (espérons que ça dure).
 
 J'aimerais remercier tout particulièrement VonOx et Doctor qui m'aident énormémement sur le forum, sans eux je n'aurais pas le temps de travailler sur le projet et de répondre aux questions sur le forum. Et merci pour leurs modules/pull request sur le GitHub, ça fait plaisir de voir des utilisateurs qui s'impliquent autant dans le projet !
 
@@ -49,10 +49,10 @@ J'ai lancé cette année une newsletter du projet, vous êtes maintenant plus de
 
 #### Le Twitter
 
-Et cette année nous avons passé le cap des 1 000 followers sur Twitter ! J'aime toujours autant ce réseau social, pour moi le plus adapté à ce genre de projet. C'est toujours aussi sympa de parler avec des passionnés de DIY que j'aurais pas forcément rencontrés sans Twitter. J'essaie de poster tout ce que je fais, et pour les photos je poste ça via [le compte Instagram du projet](https://www.instagram.com/gladysproject/). 
+Et cette année nous avons passé le cap des 1 000 followers sur Twitter ! J'aime toujours autant ce réseau social, pour moi le plus adapté à ce genre de projet. C'est toujours aussi sympa de parler avec des passionnés de DIY que j'aurais pas forcément rencontrés sans Twitter. J'essaie de poster tout ce que je fais, et pour les photos je poste ça via [le compte Instagram du projet](https://www.instagram.com/gladysassistant/). 
 
 
-<blockquote class="twitter-tweet" lang="fr"><p lang="en" dir="ltr">Wow ! :D <a href="https://t.co/hVpO6bChwb">pic.twitter.com/hVpO6bChwb</a></p>&mdash; Gladys Project (@gladysproject) <a href="https://twitter.com/gladysproject/status/667769662277595136">20 Novembre 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="fr"><p lang="en" dir="ltr">Wow ! :D <a href="https://t.co/hVpO6bChwb">pic.twitter.com/hVpO6bChwb</a></p>&mdash; Gladys Assistant (@gladysassistant) <a href="https://twitter.com/gladysassistant/status/667769662277595136">20 Novembre 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
@@ -63,7 +63,7 @@ Le projet a bien avancé cette année, l'année 2015 a marqué la sortie de la d
 Actuellement, au niveau de Gladys en elle même j'ai plusieurs priorités : 
 
 * Fixer l'image Rasbpian pour Raspberry Pi B/B+. L'objectif serait d'avoir une image super stable qui fonctionne sans faille pour tout le monde, et qui soit très facile à mettre à jour. Le but est de devenir vraiment accessible à tous, installable en quelques minutes et "plug and play" ensuite sans trop de connaissances.
-* Etoffer la documentation. La documentation Gladys est désormais Open Source et éditable par tous (elle est disponible sur [GitHub](https://github.com/GladysProject/gladys-docs), et vous pouvez la forker puis proposer une pull request, les changements seront immédiatemment synchronisés sur [le site développeur](http://developer.gladysproject.com/fr/documentation) )
+* Etoffer la documentation. La documentation Gladys est désormais Open Source et éditable par tous (elle est disponible sur [GitHub](https://github.com/gladysassistant/gladys-docs), et vous pouvez la forker puis proposer une pull request, les changements seront immédiatemment synchronisés sur [le site développeur](http://developer.gladysassistant.com/fr/documentation) )
 
 #### La compatibilité Z-wave
 

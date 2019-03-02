@@ -3,7 +3,7 @@ title: Troubleshooting
 description: Learn how to troubleshoot Gladys frequent issues
 layout: documentation
 lang: en
-image: /assets/images/presentation/facebook_share_gladys.png
+image: /assets/images/presentation/gladys-og-image.png
 permalink: /en/installation/troubleshooting
 ---
 

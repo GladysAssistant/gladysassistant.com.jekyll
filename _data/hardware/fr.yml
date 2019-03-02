@@ -5,7 +5,7 @@
   img: "raspberry-pi.jpg"
   description: "Le Raspberry Pi est essentiel, c'est lui qui fait tourner Gladys ! Il a l'avantage d'être peu cher, performant et silencieux."
   link: "raspberry"
-  tutorial: "https://gladysproject.com/fr/installation"
+  tutorial: "https://gladysassistant.com/fr/installation"
   idx: 1
   url: "https://www.amazon.fr/gp/product/B01CI5879A/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B01CI5879A&linkCode=as2&tag=gladproj-21"
 -
@@ -15,7 +15,7 @@
   img: "rf-plug-phenix.jpg"
   description: "Les prises télécommandées Phénix permettent de contrôler facilement des prises, je les utilise pour lancer automatiquement ma bouilloire le matin !"
   link: "phenix"
-  tutorial: "http://gladysproject.com/fr/article/gerer-les-appareils-electrique"
+  tutorial: "http://gladysassistant.com/fr/article/gerer-les-appareils-electrique"
   idx: 14
   url: "http://amzn.to/1TzNH8u"
 -
@@ -25,7 +25,7 @@
   img: "arduino-nano.jpg"
   description: "L'arduino est connecté en USB au Raspeberry Pi, et permet à Gladys de recevoir des signaux 433Mhz, ce qui soulage le Raspberry Pi."
   link: "arduino-nano"
-  tutorial: "http://gladysproject.com/fr/article/connecter-un-arduino-au-raspberry-pi"
+  tutorial: "http://gladysassistant.com/fr/article/connecter-un-arduino-au-raspberry-pi"
   idx: 3
   url: "http://amzn.to/1M82tlv"
 -
@@ -35,7 +35,7 @@
   img: "nut-mini.jpg"
   description: "Le Nut Mini est un porte clé Bluetooth à 8€ qui permet à Gladys de savoir quand vous rentrez ou quand vous partez de chez vous."
   link: "nut-mini"
-  tutorial: "http://gladysproject.com/fr/article/detecter-presence-porte-cle-bluetooth"
+  tutorial: "http://gladysassistant.com/fr/article/detecter-presence-porte-cle-bluetooth"
   idx: 3
   url: "https://www.amazon.fr/gp/product/B01AUNMQMG/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=gladproj-21&camp=1642&creative=6746&linkCode=as2&creativeASIN=B01AUNMQMG&linkId=c8c3d0576a70e89bbd67591379eb3dfc"
 -
@@ -45,7 +45,7 @@
   img: "milight-lamp.jpg"
   description: "L'alternative chinoise des Philips Hue : Peu chère, et avec une API assez ouverte ! Elles sont entièrement gérée par Gladys."
   link: "milight-lamp"
-  tutorial: "http://gladysproject.com/fr/article/controler-des-ampoules-connectees"
+  tutorial: "http://gladysassistant.com/fr/article/controler-des-ampoules-connectees"
   idx: 11
   url: "https://www.amazon.fr/gp/search/ref=as_li_qf_sp_sr_il_tl?ie=UTF8&camp=1642&creative=6746&index=aps&keywords=milight%20lamp&linkCode=as2&tag=gladproj-21"
 -
@@ -55,7 +55,7 @@
   img: "milight-box.jpg"
   description: "Le pont Wi-Fi Milight permet de faire le lien entre votre box internet et vos ampoules Mi-light. Il est nécessaire pour contrôler les ampoules Milights."
   link: "milight-wifi-bridge"
-  tutorial: "http://gladysproject.com/fr/article/controler-des-ampoules-connectees"
+  tutorial: "http://gladysassistant.com/fr/article/controler-des-ampoules-connectees"
   idx: 12
   url: "https://www.amazon.fr/gp/search/ref=as_li_qf_sp_sr_il_tl?ie=UTF8&camp=1642&creative=6746&index=aps&keywords=milight%20wifi&linkCode=as2&tag=gladproj-21"
 -
@@ -65,7 +65,7 @@
   img: "433mhz-kit.jpg"
   description: "Ce kit émetteur-récepteur 433Mhz vous permet de capter les signaux des différents détecteurs de votre logement."
   link: "RF-433-kit"
-  tutorial: "https://gladysproject.com/fr/article/utiliser-des-detecteurs-sans-fils"
+  tutorial: "https://gladysassistant.com/fr/article/utiliser-des-detecteurs-sans-fils"
   idx: 8
   url: "https://www.amazon.fr/gp/product/B00IOB9CWE/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00IOB9CWE&linkCode=as2&tag=gladproj-21"
 -
@@ -75,7 +75,7 @@
   img: "philips-hue.jpg"
   description: "Les Philips Hue sont des ampoules de grandes qualités, qui sont entièrement gérée par Gladys via le module Gladys-hue !"
   link: "philips-hue"
-  tutorial: "https://developer.gladysproject.com/fr/modules/hue"
+  tutorial: "https://developer.gladysassistant.com/fr/modules/hue"
   idx: 2
   url: "https://www.amazon.fr/gp/product/B016151IRQ/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B016151IRQ&linkCode=as2&tag=gladproj-21"
 -
@@ -85,7 +85,7 @@
   img: "tag-nfc.jpg"
   description: "Collés partout dans la maison, les tags NFC vous permettent de déclencher des actions quand vous posez votre téléphone dessus."
   link: "tag-nfc"
-  tutorial: "http://gladysproject.com/fr/article/gladys-and-nfc"
+  tutorial: "http://gladysassistant.com/fr/article/gladys-and-nfc"
   idx: 7
   url: "https://www.amazon.fr/gp/product/B00M5PC0FG/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00M5PC0FG&linkCode=as2&tag=gladproj-21"
 -
@@ -95,7 +95,7 @@
   img: "sonos-play-1.jpg"
   description: "Les enceintes Wi-Fi multi-room Sonos sont des enceintes de très bonne facture. Elles sont compatible Gladys !"
   link: "sonos-play-1"
-  tutorial: "https://gladysproject.com/fr/article/gerer-musique-gladys-sonos"
+  tutorial: "https://gladysassistant.com/fr/article/gerer-musique-gladys-sonos"
   idx: 4
   url: "https://www.amazon.fr/gp/product/B00FSCNLME/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00FSCNLME&linkCode=as2&tag=gladproj-21"
 -
@@ -105,7 +105,7 @@
   img: "zwave-me.jpg"
   description: "Ce dongle USB bon marché vous permet de contrôler dans Gladys n'importe quel périphérique Z-wave reconnu par Open-Zwave. "
   link: "zwave-me"
-  tutorial: "https://developer.gladysproject.com/fr/modules/zwave"
+  tutorial: "https://developer.gladysassistant.com/fr/modules/zwave"
   idx: 5
   url: "https://www.amazon.fr/gp/product/B00QJEY6OC/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00QJEY6OC&linkCode=as2&tag=gladproj-21"
 -
@@ -115,7 +115,7 @@
   img: "door-opener-433.jpg"
   description: "Ce détecteur d'ouverture de portes low-cost 433Mhz transmet à Gladys un signal via un récepteur 433Mhz quand la porte s'ouvre."
   link: "door-sensor-433"
-  tutorial: "http://gladysproject.com/fr/article/utiliser-des-detecteurs-sans-fils"
+  tutorial: "http://gladysassistant.com/fr/article/utiliser-des-detecteurs-sans-fils"
   idx: 10
   url: "https://www.amazon.fr/gp/product/B00L316F68/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00L316F68&linkCode=as2&tag=gladproj-21"
 -
@@ -125,7 +125,7 @@
   img: "motion-433.jpg"
   description: "Ce détecteur de mouvement low-cost 433Mhz transmet un signal à un récepteur 433Mhz dès qu'un mouvement est détecté dans la pièce."
   link: "motion-sensor-433"
-  tutorial: "https://gladysproject.com/fr/article/utiliser-des-detecteurs-sans-fils"
+  tutorial: "https://gladysassistant.com/fr/article/utiliser-des-detecteurs-sans-fils"
   idx: 9
   url: "https://www.amazon.fr/gp/product/B00L318FUW/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00L318FUW&linkCode=as2&tag=gladproj-21"
 -
@@ -135,7 +135,7 @@
   img: "fibaro-motion-sensor.jpg"
   description: "Ce capteur Z-wave+ est capable de détecter les mouvements, la température, la luminosité et les tentatives d'altération du capteur."
   link: "fibaro-motion"
-  tutorial: "https://developer.gladysproject.com/fr/modules/zwave"
+  tutorial: "https://developer.gladysassistant.com/fr/modules/zwave"
   idx: 6
   url: "https://www.amazon.fr/gp/product/B00JHHNUPY/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00JHHNUPY&linkCode=as2&tag=gladproj-21"
 -
@@ -145,7 +145,7 @@
   img: "wemo-insight-switch.jpg"
   description: "Les prises Wemo sont des prises Wi-Fi avec contrôle de la consommation d'énergie, et retour d'état!"
   link: "belkin-wemo-insight-switch"
-  tutorial: "http://gladysproject.com/fr/article/controler-prises-wemo-insight-switch"
+  tutorial: "http://gladysassistant.com/fr/article/controler-prises-wemo-insight-switch"
   idx: 13
   url: "http://amzn.to/1CG0WQr"
 ...

@@ -3,12 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Pierre-Gilles Leymarie",
+  "scripts": {
+    "build": "gulp build && mkdir _comments && rake disquscomments && JEKYLL_ENV=production bundle exec jekyll build && npm run build:lambda",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
+  },
   "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.3",
+    "dotenv": "^6.1.0",
+    "download": "^7.1.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.7.0",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^3.0.0",
-    "imagemin-jpeg-recompress": "^5.1.0"
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "netlify-lambda": "^1.4.2",
+    "slug": "^0.9.2"
   }
 }

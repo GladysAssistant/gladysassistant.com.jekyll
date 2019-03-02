@@ -4,7 +4,7 @@ description: Découvrez comment installer Gladys sur votre Raspberry Pi !
 layout: documentation
 lang: fr
 identifier: /fr/installation
-image: /assets/images/presentation/facebook_share_gladys.png
+image: /assets/images/presentation/gladys-og-image.png
 permalink: /fr/installation/
 ---
 
@@ -40,7 +40,11 @@ Pour installer Gladys sur un Raspberry Pi, vous pouvez cloner l'image Raspbian p
 
 La première étape, c'est de télécharger l'image Raspbian.
 
-[<button class="btn btn-success" id="download-raspbian-image">Télécharger Gladys pour Raspberry Pi</button>](https://bit.ly/gladys-3-8-0-rev2)
+Vous pouvez télécharger l'image Raspbian sur notre GitHub =>
+
+[Télécharger l'image Raspbian Gladys sur GitHub](https://bit.ly/gladys-3-8-0-rev2)
+
+Si le téléchargement est lent sur GitHub ou ne fonctionne pas, vous pouvez télécharger l'image sur le miroir officiel Gladys => [Télécharger l'image Raspbian Gladys sur le miroir officiel](https://bit.ly/gladys-3-8-0-rev2-mirror-fr2)
 
 L'image Raspbian est compressée dans un fichier zip, que vous devez dézipper afin d'arriver à un fichier ".img".
 
@@ -79,8 +83,8 @@ Vous devriez arriver sur l'interface de Gladys. Vous pouvez désormais configure
 
 **Note :** Si cela ne marche pas, pas de panique. Vous pouvez taper directement l'IP de votre Raspberry Pi dans la barre de votre navigateur. Pour trouver l'IP du Raspberry Pi, vous pouvez soit taper `ifconfig` en ligne de commande sur le Rpi, ou alors utiliser des outils de scan réseaux pour trouver son IP ([Network Scanner](https://play.google.com/store/apps/details?id=com.easymobile.lan.scanner&hl=fr) sur Android par exemple, ou [iNet](https://itunes.apple.com/fr/app/inet-network-scanner/id340793353?mt=8) sur iOS)
 
-**Note 2:** Si vous avez un quelconque problème lors de l'installation, n'hésitez pas à venir en parler sur le [forum Gladys](http://gladysproject.com/forum/), en général quelqu'un vous répondra assez rapidement !
+**Note 2:** Si vous avez un quelconque problème lors de l'installation, n'hésitez pas à venir en parler sur le [forum Gladys](https://community.gladysassistant.com/), en général quelqu'un vous répondra assez rapidement !
 
 #### Installation manuelle depuis GitHub
 
-Pour installer Gladys manuellement (sur Linux, Mac, ou Windows), il suffit de suivre les instructions sur le [GitHub du projet Gladys](https://github.com/GladysProject/Gladys).
+Pour installer Gladys manuellement (sur Linux, Mac, ou Windows), il suffit de suivre les instructions sur le [GitHub du projet Gladys](https://github.com/gladysassistant/Gladys).

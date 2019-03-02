@@ -25,7 +25,7 @@ Voilà pour l'instant le hardware que je supporte. Notez que le gateway est indi
 - [Xiaomi Gateway - 24€](https://fr.gearbest.com/living-appliances/pp_344667.html?wid=55)
 - [Xiaomi Aqara Capteur d'humidité + Température - 7€](https://fr.gearbest.com/access-control/pp_626702.html?wid=55)
 - [Xiaomi bouton connecté - 6€](https://fr.gearbest.com/smart-light-bulb/pp_257679.html?wid=55)
-- [Xiaomi Aqara détecteur ouverture porte et fenêtre - 6€](https://fr.gearbest.com/access-control/pp_626703.html?wid=55)
+- [Xiaomi Aqara détecteur ouverture porte et fenêtre - 6€](https://fr.gearbest.com/xiaomi-aqara-_gear/5)
 
 Mon grand favori étant le bouton Xiaomi qui vous permet de détecter 4 pressions différentes et de déclencher des scénarios en conséquence, comme par exemple le fameux mode romantique qui m'avait valu [un article](https://www.raspberrypi.org/blog/gladys-project-home-assistant/) sur le site de la fondation Raspberry Pi 😃
 
@@ -33,7 +33,7 @@ Mon grand favori étant le bouton Xiaomi qui vous permet de détecter 4 pression
 
 ## Installation
 
-Le module est disponible sur [GitHub](https://github.com/GladysProject/gladys-xiaomi-home).
+Le module est disponible sur [GitHub](https://github.com/gladysassistant/gladys-xiaomi-home).
 
 - Téléchargez l'app Mi Home sur le [Play Store](https://play.google.com/store/apps/details?id=com.xiaomi.smarthome&hl=fr) ou [l'App Store](https://itunes.apple.com/us/app/mi-home-xiaomi-smarthome/id957323480?mt=8)
 - Lors de la création de votre compte, définissez votre région à "Mainland China" pour pouvoir utiliser ces produits (sinon vous ne pourrez pas utiliser les produits Xiaomi Home ). Vous pouvez changer cette région dans "Settings" -> "Locale" sinon.
@@ -69,7 +69,7 @@ Le module est disponible sur [GitHub](https://github.com/GladysProject/gladys-xi
 Connectez vous au Raspberry Pi chez vous (en SSH ou sur un écran), et exécutez la commande suivante : 
 
 ```
-git clone https://github.com/GladysProject/gladys-xiaomi-home
+git clone https://github.com/gladysassistant/gladys-xiaomi-home
 ```
 
 Déplacez vous dans le dossier : 
@@ -140,7 +140,7 @@ gladys.music.setVolume({room: 1, volume: 40}) // on met le volume de la Sonos à
 
 #### La musique avec MP3-Player
 
-Si vous n'avez pas d'enceintes Sonos et que vous voulez jouer un son sur le Raspberry Pi directement, vous pouvez utiliser le module [Gladys MP3-Player](https://developer.gladysproject.com/fr/modules/mp3-player). Suivez les instructions d'installation. 
+Si vous n'avez pas d'enceintes Sonos et que vous voulez jouer un son sur le Raspberry Pi directement, vous pouvez utiliser le module [Gladys MP3-Player](https://developer.gladysassistant.com/fr/modules/mp3-player). Suivez les instructions d'installation. 
 
 Ensuite, dans un script, pour lancer de la musique, vous pouvez faire : 
 

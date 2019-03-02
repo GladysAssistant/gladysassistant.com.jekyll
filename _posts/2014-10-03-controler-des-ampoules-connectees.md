@@ -21,15 +21,15 @@ Les ampoules Mi-Light sont les équivalents low cost des Philips Hue. J'ai trouv
 
 Pour faire fonctionner les ampoules, c'est comme avec les Hue, il faut une ou plusieurs ampoules + un pont Wifi pour faire le lien entre les ampoules qui communiquent en 2,4Ghz, et le réseau Wifi.
 
-- L'ampoule peut être trouvée par exemple [ici](http://amzn.to/1MaqVNR). Il y a plusieurs points à faire attention en commandant : Si vous voulez un éclairage puissant, vérifier bien que c'est une ampoule 9W (il existe une version moins puissante, mais moins cher, à voir selon votre usage et la pièce où vous allez mettre l'ampoule). Aussi, l'ampoule à un mode "éclairage classique", qui est soit un éclairage blanc (Cold White), soit un éclairage blanc chaud (Warm White), l'éclairage blanc est relativement artificielle et ça n'est pas forcément agréable dans une pièce à vivre... J'ai reçu par erreur une ampoule "froide", et j'avoue que j'utilise surtout du coup les couleurs du coup. Faites attention ! Regardez aussi si une télécommande est fournie, c'est assez pratique pour commander l'ampoule hors application. Le site de Mi-Light n'en fournie pas, le chinois la fournie il me semble ! (Pour information les ampoules sont de type E27 ici, le standard des ampoules à visser).
+- L'ampoule peut être trouvée par exemple [ici](https://www.amazon.fr/gp/search/ref=as_li_qf_sp_sr_il_tl?ie=UTF8&tag=gladproj-21&keywords=milight lamp&index=aps&camp=1642&creative=6746&linkCode=xm2&linkId=36a351a4cfb9f88f723d78883908fefe). Il y a plusieurs points à faire attention en commandant : Si vous voulez un éclairage puissant, vérifier bien que c'est une ampoule 9W (il existe une version moins puissante, mais moins cher, à voir selon votre usage et la pièce où vous allez mettre l'ampoule). Aussi, l'ampoule à un mode "éclairage classique", qui est soit un éclairage blanc (Cold White), soit un éclairage blanc chaud (Warm White), l'éclairage blanc est relativement artificielle et ça n'est pas forcément agréable dans une pièce à vivre... J'ai reçu par erreur une ampoule "froide", et j'avoue que j'utilise surtout du coup les couleurs du coup. Faites attention ! Regardez aussi si une télécommande est fournie, c'est assez pratique pour commander l'ampoule hors application. Le site de Mi-Light n'en fournie pas, le chinois la fournie il me semble ! (Pour information les ampoules sont de type E27 ici, le standard des ampoules à visser).
 
-- Le pont Wifi peut être trouvé [ici](http://amzn.to/1Ogrwzf).
+- Le pont Wifi peut être trouvé [ici](https://www.amazon.fr/gp/search/ref=as_li_qf_sp_sr_il_tl?ie=UTF8&tag=gladproj-21&keywords=milight wifi&index=aps&camp=1642&creative=6746&linkCode=xm2&linkId=13dcf2f18dfbefbfaf90bde9b38e22b2).
 
 ## Installation
 
 L'installation est relativement simple et est expliqué sur un petit manuel dans la boite du module Wifi, ainsi que sur le site de Mi-light [ici](http://www.milight.com/support/). Mais voici un petit résumé de l'installation :
 
-- Téléchargez l'application Mi-light sur [Android](https://play.google.com/store/apps/details?id=com.lierda.wificontroller&hl=fr_FR) ou [iOS](https://itunes.apple.com/fr/app/milight/id680443167?mt=8)  
+- Téléchargez l'application Mi-light sur [Android](https://play.google.com/store/apps/details?id=com.irainxun.wifilight&hl=fr) ou [iOS](https://itunes.apple.com/fr/app/milight/id680443167?mt=8)  
 - Branchez le module Wifi  
 - Allez dans les paramètres Wifi de votre smartphone, et connectez vous au réseau "Milight"  
 - Allez sur l'application Milight, dans "AP Configuration", puis entrez les informations de connexions au Wifi de votre box. Une fois les informations rentrées, l'application va vous demander si vous voulez redémarrer le module Wifi, dites "oui" !  

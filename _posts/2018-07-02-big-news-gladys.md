@@ -17,7 +17,7 @@ I wanted to announce you the biggest news on Gladys since the beginning of the p
 
 🚀🚀 I'M GOING PART-TIME ON GLADYS !! 🚀🚀
 
-I wrote a big article on Patreon about why I'm doing this, you can find the article here => [https://www.patreon.com/gladysproject/overview](https://www.patreon.com/gladysproject/overview).
+I wrote a big article on Patreon about why I'm doing this, you can find the article here => [https://www.patreon.com/gladysassistant/overview](https://www.patreon.com/gladysassistant/overview).
 
 A big thanks to the whole Gladys community who's supporting me everyday in this crazy adventure 🙏
 

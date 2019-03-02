@@ -97,7 +97,7 @@ Puis récupérez ce fichier en local sur votre machine (Soit en FTP avec [FileZi
 
 ### Installation de la nouvelle image
 
-Ensuite, vous pouvez télécharger la nouvelle image Gladys sur [la page d'installation](https://gladysproject.com/fr/installation).
+Ensuite, vous pouvez télécharger la nouvelle image Gladys sur [la page d'installation](/fr/installation).
 
 Ensuite, je vous conseille [Etcher](https://etcher.io/) pour cloner l'image sur votre carte SD ( fonctionne sous Linux/MacOS/Windows ).
 

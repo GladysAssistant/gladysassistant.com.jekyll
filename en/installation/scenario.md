@@ -14,7 +14,7 @@ Scenarios in Gladys are really easy. It's based on a single concept :
 - Then, there are conditions "**AND** current time is more than 9PM" 
 - Finally, there are actions "**THEN** turn off the lights everywhere **AND** execute this script."
 
-All these types of triggers, conditions, and actions are defined in a special [Git repository](https://github.com/GladysProject/Gladys-data) via a set of JSON files, and can be updated remotely in Gladys.
+All these types of triggers, conditions, and actions are defined in a special [Git repository](https://github.com/gladysassistant/Gladys-data) via a set of JSON files, and can be updated remotely in Gladys.
 
 Then, you can create scenarios based on these types of triggers/conditions/actions directly in Gladys on the dashboard.
 
@@ -62,5 +62,5 @@ You probably want to enter manually the text of the notification, the title, the
 
 Now save your scenario, and boom, your first scenario is created !
 
-Just try to create an alarm ( see our tutorial on [How to create a Gladys Alarm](https://developer.gladysproject.com/en/documentation/alarm) ), and try the scenario ! 
+Just try to create an alarm ( see our tutorial on [How to create a Gladys Alarm](https://developer.gladysassistant.com/en/documentation/alarm) ), and try the scenario ! 
 

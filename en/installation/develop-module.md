@@ -243,7 +243,7 @@ For example, imagine you are writing a module which can control a type of lamp, 
 }
 ```
 
-In your exec function, you will just need to turn on the light identified by the `identifier` field. For example, in my Philips Hue module, each light is identified by an integer ( first lamp is number 1, second lamp 2 ... ). So I just saved the integer in the `identifier` field. Don't hesitate to look at the Philips Hue module repository on [GitHub](https://github.com/GladysProject/Gladys-hue) to see how to do this.
+In your exec function, you will just need to turn on the light identified by the `identifier` field. For example, in my Philips Hue module, each light is identified by an integer ( first lamp is number 1, second lamp 2 ... ). So I just saved the integer in the `identifier` field. Don't hesitate to look at the Philips Hue module repository on [GitHub](https://github.com/gladysassistant/Gladys-hue) to see how to do this.
 
 **Note:** Never ask users to interact directly with your module. They need to only use `gladys.deviceType.exec(...)` function, so that Gladys can update in real time values everywhere ( in the UI, in DB )
 

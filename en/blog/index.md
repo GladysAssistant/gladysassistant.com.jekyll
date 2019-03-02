@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Blog | Gladys Project
-description: Read the latest news about the Gladys Project
+title: Blog | Gladys Assistant
+description: Read the latest news about the Gladys Assistant
 lang: en
 pagination: 
   enabled: true

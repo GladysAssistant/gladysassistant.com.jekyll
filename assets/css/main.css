@@ -58,344 +58,156 @@
   width: 100%;
 }
 
+
 /**
-CONVERKIT
+HEADER WITH PICTURE
+
 **/
 
 
-  .ck_form.ck_minimal {
-    /* divider image */
-    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
-    line-height: 1.5em;
-    overflow: hidden;
-    color: #666;
-    font-size: 16px;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    clear: both;
-    margin: 20px 0px;
-    text-align: center;
+.navbar-brand {
+  padding-top: 9px;
+}
+
+.drawing {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.btn-install {
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #0052D4;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-install:hover {
+  color: white;
+  background-color: #064ab4;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+@media (min-width: 1600px) and (max-width: 2000px) {
+  .section-header-drawing {
+    min-height: 700px;
   }
-  
-  
-  .ck_form.ck_minimal h3.ck_form_title {
-    text-align: center;
-    margin: 0px 0px 10px;
-    font-size: 28px;
+}
+
+@media (min-width: 2000px) {
+  .section-header-drawing {
+    min-height: 1200px;
   }
+}
+
+@media (min-width: 1200px) {
   
-  .ck_form.ck_minimal h4 {
-    text-align: center;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: normal;
-    padding-top: 0px;
-    margin-top: 0px;
-  }
-  
-  .ck_form.ck_minimal p {
-    padding: 0px;
-  }
-  
-  .ck_form, .ck_form * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  
-  .ck_form.ck_minimal .ck_form_fields {
-    width: 100%;
-    float: left;
-  }
-  /* Form fields */
-  
-  .ck_errorArea {
-    display: none; /* temporary */
-  }
-  
-  #ck_success_msg {
-    padding: 10px 10px 0px;
-    border: solid 1px #ddd;
-    background: #eee;
-  }
-  
-  .ck_form.ck_minimal input[type="text"], .ck_form.ck_minimal input[type="email"] {
-    font-size: 18px;
-    padding: 10px 8px;
-    width: 100%;
-    border: 1px solid #d6d6d6; /* stroke */
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px; /* border radius */
-    background-color: #fff; /* layer fill content */
-    margin-bottom: 5px;
-    height: auto;
-    float: left;
-    margin: 0px;
-    margin-right: 2%;
-    height: 42px;
-  }
-  
-  .ck_form input[type="text"]:focus, .ck_form input[type="email"]:focus {
-    outline: none;
-    border-color: #aaa;
-  }
-  
-  .ck_form.ck_minimal .ck_subscribe_button {
-      width: 100%;
-      color: #fff;
-      margin: 0px;
-      padding:  11px 0px;
-      font-size: 18px;
-      background: #0d6db8;
-      -moz-border-radius: 3px;
-      -webkit-border-radius: 3px;
-      border-radius: 3px; /* border radius */
-      cursor: pointer;
-      border: none;
-      text-shadow: none;
-      width: 30%;
-      float: left;
-      height: 42px;
-    }
-  
-  
-  .ck_form.ck_minimal .ck_guarantee {
-    color: #626262;
-    font-size: 12px;
-    text-align: center;
-    padding: 15px 0px 0px;
-    display: block;
-    clear: both;
-  }
-  .ck_form .ck_powered_by {
-    display: block;
-    color: #aaa;
-    font-size: 12px;
-  }
-  
-  .ck_form .ck_powered_by:hover {
-    display: block;
-    color: #444;
-  }
-  
-  .ck_converted_content {
-    display: none;
-    padding: 5%;
-    background: #fff;
-  }
-  
-  .ck_form.ck_minimal.width400 .ck_subscribe_button, .ck_form.ck_minimal.width400 input[type="email"] {
-      width: 100%;
-      float: none;
-      margin-top: 5px;
-    }
-  
-  .ck_slide_up, .ck_modal, .ck_slide_up .ck_minimal, .ck_modal .ck_minimal  {
-    min-width: 400px;
-  }
-  
-  .page .ck_form.ck_minimal {
-    margin: 50px auto;
-    max-width: 600px;
-  }
-  
-  
-  /* v6 */
-  .ck_slide_up.ck_form_v6, .ck_modal.ck_form_v6, .ck_slide_up.ck_form_v6 .ck_minimal, .ck_modal.ck_form_v6 .ck_minimal {
-    min-width: 0 !important;
-  }
-  
-  @media all and (min-width: 801px) {
-    .ck_modal.ck_form_v6 .ck_form.ck_minimal {
-      margin-left: -300px;
-      width: 600px;
-    }
-  }
-  
-  .ck_modal.ck_form_v6 .ck_minimal .ck_subscribe_form {
-    padding-top: 20px;
-  }
-  
-  .ck_slide_up.ck_form_v6 .ck_minimal .ck_subscribe_form {
-    padding-top: 10px;
-  }
-  
-  .ck_form_v6 #ck_success_msg {
-    margin-top: 15px;
-    padding: 0px 10px;
-  }
-  
-  .ck_slide_up.ck_form_v6 .ck_minimal + .ck_close_link {
-    top: 5px;
-  }
-  .ck_slide_up.ck_form_v6 .ck_minimal h3.ck_form_title {
-    margin-top: 5px;
+  .section-header-drawing {
+    min-height: 690px;
   }
 
+  .drawing {
+      width: 60%;
+      /*min-height: 100%; */
+      top: 0;
+  }
 
-  /**
-  CONVERTKIT NAKED
-  **/
+  .navbar {
+      padding-left: 50px;
+      padding-right: 50px
+  }
 
-  .ck_form.ck_naked {
-    /* divider image */
-    background: transparent;
-    line-height: 1.5em;
-    overflow: hidden;
-    color: #666;
-    font-size: 16px;
-    border: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    clear: both;
-    margin: 20px 0px;
-    text-align: center;
+  .logo img {
+      width: 100px;
+      height: 100px;
   }
-  
-  .ck_form.ck_naked p {
-    padding: 0px;
+
+  .container-right {
+      width: 40%;
+      padding: 70px;
   }
-  
-  .ck_form, .ck_form * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+
+  .container-right h1 {
+      font-size: 5rem;
+      margin-top: 110px;
+      padding-bottom: 20px;
   }
-  
-  .ck_form.ck_naked .ck_form_fields {
-    width: 100%;
-    float: left;
-    padding: 5%;
+
+  .container-right h4 {
+      font-size: 2rem;
+      padding-bottom: 20px;
   }
-  /* Form fields */
-  
-  .ck_errorArea {
-    display: none; /* temporary */
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+
+
+  .drawing {
+    width: 60%;
+    top: 0;
   }
-  
-  #ck_success_msg {
-    padding: 10px 10px 0px;
-    border: solid 1px #ddd;
-    background: #eee;
+
+  .container-right {
+      width: 40%;
+      padding: 70px;
   }
-  
-  .ck_form.ck_naked input[type="text"], .ck_form.ck_naked input[type="email"] {
-    font-size: 18px;
-    padding: 10px 8px;
-    width: 34%;
-    border: 1px solid #d6d6d6; /* stroke */
-    -moz-border-radius: 0px;
-    -webkit-border-radius: 0px;
-    border-radius: 0px; /* border radius */
-    background-color: #fff; /* layer fill content */
-    margin-bottom: 5px;
-    height: auto;
-    float: left;
-    margin: 0px;
-    margin-right: 1%;
-    height: 42px;
+
+  .container-right h1 {
+      font-size: 4rem;
+      padding-bottom: 20px;
   }
-  
-  .ck_form input[type="text"]:focus, .ck_form input[type="email"]:focus {
-    outline: none;
-    border-color: #aaa;
+
+  .container-right p {
+      font-size: 1.5rem;
+      padding-bottom: 20px;
   }
-  
-  .ck_form.ck_naked .ck_subscribe_button {
+
+  .btn-install {
+    margin-top: 10px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .drawing {
       width: 100%;
-      color: #fff;
-      margin: 0px;
-      padding:  9px 0px;
-      font-size: 18px;
-      background: #0d6db8;
-      -moz-border-radius: 0px;
-      -webkit-border-radius: 0px;
-      border-radius: 0px; /* border radius */
-      cursor: pointer;
-      border: none;
-      text-shadow: none;
-      width: 30%;
-      float: left;
-      height: 42px;
-    }
-  
-  
-  .ck_converted_content {
-    display: none;
-    padding: 5%;
-    background: #fff;
+      height: 30%;
+      top: 80px;
+      display: none;
   }
-  
-  /* max width 500 */
-  
-    .ck_form.ck_naked.width500 .ck_subscribe_button {
+
+  .container-right {
       width: 100%;
-      float: none;
-      margin-top: 5px;
-    }
-  
-    .ck_form.ck_naked.width500 input[type="text"], .ck_form.ck_naked.width500 input[type="email"] {
-      width: 49%;
-    }
-  
-    .ck_form.ck_naked.width500 input[type="email"] {
-      margin-right: 0px;
-      width: 50%;
-    }
-  
-  /* max width 400 */
-  
-    .ck_form.ck_naked.width400 .ck_subscribe_button, .ck_form.ck_naked.width400 input[type="text"], .ck_form.ck_naked.width400 input[type="email"] {
+      padding: 30px;
+  }
+
+  .container-right h1 {
+      font-size: 5rem;
+      margin-top: 60px;
+      padding-bottom: 30px;
+  }
+
+  .container-right p {
+      font-size: 1rem;
+      padding-bottom: 10px;
+  }
+
+  .btn-install {
+     margin-top: 20px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .container-right {
       width: 100%;
-      float: none;
-      margin-top: 5px;
-    }
-  
-  .ck_slide_up, .ck_modal, .ck_slide_up .ck_naked, .ck_modal .ck_naked  {
-    min-width: 400px;
+      padding: 30px;
   }
-  
-  .page .ck_form.ck_naked {
-    margin: 50px auto;
-    max-width: 700px;
-  }
-  
-  
-  /* v6 */
-  
-  .ck_slide_up.ck_form_v6, .ck_modal.ck_form_v6, .ck_slide_up.ck_form_v6 .ck_naked, .ck_modal.ck_form_v6 .ck_naked {
-    min-width: 0 !important;
-  }
-  
-  .ck_form_v6 #ck_success_msg {
-    padding: 0px 10px;
-  }
-  
-  @media all and (max-width: 403px) {
-    .ck_form_v6.ck_modal .ck_naked {
-      padding-top: 30px;
-    }
-  }
-  
-  @media all and (max-width: 499px) {
-    .ck_form_v6.ck_modal .ck_naked + .ck_close_link {
-      color: #fff;
-      top: 10px;
-    }
-  }
-  
-  .ck_form_v6.ck_slide_up .ck_naked + .ck_close_link {
-    right: 10px;
-    top: -5px;
-  }
-  
-  @media all and (min-width: 600px) {
-    .ck_form_v6.ck_slide_up .ck_naked + .ck_close_link {
-      right: 35px;
-    }
-  }
-  
+}

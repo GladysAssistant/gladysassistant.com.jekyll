@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 .heading-font {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Overpass', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -12,7 +12,7 @@
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 .alt-font {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -22,7 +22,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Open Sans', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 a {
   -webkit-transition: all 0.35s;
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Overpass', 'Helvetica', 'Arial', 'sans-serif';
   /*font-weight: 200;
   letter-spacing: 1px; */
 }
@@ -65,12 +65,12 @@ p {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Overpass', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Overpass', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
   /*color: #fdcc52;*/
@@ -85,7 +85,7 @@ p {
   padding: 8px 10px;
 }
 .navbar-default .nav > li > a {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 11px;
@@ -148,30 +148,28 @@ p {
   }
 }
 header {
-  position: relative;
+  /*position: relative;
   width: 100%;
   overflow-y: hidden;
   background: url("../img/bg-pattern.png"), #1c92d2;
 
   
-
-  /* fallback for old browsers */
   background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
-  /* Chrome 10-25, Safari 5.1-6 */
+
   background: url("../img/bg-pattern.png"), linear-gradient(to right, #f2fcfe, #1c92d2);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  background: #000046;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-background: #00d2ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
+  background: #000046; 
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  
+  background: linear-gradient(to right, #1CB5E0, #000046); 
 
-  color: white;
+  background: #00d2ff; 
+  background: -webkit-linear-gradient(to right, #928DAB, #00d2ff); 
+  background: linear-gradient(to right, #928DAB, #00d2ff);
+
+
+
+  color: white;*/
   
 }
 
@@ -446,7 +444,7 @@ footer ul li a.active {
 }
 
 .btn {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
@@ -529,8 +527,9 @@ ul li{
 }
 
 .homepage h1 {
-  font-weight: 200;
   letter-spacing: 1px;
+  font-family: 'Overpass';
+  font-weight: 800;
 }
 
 .homepage h2 {

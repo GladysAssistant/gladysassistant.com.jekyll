@@ -172,6 +172,120 @@
           "value": 420
         }
       ]
+    },
+    {
+      "month": "08-2018",
+      "sources": [
+        {
+          "name": "Selz",
+          "value": 1076
+        },
+        {
+          "name": "Amazon Affiliate",
+          "value": 97
+        },
+        {
+          "name": "Patreon",
+          "value": 467
+        }
+      ]
+    },
+    {
+      "month": "09-2018",
+      "sources": [
+        {
+          "name": "Selz",
+          "value": 457
+        },
+        {
+          "name": "Amazon Affiliate",
+          "value": 52
+        },
+        {
+          "name": "Patreon",
+          "value": 501
+        }
+      ]
+    },
+    {
+      "month": "10-2018",
+      "sources": [
+        {
+          "name": "Selz",
+          "value": 780
+        },
+        {
+          "name": "Amazon Affiliate",
+          "value": 57
+        },
+        {
+          "name": "Patreon",
+          "value": 540
+        }
+      ]
+    },
+    {
+      "month": "11-2018",
+      "sources": [
+        {
+          "name": "Selz",
+          "value": 835
+        },
+        {
+          "name": "Amazon Affiliate",
+          "value": 137
+        },
+        {
+          "name": "Patreon",
+          "value": 522
+        },
+        {
+          "name": "Gladys Community Package",
+          "value": 1234
+        }
+      ]
+    },
+    {
+      "month": "12-2018",
+      "sources": [
+        {
+          "name": "Selz",
+          "value": 824
+        },
+        {
+          "name": "Amazon Affiliate",
+          "value": 141
+        },
+        {
+          "name": "Patreon",
+          "value": 288
+        },
+        {
+          "name": "Gladys Community Package",
+          "value": 1086
+        }
+      ]
+    },
+    {
+      "month": "01-2019",
+      "sources": [
+        {
+          "name": "Selz",
+          "value": 576
+        },
+        {
+          "name": "Amazon Affiliate",
+          "value": 113
+        },
+        {
+          "name": "Patreon",
+          "value": 236
+        },
+        {
+          "name": "Gladys Community Package",
+          "value": 954
+        }
+      ]
     }
   ]
 }

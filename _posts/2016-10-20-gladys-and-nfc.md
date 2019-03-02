@@ -19,7 +19,7 @@ We'll see in this tutorial how to configure NFC tags to use them with Gladys.
 
 ## Hardware
 
-- A few [NFC tags like those](https://developer.gladysproject.com/en/link/tag-nfc).
+- A few [NFC tags like those](https://developer.gladysassistant.com/en/link/tag-nfc).
 - An Android NFC compatible smartphone ( unfortunately this doesn't work on an iPhone )
 
 ## Install Tasker
@@ -60,7 +60,7 @@ code=going-to-sleep
 user=1
 ```
 
-You can put any event you want in the following list : [https://github.com/GladysProject/gladys-data/blob/master/events/en.json](https://github.com/GladysProject/gladys-data/blob/master/events/en.json). 
+You can put any event you want in the following list : [https://github.com/gladysassistant/gladys-data/blob/master/events/en.json](https://github.com/gladysassistant/gladys-data/blob/master/events/en.json). 
 
 The `user` field is your User ID. You can find this ID in Gladys in `Parameters` => `My Account`.
 

@@ -3,7 +3,7 @@ title: Configurer les périphériques
 description: Découvrez comment configurer vos périphériques dans Gladys
 layout: documentation
 lang: fr
-image: /assets/images/presentation/facebook_share_gladys.png
+image: /assets/images/presentation/gladys-og-image.png
 permalink: /fr/installation/configure-devices/
 ---
 
@@ -13,4 +13,4 @@ Vous voulez probablement contrôler avec Gladys vos ampoules connectées, vos pr
 
 Dans Gladys, tout est "abstrait". Le coeur de Gladys est comme un cerveau, il pense à effectuer des actions, mais ce n'est pas lui qui contact les périphériques physiques. Pour cela, il faut installer des modules. Un module est comme une app, comme un driver, qui va s'occuper d'étendre les possibilités de Gladys.
 
-Parcourez la liste des modules sur le store Gladys => [https://developer.gladysproject.com/fr/modules](https://developer.gladysproject.com/fr/modules), et suivez le tutoriel d'installation de chaque module afin de gérer les périphériques connectés que vous avez dans votre logement 🙂
+Parcourez la liste des modules sur le store Gladys => [https://developer.gladysassistant.com/fr/modules](https://developer.gladysassistant.com/fr/modules), et suivez le tutoriel d'installation de chaque module afin de gérer les périphériques connectés que vous avez dans votre logement 🙂

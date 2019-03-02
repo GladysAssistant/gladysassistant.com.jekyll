@@ -202,7 +202,7 @@ Tout ce que vous avez pu lire dans cet article est bel et bien présent dans Gla
 
 Maintenant que cette technologie fonctionne, il ne reste plus qu'à remplir ces bases de données afin de permettre à Gladys d'apprendre à reconnaitre un maximum de phrases, et ainsi être l'assistant parfait dont nous rêvons tous...
 
-Pour rappel, toutes ces données Gladys sont dans le repository Github [GladysProject/gladys-data](https://github.com/GladysProject/gladys-data), n'hésitez pas à y jeter un oeil.
+Pour rappel, toutes ces données Gladys sont dans le repository Github [gladysassistant/gladys-data](https://github.com/gladysassistant/gladys-data), n'hésitez pas à y jeter un oeil.
 
 Je vais publier très prochainement un tuto expliquant comment connecter Gladys avec Telegram, afin que vous puissiez profiter de Gladys même sur mobile !
 

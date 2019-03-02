@@ -109,7 +109,7 @@ Mission accomplie ! ✅
 
 Comme je disais, le gros enjeux de ce nouveau site était de le rendre éditable par tous, et donc open-source !
 
-Le site est donc disponible sur Github => [https://github.com/GladysProject/gladysproject.com.jekyll](https://github.com/GladysProject/gladysproject.com.jekyll)
+Le site est donc disponible sur Github => [https://github.com/gladysassistant/gladysassistant.com.jekyll](https://github.com/gladysassistant/gladysassistant.com.jekyll)
 
 N'hésitez pas à créer des issues en cas d'erreurs, à proposer des pull-requests si vous avez des idées, si vous voulez enrichir la documentation: C'est open bar, et c'est fait pour !
 

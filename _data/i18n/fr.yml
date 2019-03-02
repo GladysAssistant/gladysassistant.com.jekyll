@@ -1,7 +1,9 @@
 documentation:
   installation: Installation
+  upgrade: Mettre à jour Gladys
   configureHouse: Configuration du logement
   configureDevices: Configuration des périphériques
+  accessGladysRemotely: Accéder à Gladys à distance
   talkingToGladys: Parler à Gladys
   developModule: Développer un module
   developScript: Développer un script
@@ -38,11 +40,11 @@ products:
 # The HomePage
 homepage:
   bigTitle: Gladys, votre assistant intelligent
-  smallSentence: Gladys est un programme open-source pour Raspberry Pi.
+  smallSentence: Gladys est un programme de domotique open-source qui tourne sur Raspberry Pi.
   smallSentenceLine: Gladys se connecte à vos périphériques et à votre agenda pour mieux vous aider au quotidien.
-  installButton: Installer Gladys gratuitement !
+  installButton: Installer
   sentenceEmail: Rejoignez la communauté, et recevez les news du projet !
-  sentenceEmailLine1: Vous êtes plus de 28 000 à avoir téléchargé Gladys.
+  sentenceEmailLine1: Vous êtes plus de 35 000 à avoir téléchargé Gladys.
   sentenceEmailLine2: Les mails sont envoyés par Pierre-Gilles Leymarie, le fondateur du projet, et vous pouvez toujours vous désinscrire à tout moment
   buttonEmail: S'inscrire
   messageSubscribe: Merci de vous être inscrit ! Vous allez recevoir un mail de confirmation, vous devez cliquez sur le lien de confirmation pour rejoindre la liste :)
@@ -125,7 +127,8 @@ homepage:
     firstText: Gladys, c'est aussi une communauté d'utilisateurs, de développeurs, qui se retrouvent pour échanger et parler du futur de la maison connectée.
     secondText: Envie d'une conférence Gladys dans votre établissement/Fablab/Entreprise ? Merci de me contacter sur le forum de contact du site =>
     contactMe: Contactez-moi ici
-    patreonMessage: Envie de soutenir le projet ? Gladys est sur 
+    communityPackageMessage: Envie de soutenir le projet et de faire partie de la communauté ? Rejoignez le
+    communityPackageLink: package communauté Gladys
 
   starterKit:
     title: Le pack de démarrage
@@ -148,7 +151,7 @@ installation:
 #Blog Page
 blog:
   meta:
-    title: Blog | Gladys Project
+    title: Blog | Gladys Assistant
     description: Le blog du projet Gladys. Retrouvez ici des news, tutoriels à propos du projet.
   title: Blog
   noArticles: Aucun article disponible en français !
@@ -157,15 +160,15 @@ blog:
 rss:
   title: Le blog du projet Gladys !
   description: Retrouve toutes les actualités autour du projet, les tutoriels, les tests !
-  feedUri: http://gladysproject.com/fr_feed.xml
-  websiteUri: http://gladysproject.com
+  feedUri: http://gladysassistant.com/fr_feed.xml
+  websiteUri: http://gladysassistant.com
 
 
 
 #Article Page
 article:
   joinReader:
-    title: Rejoignez +2 000 lecteurs ️️!
+    title: Rejoignez +3 000 lecteurs ️️!
     description: N'hésitez pas à vous inscrire à la newsletter Gladys ! Pas de spam, juste des news que j'envoie personnellement 🙂
 
 
@@ -185,7 +188,7 @@ press:
 
 #Contact page
 contact:
-  title: Contact | Gladys Project
+  title: Contact | Gladys Assistant
   description: Contactez moi si vous avez des questions sur le projet, je vous répondrai avec plaisir.
   sentence: Si vous avez des questions/remarques, que vous voulez en savoir plus sur le projet, que vous voulez aider, proposer des idées, des solutions... Ce formulaire est fait pour vous !
   name: Nom
@@ -198,7 +201,7 @@ contact:
   legalMention:
     title: Mentions légales
     whoAmI: Qui suis-je ?
-    sentence: Je m'appelle Pierre-Gilles Leymarie et je suis ingénieur back-end dans la startup BulldozAIR ! N'hésitez pas à me contacter si vous voulez plus d'informations sur le projet :)
+    sentence: Je m'appelle Pierre-Gilles Leymarie et j'ai fondé le projet Gladys en 2013. Récemment, j'ai décidé de faire de Gladys mon activité principale. Pour en savoir plus sur l'histoire du projet, j'ai écris un article sur le blog => 
     helpTheProject: Aidez le projet !
     hebergement: Ce site est hébergé chez
 

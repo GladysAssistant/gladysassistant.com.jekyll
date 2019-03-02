@@ -26,7 +26,7 @@ Pour le matériel, je suis quasiment passé entièrement par Tinydeal, un fourni
 J'ai pris cet arduino car c'était un bon compromis entre le arduino Uno ( trop cher, et trop gros ), et le choix de juste prendre un Atmega "nu" ( ce que je ferais sûrement dans un prochain tutoriel ). Si vous voulez un arduino encore moins cher il y a l'arduino Pro Mini à 3€80 [ici](http://www.tinydeal.com/fr/pro-mini-atmega328p-microcontroller-board-p-115635.html), qui à l'avantage de prendre encore moins de place, d'être moins cher, et qui est équivalent au Nano, le port USB en moins ( des adaptateurs USB sont disponible pour 1/2€ pour pouvoir charger le programme sur la carte )  
 - Un accéléromètre ( acheté pour 2€50 [ici](http://www.tinydeal.com/fr/gy-291-digital-3-axis-acceleration-of-gravity-tilt-module-p-115214.html) )  
 - Un émetteur RF 433Mhz ( acheté pour 2€98 [ici](http://www.tinydeal.com/fr/433mhz-rf-transmitter-receiver-link-kit-green-p-119800.html) )  
-- Un connecteur de pile 9V ( acheté pour 0€46 [ici](http://www.banggood.com/9V-Battery-Clip-Holder-Connectors-Plug-Snap-Clip-On-Type-Lead-Wire-p-89478.html) )
+- Un connecteur de pile 9V ( acheté pour 0€46 [ici](https://www.banggood.com/fr/search/9v-connector-arduino.html) )
 
 Pour récapituler, on se retrouve avec un objet connecté à 10,11€ .. Plutôt honnête !
 
@@ -65,7 +65,7 @@ Le logiciel est très simple, j'ai utilisé plusieurs librairies (dont je remerc
 
 Pour importer les librairies, téléchargez-les ( sur github faites "Download zip" à droite ), puis placez le dossier ( en le renommant sans le "-master" de github ) dans "Documents/arduino/libraries", puis relancez votre logiciel arduino, elles seront importées automatiquement.
 
-Le programme pour l'arduino de cet objet connecté est disponible en téléchargement [ici](https://gist.github.com/GladysProject/b0a1d6f24d266437b87e).  
+Le programme pour l'arduino de cet objet connecté est disponible en téléchargement [ici](https://gist.github.com/gladysassistant/b0a1d6f24d266437b87e).  
 Pensez bien avant de charger le code sur l'arduino de bien modifier le type de carte ( Outils => type de carte => Arduino Nano Atmega 328 ), puis chargez le code sur la carte !
 
 Ici, le code fait tout simplement deux choses : lorsque l'objet est posé à l'endroit, il envoit le signal "2" en 433Mhz, et lorsqu'il est posé à l'envers, le signal "1" ( seulement lors des changements de sens, et pas en continu ). Pour expliquer en détail le programme, l'arduino vérifie le sens du capteur, si il y a changement de sens il émet un signal, puis il dort pour 2 secondes, et ainsi de suite.

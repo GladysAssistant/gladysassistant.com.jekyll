@@ -34,9 +34,9 @@ comments: true
                     <p>{{ site.data.i18n[page.lang].article.joinReader.description }}</p>
 
                     {% if page.lang == 'fr' %}
-                      {% include converkit-inline-form-fr.html %}
+                      {% include email-form-minimal-fr.html %}
                     {% else %}
-                     {% include converkit-inline-form-en.html %}
+                      {% include email-form-minimal-en.html %}
                    {% endif %} 
               </div>
 

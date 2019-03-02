@@ -13,11 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Gladys Project
+title: Gladys Assistant
 description: > # this means to ignore newlines until "baseurl:"
     Your home assistant based on a Raspberry Pi
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gladysproject.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gladysassistant.com" # the base hostname & protocol for your site, e.g. http://example.com
+include: ["_redirects"]
 
 ## I18N
 languages: ["en", "fr"]
@@ -28,10 +29,10 @@ languageNames:
   en: English
 
 # Social network
-twitter_username: gladysproject
-github_username:  gladysproject
-facebook_username: gladysproject
-instagram_username: gladysproject
+twitter_username: gladysassistant
+github_username:  gladysassistant
+facebook_username: gladysassistant
+instagram_username: gladysassistant
 plugins: [jekyll-feed, jekyll-paginate-v2, jekyll-seo-tag, jekyll-sitemap]
 
 # Tracking
@@ -40,15 +41,15 @@ sumo-site-id: d1640d1e25d422b2dececeb749db8ca19998f2a44e94b8b2bceaa9e216c26dad
 
 #SEO plugins infos
 twitter:
-  username: gladysproject
-logo: /assets/images/presentation/facebook_share_gladys.png
+  username: gladysassistant
+logo: /assets/images/presentation/gladys-og-image.png
 social:
-  name: Gladys Project
+  name: Gladys Assistant
   links:
-    - https://twitter.com/gladysproject
-    - https://www.facebook.com/gladysproject
-    - https://www.instagram.com/gladysproject
-    - https://github.com/gladysproject
+    - https://twitter.com/gladysassistant
+    - https://www.facebook.com/gladysassistant
+    - https://www.instagram.com/gladysassistant
+    - https://github.com/gladysassistant
 
 # Build settings
 markdown: kramdown
@@ -61,14 +62,6 @@ pagination:
   permalink: "/page/:num"
   sort_field: 'date'
   sort_reverse: true
-
-mailchimp:
-  fr: 
-    url: //gladysproject.us10.list-manage.com/subscribe/post?u=2987d27cbb489c6da217450c2&amp;id=e20efa438f
-    key: b_2987d27cbb489c6da217450c2_e20efa438f
-  en:
-    url: //gladysproject.us10.list-manage.com/subscribe/post?u=2987d27cbb489c6da217450c2&amp;id=4c1084579b
-    key: b_2987d27cbb489c6da217450c2_e20efa438f
 
 disqus:
     shortname: gladys-project

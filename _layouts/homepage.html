@@ -3,40 +3,17 @@ layout: default
 ---
 
 <div class="homepage">
-<header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-7">
-                    <div class="header-content">
-                        <div class="header-content-inner">
-                            <h1>{{site.data.i18n[page.lang].homepage.bigTitle}}</h1>
-                            <h4>{{site.data.i18n[page.lang].homepage.smallSentence}}<br />
-                                {{site.data.i18n[page.lang].homepage.smallSentenceLine}}
-                            </h4>
-                            <a href="/{{ page.lang }}/installation" class="btn btn-outline btn-xl page-scroll">{{site.data.i18n[page.lang].homepage.installButton}}</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="device-container">
-                        <div class="device-mockup iphone6_plus portrait white">
-                            <div class="device">
-                                <div class="screen">
-                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                    <img src="/assets/img/iphone-telegram-crop-1x.png"
-                                        srcset="/assets/img/iphone-telegram-crop-2x.png 2x"
-                                        class="img-responsive" alt="Gladys Telegram" />
-                                </div>
-                                <div class="button">
-                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+
+    <section class="section-header-drawing">
+      <img class="drawing" src="/assets/img/gladys-wb-2-light.jpg" srcset="/assets/img/gladys-wb-2.jpg 2x" alt="illustration">
+      <div class="container-right">
+          <h1 class="header-big-title">{{site.data.i18n[page.lang].homepage.bigTitle}}</h1> 
+          <h4>{{site.data.i18n[page.lang].homepage.smallSentence}}</h4>
+          <h4>{{site.data.i18n[page.lang].homepage.smallSentenceLine}}</h4>
+        </h4>
+          <a href="/{{ page.lang }}/installation" class="btn btn-lg btn-install">{{site.data.i18n[page.lang].homepage.installButton}}</a>
+      </div>
+    </section>
 
     <section class="section-email-input" >
         <div class="container">
@@ -48,9 +25,9 @@ layout: default
                 
             <div class="col-md-4" >
                     {% if page.lang == 'fr' %}
-                        {% include convertkit-minimal-fr.html %}
+                        {% include email-form-minimal-fr.html %}
                     {% else %}
-                        {% include convertkit-minimal-en.html %}
+                        {% include email-form-minimal-en.html %}
                     {% endif %}
             </div>
         </div>
@@ -242,8 +219,8 @@ layout: default
                     <a href="/{{page.lang}}/contact">{{site.data.i18n[page.lang].homepage.community.contactMe}}</a>.
                 </p>
                 <p>
-                    {{site.data.i18n[page.lang].homepage.community.patreonMessage}}
-                    <a href="https://www.patreon.com/gladysproject/overview">Patreon</a> !
+                    {{site.data.i18n[page.lang].homepage.community.communityPackageMessage}}
+                    <a href="/{{page.lang}}/gladys-community-package">{{site.data.i18n[page.lang].homepage.community.communityPackageLink}}</a> !
                 </p>
             </div>
         </div>
@@ -255,16 +232,54 @@ layout: default
     {% if page.lang == 'fr' %}
         <div class="container">
                 <div class="page-header">
-                    <h2 class="text-center">{{site.data.i18n[page.lang].homepage.starterKit.title}}</h2>
+                    <h2 class="text-center">Le package communauté Gladys</h2>
                 </div>
 
-                {% include starter-pack-panel-large.html %}
+                {% include gladys-community-package-panel-fr.html %}
 
         </div>
 
     {% else %}
-        <div style="margin-top:30px"></div>
+    <div class="container">
+        <div class="page-header">
+            <h2 class="text-center">Gladys Community Package</h2>
+        </div>
+
+        {% include gladys-community-package-panel-en.html %}
+
+    </div>
     {% endif %}
 
 
+    {% if page.lang == 'en' %}
+      <div class="container">
+        <div class="page-header">
+            <h2 class="text-center">Latest News</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+              <img class="img-responsive" 
+                    src="/assets/images/gateway/macbook-mockup-1000.png"  
+                    alt="Gladys starter pack">
+          </div>
+          <div class="col-md-6">
+            <h3 style="margin-top: 40px">Gladys Gateway release <small>Nov, 12th 2018</small></h3>
+            <p>
+               The Gladys Gateway enables you to control your Gladys instance from whenever you are in the world. 
+               Read more about it on the launch post <a href="/{{page.lang}}/gladys-community-package">here</a>.
+            </p>
+            <hr />
+            <h3>Blockstack Integration <small>Nov, 27th 2018</small></h3>
+            <p>
+              You can now easily sync your Gladys Home preferences in the BlockStack network. 
+              Read more about how to install the BlockStack module on the <a href="https://github.com/gladysassistant/gladys-blockstack">gladys-blockstack repository</a>.
+            </p>
+          </div>
+        </div>
+
+  </div>
+
+    {% endif %}
+    
 </div>

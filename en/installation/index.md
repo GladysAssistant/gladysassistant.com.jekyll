@@ -28,7 +28,9 @@ To install Gladys on your Raspberry Pi, you just have to use the pre-built Raspb
 
 The first step is to download Gladys Raspbian image :
 
-[<button class="btn btn-success" id="download-raspbian-image">Download Gladys Raspbian Image for Raspberry Pi</button>](https://bit.ly/gladys-3-8-0-rev2)
+[Download Gladys Raspbian Image for Raspberry Pi on GitHub](https://bit.ly/gladys-3-8-0-rev2)
+
+If the download is slow or not working, you can use our official mirror => [Download Gladys Raspbian Image on Official mirror](https://bit.ly/gladys-3-8-0-rev2-mirror-fr2)
 
 And unzip the downloaded zip file to get a ".img" file.
 
@@ -68,4 +70,4 @@ You should arrive on Gladys web interface where you can configure your account !
 
 #### Manual installation
 
-To install Gladys, you just need to follow the instructions on [GitHub](https://github.com/GladysProject/Gladys).
+To install Gladys, you just need to follow the instructions on [GitHub](https://github.com/gladysassistant/Gladys).

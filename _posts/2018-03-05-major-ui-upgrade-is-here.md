@@ -66,7 +66,7 @@ It means you just have to create one "wake up" scenario, that will be executed f
 
 This upgrade brings lots of little fixes too. For example, when you were using the weather box, you had to enable HTTPS on Gladys in the past because the browser needed your geolocation to calculate the weather. Now, by default, Gladys fallback to your house latitude and longitude if your geolocation is unavailable.
 
-See all fixes in the [CHANGELOG](https://github.com/GladysProject/Gladys/blob/master/CHANGELOG.md).
+See all fixes in the [CHANGELOG](https://github.com/gladysassistant/Gladys/blob/master/CHANGELOG.md).
 
 ### A new Raspbian image
 
@@ -99,7 +99,7 @@ Then, download this backup file on your machine (the `backup-gladys.sql` file). 
 
 ### Flash your SD card
 
-Then, you can now install the new version of Gladys on your SD card. You need to download the new image on the [installation](https://gladysproject.com/en/installation/) page of the website.
+Then, you can now install the new version of Gladys on your SD card. You need to download the new image on the [installation](/en/installation/) page of the website.
 
 Clone this image on your SD card (it may be safer to do that on a new SD card, to avoid losing your old installation if the process goes wrong.). You can follow Gladys main installation tutorial.
 
