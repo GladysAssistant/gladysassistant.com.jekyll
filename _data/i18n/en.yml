@@ -1,5 +1,6 @@
 documentation:
   installation: Installation
+  upgrade: Upgrading Gladys
   configureHouse: Configure your house
   configureDevices: Configure your devices
   accessGladysRemotely: Access Gladys Remotely
