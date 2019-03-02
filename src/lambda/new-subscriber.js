@@ -1,6 +1,7 @@
 const axios = require('axios');
 
 exports.handler = function(event, context, callback) {
+  console.log(event);
   const body = JSON.parse(event.body);
   const listId = body.language === 'fr' ? '1mXJoEWEl' : 'haflMsWmU';
   const accessToken = process.env.EMAIL_LIST_ACCESS_TOKEN;
@@ -20,6 +21,7 @@ exports.handler = function(event, context, callback) {
       });
   })
   .catch((err) => {
+    console.log(err);
     callback(err.response.data);
   });
 }
