@@ -32,7 +32,7 @@ $(function(){
     $("#btnContactUs").click(function(){
         waitingFor = true;
         buttonName = $("#btnContactUs").attr("value");
-        resetPoints("#btnContactUs", 'Poster');
+        resetPoints("#btnContactUs", buttonName);
 
         var msg = {
             name: $('#name').val(),
