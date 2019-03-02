@@ -55,7 +55,7 @@ Petit point sur le porte clé Bluetooth Nut. On me l'a conseillé à la Maker Fa
 
 J'ai donc écris un petit programme, dites bonjour à gladys-bluetooth, disponible sur [GitHub](https://github.com/GladysProject/gladys-bluetooth) ! Ce programme a la particularité de ne pas avoir besoin de Gladys pour tourner. 
 
-Son principe est simple, il scan le Bluetooth, et dès qu'il voit un périphérique il envoie la nouvelle à Gladys via une belle requête HTTP. On peut donc avoir de multiple instances de gladys-bluetooth sur un ensemble de Raspberry Pi Zero distribué, qui remontent l'information à un Raspberry Pi 3 central qui fait tourner Gladys.
+Son principe est simple, il scan le Bluetooth, et dès qu'il voit un périphérique il envoie la nouvelle à Gladys via une simple requête HTTP. On peut donc avoir de multiple instances de gladys-bluetooth sur un ensemble de Raspberry Pi Zero distribué, qui remontent l'information à un Raspberry Pi 3 central qui fait tourner Gladys.
 
 ### Pré-requis
 
