@@ -1,16 +1,15 @@
 ---
-title: Controler Gladys avec Tasker 
+title: Contrôler Gladys avec Tasker
 description: Découvrez comment controler Gladys avec Tasker !
 layout: documentation
 lang: fr
-image: /assets/images/presentation/facebook_share_gladys.png
-permalink: /fr/installation/control-gladys/
+image: /assets/images/presentation/gladys-og-image.png
+permalink: /fr/installation/control-gladys-tasker/
 ---
 
-# Controler Gladys avec son smartphone
+# Contrôler Gladys avec Tasker
 
-
-Maintenant que **Gladys** est installé chez vous, nous allons voir comment paramétrer votre téléphone pour déclencher des actions de manière automatique ou assistée selon le cas. Cet article peut être associé au tutoriel l'utilisation de tags NFC ==> [Des tags NFC pour contrôler Gladys](https://gladysproject.com/fr/article/gladys-and-nfc)
+Maintenant que **Gladys** est installé chez vous, nous allons voir comment paramétrer votre téléphone pour déclencher des actions de manière automatique ou assistée selon le cas. Cet article peut être associé au tutoriel l'utilisation de tags NFC ==> [Des tags NFC pour contrôler Gladys](/fr/article/gladys-and-nfc).
 
 Voici donc les différentes tâches que l'on va mettre en place :
 
@@ -23,6 +22,7 @@ Voici donc les différentes tâches que l'on va mettre en place :
 **Note 2** : L'ensemble des automatisations sont prévues pour un contexte particulier, il se peut que vous ayez à les modifier pour les adapter au vôtre.
 
 **Pré-requis :**
+
  - Un token Gladys
  - Tasker
 
