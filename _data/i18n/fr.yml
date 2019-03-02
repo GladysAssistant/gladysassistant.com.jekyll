@@ -5,6 +5,7 @@ documentation:
   configureDevices: Configuration des périphériques
   accessGladysRemotely: Accéder à Gladys à distance
   talkingToGladys: Parler à Gladys
+  controlGladysTasker: Contrôler Gladys avec Tasker
   developModule: Développer un module
   developScript: Développer un script
   httpApi: L'API REST
