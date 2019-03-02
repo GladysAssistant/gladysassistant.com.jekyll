@@ -62,5 +62,6 @@
   force = true
 
 [build]
-  Functions = "_site/lambda"
-  Command = "npm run build:lambda"
+  Functions = "lambda"
+  publish = "_site"
+  Command = "npm run build"

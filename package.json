@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Pierre-Gilles Leymarie",
   "scripts": {
+    "build": "gulp build && mkdir _comments && rake disquscomments && JEKYLL_ENV=production bundle exec jekyll build && npm run build:lambda",
     "start:lambda": "netlify-lambda serve src/lambda",
     "build:lambda": "netlify-lambda build src/lambda"
   },
