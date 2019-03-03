@@ -141,6 +141,8 @@ On pourrait découper les chantiers restants en 3 phases :
 
 **Phase 3:** Faire une série de tests au niveau du build Docker + de nos process de déploiements. Mettre en place les bons process pour qu'il soit super simple d'installer et mettre à jour Gladys 4.
 
+Bien entendu, tout le code de Gladys 4 est disponible en open-source [sur GitHub](https://github.com/GladysAssistant/gladys-4-playground)! N'hésitez pas à tester, ou donner un coup de main, ce sera avec plaisir !
+
 ## Conclusion
 
 Comme vous pouvez le voir, Gladys 4 est en très bonne voie et s'annonce prometteur! 🙂
