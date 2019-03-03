@@ -8,7 +8,7 @@ locale: fr_FR
 image: /assets/images/presentation/avancement-gladys-4.jpg
 categories:
 - blog
-permalink: /fr/article/controler-gladys-avec-siri
+permalink: /fr/article/etat-avancement-gladys-4
 ---
 
 Salut à tous,
