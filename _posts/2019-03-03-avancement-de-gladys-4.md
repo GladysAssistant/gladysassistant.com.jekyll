@@ -44,7 +44,7 @@ Les librairies sont choisies avec soin pour que Gladys soit peu gourmande en res
 
 Grâce à SQlite, il sera plus facile de déployer Gladys car l'utilisateur n'aura pas à gérer l'installation ni la maintenance de MariaDB.
 
-Concernant les sauvegardes/restaurations, une base de donnée SQlite n'est composé que d'un fichier, il est donc très simple de le sauvegarder/restaurer. Il sera encore plus facile d'automatiser cette sauvegarder directement au niveau de Gladys, pour l'envoyer par exemple en chiffré sur le Gateway.
+Concernant les sauvegardes/restaurations, une base de donnée SQlite n'est composé que d'un fichier, il est donc très simple de le sauvegarder/restaurer. Il sera encore plus facile d'automatiser cette sauvegarde directement au niveau de Gladys, pour l'envoyer par exemple en chiffré sur le Gateway.
 
 Je le rappelle, l'objectif de Gladys 4 est de faire un produit simple à l'installation, à l'utilisation et à la maintenance.
 
