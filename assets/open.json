@@ -263,6 +263,10 @@
         {
           "name": "Gladys Community Package",
           "value": 1086
+        },
+        {
+          "name": "Blockstack App Mining",
+          "value": 880
         }
       ]
     },
