@@ -284,6 +284,10 @@
         {
           "name": "Gladys Community Package",
           "value": 954
+        },
+        {
+          "name": "Blockstack App Mining",
+          "value": 1099
         }
       ]
     },
@@ -305,6 +309,35 @@
         {
           "name": "Gladys Community Package",
           "value": 932
+        },
+        {
+          "name": "Blockstack App Mining",
+          "value": 4194
+        }
+      ]
+    },
+    {
+      "month": "03-2019",
+      "sources": [
+        {
+          "name": "Selz",
+          "value": 268
+        },
+        {
+          "name": "Amazon Affiliate",
+          "value": 38
+        },
+        {
+          "name": "Patreon",
+          "value": 214
+        },
+        {
+          "name": "Gladys Community Package",
+          "value": 1013
+        },
+        {
+          "name": "Blockstack App Mining",
+          "value": 10240
         }
       ]
     }
