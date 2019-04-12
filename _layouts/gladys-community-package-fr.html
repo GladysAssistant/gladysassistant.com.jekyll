@@ -388,9 +388,9 @@
 	</body>
 	
 	{% if jekyll.environment == "production" %}
-		{% include google-analytics.html %}
+    {% include google-analytics.html %}
+    {% include fathom-analytics.html %}
     {% include pixel.html %}
-    {% include drift.html %}
   {% endif %}
 	
 	<script>
