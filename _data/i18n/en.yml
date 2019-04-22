@@ -42,7 +42,7 @@ footer:
 homepage:
   bigTitle: Gladys, your home assistant
   smallSentence: Gladys is an open-source program which runs on your Raspberry Pi.
-  smallSentenceLine: She integrates into your life, seamlessly communicating across your entire home network and your devices while checking you calendar.
+  smallSentenceLine: She integrates into your life, seamlessly communicating across your entire home network and your devices while checking your calendar.
   installButton: Install
   sentenceEmail: Join the community, and receive news about the project !
   sentenceEmailLine1: You are more than 35 000 who have downloaded Gladys.
