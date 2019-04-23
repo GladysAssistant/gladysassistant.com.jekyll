@@ -58,6 +58,8 @@ And select option 1 => "1\. Expand Filesystem". The system will ask you to reboo
 
 And that's all ! Gladys is ready :)
 
+**NOTE:** We don't release a full Raspbian image for each little Gladys release, so your Gladys installation is probably outdated from a few version. We recommended executing the upgrade script after installing the Raspbian image. See [Upgrading Gladys](/en/installation/upgrading-gladys/).
+
 ### Accessing Gladys
 
 To access Gladys, open your favorite browser, on any computer on the local network your Raspberry Pi is connected. Then enter the URL :

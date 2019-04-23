@@ -85,6 +85,8 @@ Vous devriez arriver sur l'interface de Gladys. Vous pouvez désormais configure
 
 **Note 2:** Si vous avez un quelconque problème lors de l'installation, n'hésitez pas à venir en parler sur le [forum Gladys](https://community.gladysassistant.com/), en général quelqu'un vous répondra assez rapidement !
 
+**Note 3:** Nous ne créons pas une nouvelle image Raspbian Gladys pour chaque mise à jour de Gladys car cela prend du temps. La version installée par défaut sur l'image Raspbian est donc en retard de quelques version. Nous conseillons de lancer le script de mise à jour avoir installé l'image. Voir la page [mettre à jour Gladys](/fr/installation/upgrading-gladys/).
+
 #### Installation manuelle depuis GitHub
 
 Pour installer Gladys manuellement (sur Linux, Mac, ou Windows), il suffit de suivre les instructions sur le [GitHub du projet Gladys](https://github.com/gladysassistant/Gladys).
