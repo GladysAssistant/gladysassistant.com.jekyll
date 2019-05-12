@@ -344,6 +344,31 @@
           "value": 10240
         }
       ]
+    },
+    {
+      "month": "04-2019",
+      "sources": [
+        {
+          "name": "Selz",
+          "value": 267
+        },
+        {
+          "name": "Amazon Affiliate",
+          "value": 62
+        },
+        {
+          "name": "Patreon",
+          "value": 195
+        },
+        {
+          "name": "Gladys Community Package",
+          "value": 908
+        },
+        {
+          "name": "Blockstack App Mining",
+          "value": 16000
+        }
+      ]
     }
   ]
 }
