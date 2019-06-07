@@ -23,11 +23,11 @@ Voilà un premier tutoriel vidéo pour installer Gladys facilement sur un Raspbe
 
 <br>
 
-Si vous avez des questions, des difficultés à installer Gladys, que vous souhaitez participer au développement du projet, rejoignez la communauté sur le forum Gladys (+600 inscrits déjà!) => [https://community.gladysassistant.com/](https://community.gladysassistant.com/).
+Si vous avez des questions, des difficultés à installer Gladys, que vous souhaitez participer au développement du projet, rejoignez la communauté sur le forum Gladys (+2 000 inscrits déjà!) => [https://community.gladysassistant.com/](https://community.gladysassistant.com/).
 
 Merci à tous de supporter et de suivre le projet avec tant d'ardeur, c'est grâce à vous que le projet va si loin !
 
 [Pierre-Gilles Leymarie](https://pierregillesleymarie.com/)  
 Fondateur du projet Gladys
 
- {% include starter-pack-panel-large.html %}
+{% include gladys-community-package-panel-fr.html %}

@@ -7,43 +7,44 @@ layout: default
 
     {% for product in site.data.hardware[page.lang] %}
 
-        <div class="col-xs-12 col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-image">
-                    <img class="img-responsive" src="/assets/images/products/{{product.img}}" alt="" />
-                </div>
-                <div class="panel-body">
-                    <h4>{{ product.name }}</h4>
-                    <p class="product-description">{{ product.description }}</p>
-                </div>
-                <div class="panel-footer text-center">
-                    {% if product.tutorial %}
-                        <a href="{{ product.tutorial }}" target="_blank" >Tutorial</a> -
-                    {% endif %}
-                    <a href="{{product.url }}" rel="nofollow" target="_blank" onclick="productClick('{{ product.link }}');" >Link</a>
-
-                </div>
-            </div>
+    <div class="col-xs-12 col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-image">
+          <img class="img-responsive" src="/assets/images/products/{{product.img}}" alt="" />
         </div>
+        <div class="panel-body">
+          <h4>{{ product.name }}</h4>
+          <p class="product-description">{{ product.description }}</p>
+        </div>
+        <div class="panel-footer text-center">
+          {% if product.tutorial %}
+          <a href="{{ product.tutorial }}" target="_blank">Tutorial</a> -
+          {% endif %}
+          <a href="{{product.url }}" rel="nofollow" target="_blank"
+            onclick="productClick('{{ product.link }}');">Link</a>
+
+        </div>
+      </div>
+    </div>
     {% assign positionInRow = forloop.index | modulo:3 %}
 
-    {% if positionInRow == 0 and forloop.index != 0 %} 
-        </div>
+    {% if positionInRow == 0 and forloop.index != 0 %}
+  </div>
 
-        <div class="row">
+  <div class="row">
     {% endif %}
 
     {% endfor %}
 
-</div>
+  </div>
 
-    {% if page.lang == 'fr' %}
-        <div class="row">
-            <div class="col-md-12">
-                {% include starter-pack-panel-large.html %}
-            </div>
-        </div>
-    {% endif %}
+  {% if page.lang == 'en' %}
+  <div class="row">
+    <div class="col-md-12">
+      {% include gladys-community-package-panel-en.html %}
+    </div>
+  </div>
+  {% endif %}
 
-    {% include comments.html %}
+  {% include comments.html %}
 </div>

@@ -2,211 +2,224 @@
 layout: default
 ---
 
-<link href="/assets/css/flexboxgrid.min.css"  rel="stylesheet" />
- 
+<link href="/assets/css/flexboxgrid.min.css" rel="stylesheet" />
+
 <div class="container" id="devices-list" style="margin-top: 80px">
 
   <div class="row">
     <p class="bg-info" style="padding: 8px; font-size: 14px; width: 100%">
-      Cette page est alimentée par la communauté Gladys via une spreadsheet en ligne <a href="https://airtable.com/invite/l?inviteId=inv8SCsDRYxGcxDLk&inviteToken=2032aaa3f0103b8705583602c733e82822fa78572bc6f1dd2953f03cfff9cb08">accessible publiquement</a>! 
+      Cette page est alimentée par la communauté Gladys via une spreadsheet en ligne <a
+        href="https://airtable.com/invite/l?inviteId=inv8SCsDRYxGcxDLk&inviteToken=2032aaa3f0103b8705583602c733e82822fa78572bc6f1dd2953f03cfff9cb08">accessible
+        publiquement</a>!
       <br />Pour avoir un accès en écriture à cette spreadsheet, veuillez vous rendre sur le forum Gladys 🙂
     </p>
   </div>
 
   <div class="row">
     <div class="col-md-2">
-        <div class="form-group">
-          <input type="text" class="form-control search" placeholder="Recherche..." />
+      <div class="form-group">
+        <input type="text" class="form-control search" placeholder="Recherche..." />
+      </div>
+
+      <div class="form-group" style="margin-top: 25px">
+        <h4>Types</h4>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="Lampes" onchange="filter('Lampes')" id="Lampes">
+            Lampes
+          </label>
         </div>
-
-        <div class="form-group" style="margin-top: 25px">
-          <h4>Types</h4>
-
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Lampes" onchange="filter('Lampes')" id="Lampes">
-              Lampes
-            </label>
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Capteurs"  onchange="filter('Capteurs')" id="Capteurs">
-              Capteurs
-            </label>
-          </div>
-          <div class="checkbox">
-              <label>
-                <input type="checkbox" value="Raspberry Pi"  onchange="filter('Raspberry Pi')" id="Raspberry Pi">
-                Raspberry Pi
-              </label>
-          </div>
-          <div class="checkbox">
-              <label>
-                <input type="checkbox" value="Musique"  onchange="filter('Musique')" id="Musique">
-                Musique
-              </label>
-          </div>
-          <div class="checkbox">
-              <label>
-                <input type="checkbox" value="Caméra"  onchange="filter('Caméra')" id="Caméra">
-                Caméra
-              </label>
-          </div>
-          <div class="checkbox">
-              <label>
-                <input type="checkbox" value="Microphone"  onchange="filter('Microphone')" id="Microphone">
-                Microphone
-              </label>
-          </div>
-          <div class="checkbox">
-              <label>
-                <input type="checkbox" value="Home Cinéma"  onchange="filter('Home Cinéma')" id="Home Cinéma">
-                Home Cinéma
-              </label>
-          </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="Capteurs" onchange="filter('Capteurs')" id="Capteurs">
+            Capteurs
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="Raspberry Pi" onchange="filter('Raspberry Pi')" id="Raspberry Pi">
+            Raspberry Pi
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="Musique" onchange="filter('Musique')" id="Musique">
+            Musique
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="Caméra" onchange="filter('Caméra')" id="Caméra">
+            Caméra
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="Microphone" onchange="filter('Microphone')" id="Microphone">
+            Microphone
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="Home Cinéma" onchange="filter('Home Cinéma')" id="Home Cinéma">
+            Home Cinéma
+          </label>
+        </div>
       </div>
 
       <div class="form-group" style="margin-top: 25px">
         <h4>Technologies</h4>
 
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Z-Wave"  onchange="filter('Z-Wave')" id="Z-Wave">
-              Z-Wave
-            </label>
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="Wi-Fi"  onchange="filter('Wi-Fi')" id="Wi-Fi">
-              Wi-Fi
-            </label>
-          </div>
-          <div class="checkbox">
-              <label>
-                <input type="checkbox" value="Bluetooth"  onchange="filter('Bluetooth')" id="Bluetooth">
-                Bluetooth
-              </label>
-          </div>
-          <div class="checkbox">
-              <label>
-                <input type="checkbox" value="rf"  onchange="filter('rf')" id="rf">
-                RF 433Mhz
-              </label>
-          </div>
-          <div class="checkbox">
-              <label>
-                <input type="checkbox" value="EnOcean"  onchange="filter('EnOcean')" id="EnOcean">
-                EnOcean
-              </label>
-          </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="Z-Wave" onchange="filter('Z-Wave')" id="Z-Wave">
+            Z-Wave
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="Wi-Fi" onchange="filter('Wi-Fi')" id="Wi-Fi">
+            Wi-Fi
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="Bluetooth" onchange="filter('Bluetooth')" id="Bluetooth">
+            Bluetooth
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="rf" onchange="filter('rf')" id="rf">
+            RF 433Mhz
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="EnOcean" onchange="filter('EnOcean')" id="EnOcean">
+            EnOcean
+          </label>
+        </div>
       </div>
 
       <div class="form-group" style="margin-top: 25px">
-          <h4>Black Friday</h4>
-  
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" value="Promotion"  onchange="filter('Promotion')" id="Promotion">
-                Promotions
-              </label>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-10">
-        <div class="row list">
+        <h4>Black Friday</h4>
 
-            {% for product in site.data.hardware-crowdsourced[page.lang] %}
-        
-                <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-image">
-                            <img class="img-responsive" src="/assets/images/products-crowdsourced/{{product.img_file}}" alt="{{product.name}}" style="max-height: 200px;" />
-                        </div>
-                        <div class="panel-body">
-                            <h4 class="name">{{ product.name }}  
-                              {% if product.discount_price %}
-                                <small>{{product.discount_price }} € <s>{{product.price }} € </s></small> 
-                              {% else %}
-                                <small>{{product.price }} €</small> 
-                              {% endif %}
-                            </h4>
-                            {% if product.categories.size > 0 %}
-                              <div style="margin-bottom: 10px">
-                                  {% for category in product.categories %}
-                                    <span class="label label-default">{{category}}</span>
-                                  {% endfor %}
-                              </div>
-                            {% endif %}
-                            <span style="display: none" class="categories">{{product.categoriesFlatten}}</span>
-                            <p class="product-description description">{{ product.description }}</p>
-
-                            <div class="row">
-                              <div class="col-xs-6">
-                                <a rel="nofollow" target="_blank" onclick="productClick('{{ product.link }}');" href="{{ product.amazon_link }}" class="btn btn-success btn-block" style="border-radius: 3px;">Acheter</a>
-                              </div>
-                              {% if product.gladys_tutorial %}
-                              <div class="col-xs-6">
-                                  <a href="{{ product.gladys_tutorial }}" class="btn btn-default btn-block" style="border-radius: 3px;">Tutoriel</a>
-                              </div>
-                              {% endif %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %}
-        
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="Promotion" onchange="filter('Promotion')" id="Promotion">
+            Promotions
+          </label>
         </div>
       </div>
-  </div>
-  
+    </div>
+    <div class="col-md-10">
+      <div class="row list">
 
-    {% if page.lang == 'frd' %}
-        <div class="row">
-            <div class="col-md-12">
-                {% include starter-pack-panel-large.html %}
+        {% for product in site.data.hardware-crowdsourced[page.lang] %}
+
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-image">
+              <img class="img-responsive" src="/assets/images/products-crowdsourced/{{product.img_file}}"
+                alt="{{product.name}}" style="max-height: 200px;" />
             </div>
-        </div>
-    {% endif %}
+            <div class="panel-body">
+              <h4 class="name">{{ product.name }}
+                {% if product.discount_price %}
+                <small>{{product.discount_price }} € <s>{{product.price }} € </s></small>
+                {% else %}
+                <small>{{product.price }} €</small>
+                {% endif %}
+              </h4>
+              {% if product.categories.size > 0 %}
+              <div style="margin-bottom: 10px">
+                {% for category in product.categories %}
+                <span class="label label-default">{{category}}</span>
+                {% endfor %}
+              </div>
+              {% endif %}
+              <span style="display: none" class="categories">{{product.categoriesFlatten}}</span>
+              <p class="product-description description">{{ product.description }}</p>
 
-    {% include comments.html %}
+              <div class="row">
+                <div class="col-xs-6">
+                  <a rel="nofollow" target="_blank" onclick="productClick('{{ product.link }}');"
+                    href="{{ product.amazon_link }}" class="btn btn-success btn-block"
+                    style="border-radius: 3px;">Acheter</a>
+                </div>
+                {% if product.gladys_tutorial %}
+                <div class="col-xs-6">
+                  <a href="{{ product.gladys_tutorial }}" class="btn btn-default btn-block"
+                    style="border-radius: 3px;">Tutoriel</a>
+                </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+
+
+  {% if page.lang == 'fr' %}
+  <div class="row">
+    <div class="col-md-12">
+      {% include gladys-community-package-panel-fr.html %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if page.lang == 'en' %}
+  <div class="row">
+    <div class="col-md-12">
+      {% include gladys-community-package-panel-en.html %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% include comments.html %}
 </div>
 
 <script src="/assets/js/list.min.js"></script>
 
 <script>
-
   var options = {
-    valueNames: [ 'name', 'description', 'categories']
+    valueNames: ['name', 'description', 'categories']
   };
 
   var hackerList = new List('devices-list', options);
 
   var filters = [];
 
-  function filter(param){
+  function filter(param) {
     var x = document.getElementById(param);
-    if(x.checked) {
+    if (x.checked) {
       filters.push(param);
     } else {
-      filters = filters.filter(function(item) {
+      filters = filters.filter(function (item) {
         return (item != param);
       });
     }
 
-    if(filters.length === 0 ) {
+    if (filters.length === 0) {
       return hackerList.filter();
     }
 
-    hackerList.filter(function(item) {
+    hackerList.filter(function (item) {
       var found = false;
       var i = 0;
-      while(!found && i < filters.length) {
-        if(item.values().categories.indexOf(filters[i]) !== -1) {
+      while (!found && i < filters.length) {
+        if (item.values().categories.indexOf(filters[i]) !== -1) {
           found = true;
-        } 
+        }
         i++;
       }
-      
+
       return found;
     });
   }

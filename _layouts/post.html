@@ -5,59 +5,62 @@ comments: true
 
 <div class="container container-post">
 
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <div class="post-header">
-          <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-          <p class="post-meta">
-            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-              {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-              {{ page.date | date: date_format }}
-            </time>
-            {% if page.author %}
-              • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-            {% endif %}</p>
+    <div class="post-header">
+      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          {{ page.date | date: date_format }}
+        </time>
+        {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span
+            itemprop="name">{{ page.author }}</span></span>
+        {% endif %}</p>
 
 
-            {% include share-buttons.html %}
-        </div>
-
-        <div class="row">
-             <div class="col-lg-8">
-                <div class="post-content" itemprop="articleBody">
-                  {{ content }}
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="well subscribe-right-box">
-                  <h4 class="">{{ site.data.i18n[page.lang].article.joinReader.title }}</h4>
-                    <p>{{ site.data.i18n[page.lang].article.joinReader.description }}</p>
-
-                    {% if page.lang == 'fr' %}
-                      {% include email-form-minimal-fr.html %}
-                    {% else %}
-                      {% include email-form-minimal-en.html %}
-                   {% endif %} 
-              </div>
-
-                <!-- Blog Categories Well -->
-                 {% if page.lang == 'fr' %}
-                    {% include starter-pack-panel.html %}
-                {% endif %}
-            </div>
-        </div>
-
-      {% if page.lang == 'fr' %}
-          <div class="row">
-              <div class="col-md-12">
-                  {% include starter-pack-panel-large.html %}
-              </div>
-          </div>
-      {% endif %}
-
-        {% include comments.html %}
-      </article>
-
-   
+      {% include share-buttons.html %}
     </div>
 
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="post-content" itemprop="articleBody">
+          {{ content }}
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="well subscribe-right-box">
+          <h4 class="">{{ site.data.i18n[page.lang].article.joinReader.title }}</h4>
+          <p>{{ site.data.i18n[page.lang].article.joinReader.description }}</p>
+
+          {% if page.lang == 'fr' %}
+          {% include email-form-minimal-fr.html %}
+          {% else %}
+          {% include email-form-minimal-en.html %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    {% if page.lang == 'fr' %}
+    <div class="row">
+      <div class="col-md-12">
+        {% include gladys-community-package-panel-fr.html %}
+      </div>
+    </div>
+    {% endif %}
+
+    {% if page.lang == 'en' %}
+    <div class="row">
+      <div class="col-md-12">
+        {% include gladys-community-package-panel-en.html %}
+      </div>
+    </div>
+    {% endif %}
+
+    {% include comments.html %}
+  </article>
+
+
+</div>
