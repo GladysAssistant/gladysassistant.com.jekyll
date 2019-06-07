@@ -4,282 +4,251 @@ layout: default
 
 <div class="homepage">
 
-    <section class="section-header-drawing">
-      <img class="drawing" src="/assets/img/gladys-wb-2-light.jpg" srcset="/assets/img/gladys-wb-2.jpg 2x" alt="illustration">
-      <div class="container-right">
-          <h1 class="header-big-title">{{site.data.i18n[page.lang].homepage.bigTitle}}</h1> 
-          <h4>{{site.data.i18n[page.lang].homepage.smallSentence}}</h4>
-          <h4>{{site.data.i18n[page.lang].homepage.smallSentenceLine}}</h4>
-        </h4>
-          <a href="/{{ page.lang }}/installation" class="btn btn-lg btn-install">{{site.data.i18n[page.lang].homepage.installButton}}</a>
+  <section class="section-header-drawing">
+    <img class="drawing" src="/assets/img/gladys-wb-2-light.jpg" srcset="/assets/img/gladys-wb-2.jpg 2x"
+      alt="illustration">
+    <div class="container-right">
+      <h1 class="header-big-title">{{site.data.i18n[page.lang].homepage.bigTitle}}</h1>
+      <h4>{{site.data.i18n[page.lang].homepage.smallSentence}}</h4>
+      <h4>{{site.data.i18n[page.lang].homepage.smallSentenceLine}}</h4>
+      </h4>
+      <a href="/{{ page.lang }}/installation"
+        class="btn btn-lg btn-install">{{site.data.i18n[page.lang].homepage.installButton}}</a>
+    </div>
+  </section>
+
+  <section class="section-email-input">
+    <div class="container">
+      <div class="col-md-8">
+        <h3>{{site.data.i18n[page.lang].homepage.sentenceEmail}}</h3>
+        <p>{{site.data.i18n[page.lang].homepage.sentenceEmailLine1}}</p>
+        <p>{{site.data.i18n[page.lang].homepage.sentenceEmailLine2}} 🙂</p>
       </div>
-    </section>
 
-    <section class="section-email-input" >
-        <div class="container">
-            <div class="col-md-8">
-                <h3>{{site.data.i18n[page.lang].homepage.sentenceEmail}}</h3>
-                <p>{{site.data.i18n[page.lang].homepage.sentenceEmailLine1}}</p>
-                <p>{{site.data.i18n[page.lang].homepage.sentenceEmailLine2}} 🙂</p>
-            </div>
-                
-            <div class="col-md-4" >
-                    {% if page.lang == 'fr' %}
-                        {% include email-form-minimal-fr.html %}
-                    {% else %}
-                        {% include email-form-minimal-en.html %}
-                    {% endif %}
-            </div>
-        </div>
-    </section>
+      <div class="col-md-4">
+        {% if page.lang == 'fr' %}
+        {% include email-form-minimal-fr.html %}
+        {% else %}
+        {% include email-form-minimal-en.html %}
+        {% endif %}
+      </div>
+    </div>
+  </section>
 
 
 
-    <!-- TIMELINE -->
+  <!-- TIMELINE -->
 
-        
-<div class="container">
+
+  <div class="container">
     <div class="page-header">
-        <h2 class="text-center">{{site.data.i18n[page.lang].homepage.features.title}}</h2>
+      <h2 class="text-center">{{site.data.i18n[page.lang].homepage.features.title}}</h2>
     </div>
     <ul class="timeline">
-        <li>
-          <div class="timeline-badge"><i class="far fa-clock"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">{{site.data.i18n[page.lang].homepage.features.wakeUp.title}}</h4>
-            </div>
-            <div class="timeline-body">
-              <p>{{site.data.i18n[page.lang].homepage.features.wakeUp.text}}</p>
-            </div>
+      <li>
+        <div class="timeline-badge"><i class="far fa-clock"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">{{site.data.i18n[page.lang].homepage.features.wakeUp.title}}</h4>
           </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge warning"><i class="fa fa-rss"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">{{site.data.i18n[page.lang].homepage.features.controlHouse.title}}</h4>
-            </div>
-            <div class="timeline-body">
-              <p>{{site.data.i18n[page.lang].homepage.features.controlHouse.text}}</p>
-            </div>
+          <div class="timeline-body">
+            <p>{{site.data.i18n[page.lang].homepage.features.wakeUp.text}}</p>
           </div>
-        </li>
-        <li>
-          <div class="timeline-badge success"><i class="far fa-calendar-alt"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">{{site.data.i18n[page.lang].homepage.features.scenario.title}}</h4>
-            </div>
-            <div class="timeline-body">
-              <p>{{site.data.i18n[page.lang].homepage.features.scenario.text}}</p>
-            </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge warning"><i class="fa fa-rss"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">{{site.data.i18n[page.lang].homepage.features.controlHouse.title}}</h4>
           </div>
-        </li>
-        <li class="timeline-inverted">
-            <div class="timeline-badge danger"><i class="fa fa-heart"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">{{site.data.i18n[page.lang].homepage.features.sleep.title}}</h4>
-            </div>
-            <div class="timeline-body">
-              <p>{{site.data.i18n[page.lang].homepage.features.sleep.text}}</p>
-            </div>
+          <div class="timeline-body">
+            <p>{{site.data.i18n[page.lang].homepage.features.controlHouse.text}}</p>
           </div>
-        </li>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge success"><i class="far fa-calendar-alt"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">{{site.data.i18n[page.lang].homepage.features.scenario.title}}</h4>
+          </div>
+          <div class="timeline-body">
+            <p>{{site.data.i18n[page.lang].homepage.features.scenario.text}}</p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge danger"><i class="fa fa-heart"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">{{site.data.i18n[page.lang].homepage.features.sleep.title}}</h4>
+          </div>
+          <div class="timeline-body">
+            <p>{{site.data.i18n[page.lang].homepage.features.sleep.text}}</p>
+          </div>
+        </div>
+      </li>
     </ul>
-</div>
+  </div>
 
-<!-- TIMELINE -->
+  <!-- TIMELINE -->
 
-    <div class="container">
-            <div class="page-header">
-                <h2 class="text-center">{{site.data.i18n[page.lang].homepage.hardware.title}}</h2>
-            </div>
-				
-					<div class="row">
-						<div class="col-sm-3 text-center feature">
-                            <img alt="{{site.data.i18n[page.lang].homepage.hardware.raspberryPi.title}}" class="img-responsive" 
-                                src="/assets/images/products/raspberry-pi-1x.jpg"
-                                 srcset="/assets/images/products/raspberry-pi.jpg 2x"    
-                            >
-							<h5>{{site.data.i18n[page.lang].homepage.hardware.raspberryPi.title}}</h5>
-							<p>
-								{{site.data.i18n[page.lang].homepage.hardware.raspberryPi.description}}
-							</p>
-						</div>
-					
-						<div class="col-sm-3 text-center feature">
-                            <img alt="{{site.data.i18n[page.lang].homepage.hardware.powerOutlet.title}}"  class="img-responsive" 
-                                src="/assets/images/products/rf-plug-phenix-1x.jpg"
-                                srcset="/assets/images/products/rf-plug-phenix.jpg 2x"
-                            >
-							<h5>{{site.data.i18n[page.lang].homepage.hardware.powerOutlet.title}}</h5>
-							<p>
-								{{site.data.i18n[page.lang].homepage.hardware.powerOutlet.description}}
-							</p>
-						</div>
-					
-						<div class="col-sm-3 text-center feature">
-                            <img alt="{{site.data.i18n[page.lang].homepage.hardware.light.title}}"  class="img-responsive" 
-                            src="/assets/images/products/philips-hue-1x.jpg"
-                             srcset="/assets/images/products/philips-hue.jpg 2x"
-                            >
-							<h5>{{site.data.i18n[page.lang].homepage.hardware.light.title}}</h5>
-							<p>
-								{{site.data.i18n[page.lang].homepage.hardware.light.description}}
-							</p>
-                        </div>
-                        
-                        <div class="col-sm-3 text-center feature">
-                            <img alt="{{site.data.i18n[page.lang].homepage.hardware.music.title}}"  class="img-responsive" 
-                                src="/assets/images/products/sonos-play-1-1x.jpg"
-                                srcset="/assets/images/products/sonos-play-1.jpg 2x"
-                            >
-							<h5>{{site.data.i18n[page.lang].homepage.hardware.music.title}}</h5>
-							<p>
-								{{site.data.i18n[page.lang].homepage.hardware.music.description}}
-							</p>
-						</div>
-                    </div>
-                    
-
+  <div class="container">
+    <div class="page-header">
+      <h2 class="text-center">{{site.data.i18n[page.lang].homepage.hardware.title}}</h2>
     </div>
 
-    <div class="container values">
-  
-        <div class="page-header">
-            <h2 class="text-center">{{site.data.i18n[page.lang].homepage.values.title}}</h2>
-        </div>
-  
-          <div class="row">
-  
-            <div class="col-lg-4 col-md-6 box">
-              <div class="icon"><i class="fab fa-osi"></i></div>
-              <h4 class="title">{{site.data.i18n[page.lang].homepage.values.opensource.title}}</h4>
-              <p class="description">{{site.data.i18n[page.lang].homepage.values.opensource.description}}</p>
-            </div>
-            <div class="col-lg-4 col-md-6 box">
-                <div class="icon"><i class="fas fa-desktop"></i></div>
-                <h4 class="title">{{site.data.i18n[page.lang].homepage.values.design.title}}</h4>
-                <p class="description">{{site.data.i18n[page.lang].homepage.values.design.description}}</p>
-            </div>
-            <div class="col-lg-4 col-md-6 box">
-                <div class="icon"><i class="fas fa-child"></i></div>
-                <h4 class="title">{{site.data.i18n[page.lang].homepage.values.community.title}}</h4>
-                <p class="description">{{site.data.i18n[page.lang].homepage.values.community.description}}</p>
-            </div>
-            <div class="col-lg-4 col-md-6 box">
-                <div class="icon"><i class="fas fa-bolt"></i></div>
-                <h4 class="title">{{site.data.i18n[page.lang].homepage.values.performance.title}}</h4>
-                <p class="description">{{site.data.i18n[page.lang].homepage.values.performance.description}}</p>
-            </div>
-            <div class="col-lg-4 col-md-6 box" >
-                <div class="icon"><i class="fas fa-user-secret"></i></div>
-                <h4 class="title">{{site.data.i18n[page.lang].homepage.values.privacy.title}}</h4>
-                <p class="description">{{site.data.i18n[page.lang].homepage.values.privacy.description}}</p>
-            </div>
-            <div class="col-lg-4 col-md-6 box" >
-                <div class="icon"><i class="fas fa-magic"></i></div>
-                <h4 class="title">{{site.data.i18n[page.lang].homepage.values.magic.title}}</h4>
-                <p class="description">{{site.data.i18n[page.lang].homepage.values.magic.description}}</p>
-            </div>
-            
-          </div>
-  
+    <div class="row">
+      <div class="col-sm-3 text-center feature">
+        <img alt="{{site.data.i18n[page.lang].homepage.hardware.raspberryPi.title}}" class="img-responsive"
+          src="/assets/images/products/raspberry-pi-1x.jpg" srcset="/assets/images/products/raspberry-pi.jpg 2x">
+        <h5>{{site.data.i18n[page.lang].homepage.hardware.raspberryPi.title}}</h5>
+        <p>
+          {{site.data.i18n[page.lang].homepage.hardware.raspberryPi.description}}
+        </p>
+      </div>
+
+      <div class="col-sm-3 text-center feature">
+        <img alt="{{site.data.i18n[page.lang].homepage.hardware.powerOutlet.title}}" class="img-responsive"
+          src="/assets/images/products/rf-plug-phenix-1x.jpg" srcset="/assets/images/products/rf-plug-phenix.jpg 2x">
+        <h5>{{site.data.i18n[page.lang].homepage.hardware.powerOutlet.title}}</h5>
+        <p>
+          {{site.data.i18n[page.lang].homepage.hardware.powerOutlet.description}}
+        </p>
+      </div>
+
+      <div class="col-sm-3 text-center feature">
+        <img alt="{{site.data.i18n[page.lang].homepage.hardware.light.title}}" class="img-responsive"
+          src="/assets/images/products/philips-hue-1x.jpg" srcset="/assets/images/products/philips-hue.jpg 2x">
+        <h5>{{site.data.i18n[page.lang].homepage.hardware.light.title}}</h5>
+        <p>
+          {{site.data.i18n[page.lang].homepage.hardware.light.description}}
+        </p>
+      </div>
+
+      <div class="col-sm-3 text-center feature">
+        <img alt="{{site.data.i18n[page.lang].homepage.hardware.music.title}}" class="img-responsive"
+          src="/assets/images/products/sonos-play-1-1x.jpg" srcset="/assets/images/products/sonos-play-1.jpg 2x">
+        <h5>{{site.data.i18n[page.lang].homepage.hardware.music.title}}</h5>
+        <p>
+          {{site.data.i18n[page.lang].homepage.hardware.music.description}}
+        </p>
+      </div>
     </div>
 
-    <div class="container">
-        <div class="page-header">
-            <h2 class="text-center">{{site.data.i18n[page.lang].homepage.community.title}}</h2>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row images-row">
-                    <div class="col-xs-12">
-                        <img id="homepage-community-large-img" src="/assets/images/homepage/insta-talk-algolia-low.jpg" srcset="/assets/images/homepage/insta-talk-algolia.jpg 2x" class="img-responsive" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-3"><img src="/assets/images/homepage/insta-gladys-community-low.jpg" srcset="/assets/images/homepage/insta-gladys-community.jpg 2x" class="img-responsive" /></div>
-                    <div class="col-xs-3"><img src="/assets/images/homepage/insta-gladys-talk-montparnasse-low.jpg" srcset="/assets/images/homepage/insta-gladys-talk-montparnasse.jpg 2x" class="img-responsive" /></div>
-                    <div class="col-xs-3"><img src="/assets/images/homepage/insta-gladys-talk-utc-low.jpg" srcset="/assets/images/homepage/insta-gladys-talk-utc.jpg 2x" class="img-responsive" /></div>
-                    <div class="col-xs-3"><img src="/assets/images/homepage/insta-gladys-maker-merit-low.jpg" srcset="/assets/images/homepage/insta-gladys-maker-merit.jpg 2x" class="img-responsive" /></div>
-                </div>
-                
-            </div>
-            <div class="col-md-6">
-                <h3>{{site.data.i18n[page.lang].homepage.community.subtitle}}</h3>
-                <p>
-                    {{site.data.i18n[page.lang].homepage.community.firstText}}
-                </p>
-                <p>
-                    {{site.data.i18n[page.lang].homepage.community.secondText}}
-                    <a href="/{{page.lang}}/contact">{{site.data.i18n[page.lang].homepage.community.contactMe}}</a>.
-                </p>
-                <p>
-                    {{site.data.i18n[page.lang].homepage.community.communityPackageMessage}}
-                    <a href="/{{page.lang}}/gladys-community-package">{{site.data.i18n[page.lang].homepage.community.communityPackageLink}}</a> !
-                </p>
-            </div>
-        </div>
-
-    
-    </div>
-
-
-    {% if page.lang == 'fr' %}
-        <div class="container">
-                <div class="page-header">
-                    <h2 class="text-center">Le package communauté Gladys</h2>
-                </div>
-
-                {% include gladys-community-package-panel-fr.html %}
-
-        </div>
-
-    {% else %}
-    <div class="container">
-        <div class="page-header">
-            <h2 class="text-center">Gladys Community Package</h2>
-        </div>
-
-        {% include gladys-community-package-panel-en.html %}
-
-    </div>
-    {% endif %}
-
-
-    {% if page.lang == 'en' %}
-      <div class="container">
-        <div class="page-header">
-            <h2 class="text-center">Latest News</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6">
-              <img class="img-responsive" 
-                    src="/assets/images/gateway/macbook-mockup-1000.png"  
-                    alt="Gladys starter pack">
-          </div>
-          <div class="col-md-6">
-            <h3 style="margin-top: 40px">Gladys Gateway release <small>Nov, 12th 2018</small></h3>
-            <p>
-               The Gladys Gateway enables you to control your Gladys instance from whenever you are in the world. 
-               Read more about it on the launch post <a href="/{{page.lang}}/gladys-community-package">here</a>.
-            </p>
-            <hr />
-            <h3>Blockstack Integration <small>Nov, 27th 2018</small></h3>
-            <p>
-              You can now easily sync your Gladys Home preferences in the BlockStack network. 
-              Read more about how to install the BlockStack module on the <a href="https://github.com/gladysassistant/gladys-blockstack">gladys-blockstack repository</a>.
-            </p>
-          </div>
-        </div>
 
   </div>
 
-    {% endif %}
-    
+  <div class="container values">
+
+    <div class="page-header">
+      <h2 class="text-center">{{site.data.i18n[page.lang].homepage.values.title}}</h2>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 box">
+        <div class="icon"><i class="fab fa-osi"></i></div>
+        <h4 class="title">{{site.data.i18n[page.lang].homepage.values.opensource.title}}</h4>
+        <p class="description">{{site.data.i18n[page.lang].homepage.values.opensource.description}}</p>
+      </div>
+      <div class="col-lg-4 col-md-6 box">
+        <div class="icon"><i class="fas fa-desktop"></i></div>
+        <h4 class="title">{{site.data.i18n[page.lang].homepage.values.design.title}}</h4>
+        <p class="description">{{site.data.i18n[page.lang].homepage.values.design.description}}</p>
+      </div>
+      <div class="col-lg-4 col-md-6 box">
+        <div class="icon"><i class="fas fa-child"></i></div>
+        <h4 class="title">{{site.data.i18n[page.lang].homepage.values.community.title}}</h4>
+        <p class="description">{{site.data.i18n[page.lang].homepage.values.community.description}}</p>
+      </div>
+      <div class="col-lg-4 col-md-6 box">
+        <div class="icon"><i class="fas fa-bolt"></i></div>
+        <h4 class="title">{{site.data.i18n[page.lang].homepage.values.performance.title}}</h4>
+        <p class="description">{{site.data.i18n[page.lang].homepage.values.performance.description}}</p>
+      </div>
+      <div class="col-lg-4 col-md-6 box">
+        <div class="icon"><i class="fas fa-user-secret"></i></div>
+        <h4 class="title">{{site.data.i18n[page.lang].homepage.values.privacy.title}}</h4>
+        <p class="description">{{site.data.i18n[page.lang].homepage.values.privacy.description}}</p>
+      </div>
+      <div class="col-lg-4 col-md-6 box">
+        <div class="icon"><i class="fas fa-magic"></i></div>
+        <h4 class="title">{{site.data.i18n[page.lang].homepage.values.magic.title}}</h4>
+        <p class="description">{{site.data.i18n[page.lang].homepage.values.magic.description}}</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="page-header">
+      <h2 class="text-center">{{site.data.i18n[page.lang].homepage.community.title}}</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row images-row">
+          <div class="col-xs-12">
+            <img id="homepage-community-large-img" src="/assets/images/homepage/insta-talk-algolia-low.jpg"
+              srcset="/assets/images/homepage/insta-talk-algolia.jpg 2x" class="img-responsive" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3"><img src="/assets/images/homepage/insta-gladys-community-low.jpg"
+              srcset="/assets/images/homepage/insta-gladys-community.jpg 2x" class="img-responsive" /></div>
+          <div class="col-xs-3"><img src="/assets/images/homepage/insta-gladys-talk-montparnasse-low.jpg"
+              srcset="/assets/images/homepage/insta-gladys-talk-montparnasse.jpg 2x" class="img-responsive" /></div>
+          <div class="col-xs-3"><img src="/assets/images/homepage/insta-gladys-talk-utc-low.jpg"
+              srcset="/assets/images/homepage/insta-gladys-talk-utc.jpg 2x" class="img-responsive" /></div>
+          <div class="col-xs-3"><img src="/assets/images/homepage/insta-gladys-maker-merit-low.jpg"
+              srcset="/assets/images/homepage/insta-gladys-maker-merit.jpg 2x" class="img-responsive" /></div>
+        </div>
+
+      </div>
+      <div class="col-md-6">
+        <h3>{{site.data.i18n[page.lang].homepage.community.subtitle}}</h3>
+        <p>
+          {{site.data.i18n[page.lang].homepage.community.firstText}}
+        </p>
+        <p>
+          {{site.data.i18n[page.lang].homepage.community.secondText}}
+          <a href="/{{page.lang}}/contact">{{site.data.i18n[page.lang].homepage.community.contactMe}}</a>.
+        </p>
+        <p>
+          {{site.data.i18n[page.lang].homepage.community.communityPackageMessage}}
+          <a
+            href="/{{page.lang}}/gladys-community-package">{{site.data.i18n[page.lang].homepage.community.communityPackageLink}}</a>
+          !
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  {% if page.lang == 'fr' %}
+  <div class="container">
+    <div class="page-header">
+      <h2 class="text-center">Le package communauté Gladys</h2>
+    </div>
+
+    {% include gladys-community-package-panel-fr.html %}
+
+  </div>
+
+  {% else %}
+  <div class="container">
+    <div class="page-header">
+      <h2 class="text-center">Gladys Community Package</h2>
+    </div>
+
+    {% include gladys-community-package-panel-en.html %}
+
+  </div>
+  {% endif %}
+
 </div>
