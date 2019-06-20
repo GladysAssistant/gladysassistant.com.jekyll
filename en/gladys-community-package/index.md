@@ -7,7 +7,7 @@ image: /assets/images/gateway/gladys-community-package-og.png
 permalink: /en/gladys-community-package/
 ---
 
-Hey everyone! 
+Hey everyone!
 
 👋 My name is [Pierre-Gilles Leymarie](https://twitter.com/pierregillesl). I'm 24 years old, and since 5 years, I'm building an open-source Home Automation software, Gladys, for completely free on GitHub!
 
@@ -17,7 +17,7 @@ Hey everyone!
 
 To achieve this goal, I need YOU!
 
-Before summer 2018, I was working as Lead Back-End Engineer in a YC startup. 
+Before summer 2018, I was working as Lead Back-End Engineer in a YC startup.
 
 My dream was to work on open-source more seriously, and to make Gladys my main activity.
 
@@ -29,7 +29,7 @@ I noticed there was a main problem with Gladys: It's easy to access your Raspber
 
 So I thought about it, and decided to build the Gladys Gateway: The first End-To-End Encrypted Gateway for Home Automation. It's a web base UI accessible at [gateway.gladysassistant.com](https://gateway.gladysassistant.com/login) that allows you to control your Gladys instance from anywhere in the world, without having to open your local network to the public, so your Raspberry Pi stays safe.
 
-The main feature of this Gateway is that all communications between your Gladys and the web UI are end-to-end encrypted. 
+The main feature of this Gateway is that all communications between your Gladys and the web UI are end-to-end encrypted.
 
 And today, I'm happy that the Gladys Gateway is now **LIVE** 🚀
 
@@ -39,7 +39,7 @@ I decided to create a Package, the **Gladys Community Package**, that allows you
 
 💬 Access our Private Slack so you can exchange with the community
 
-💪 Support this open-source projet, help me cover the costs, and help me live from my project!
+💪 Support this open-source project, help me cover the costs, and help me live from my project!
 
 This package is **available at 9.99€/month**, and you can cancel at anytime of course!
 
