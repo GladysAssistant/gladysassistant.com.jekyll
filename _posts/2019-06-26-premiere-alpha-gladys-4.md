@@ -1,139 +1,162 @@
 ---
 layout: post
-title: A first alpha release for Gladys 4!
-description: After 7 months of work, I'm happy to release today the first alpha release of Gladys 4, the next major version of Gladys.
+title: Une première version alpha pour Gladys 4 !
+description: Après 7 mois de travail, la première alpha de Gladys 4 est enfin disponible. Retour sur les nouveautés, et les instructions d'installation de cette version.
 author: Pierre-Gilles Leymarie
-lang: en
-locale: en_US
+lang: fr
+locale: fr_FR
 image: /assets/images/presentation/gladys-4-alpha.jpg
 categories:
   - blog
-permalink: /en/article/premiere-alpha-gladys-4
+permalink: /fr/article/premiere-alpha-gladys-4
 ---
 
-Hi everyone!
+Salut à tous!
 
-In December, I published a [manifesto](https://docs.google.com/document/d/1zqH0vvIRICOiXsgJVHRanInBgJ8aoTWtnrNpyASW9b0/edit?usp=sharing) about my vision of the future of Gladys.
+Cela fait un bout de temps que je travaille sur Gladys Assistant 4, la prochaine version majeure de Gladys.
 
-And now, after 7 months of hard work, I'm happy to release today the first alpha version of Gladys 4!
+Le développement a pris du temps car c'est une nouvelle version qui a demandé un grand travail de recherche, d'expérimentation et de définition.
+
+J'avais publié en décembre dernier un manifeste (que vous pouvez retrouver en anglais [ici](https://docs.google.com/document/d/1zqH0vvIRICOiXsgJVHRanInBgJ8aoTWtnrNpyASW9b0/edit?usp=sharing)).
+
+Et aujourd'hui, c'est le grand jour: c'est la sortie de la première alpha de Gladys 4! 🍾🎉
 
 <img src="/assets/images/articles/gladys-4-alpha/gladys-4-mockup-devices.jpg" alt="Gladys 4 devices" class="img-responsive"/>
 
-## News
+## Les nouveautés
 
-Gladys 4 is a **full rewrite** of Gladys.
+Gladys 4 est une re-écriture **complète** de Gladys.
 
-Last year, we were stuck on Gladys 3 because of technological choice made at the beginning of the project (6 years ago!)
+Le constat fait en décembre dernier, c'est que l'on était bloqué dans Gladys 3 à cause de certains choix technologiques datant du début du projet (il y a 6 ans!). Cela impactait la stabilité, la sécurité et la performance de Gladys 3.
 
-So I started from a blank page, and with the community we chose new techologies for the future of Gladys.
+Je suis donc reparti de zéro, avec des technologies plus modernes, et surtout beaucoup plus stable sur le long terme.
 
-Inside Gladys 4, you'll find:
+Sous le capot, on retrouve:
 
-- Node.js + Express server-side
-- A PWA powered by [Preact](https://github.com/developit/preact/) on the frontend.
-- Sqlite for the database
+- Node.js + Express pour le serveur.
+- Une PWA avec [Preact](https://github.com/developit/preact/) pour le frontend (Preact est un équivalent à React ultra-léger qui tient sur 3kb).
+- Sqlite pour la base de donnée.
 
-My goal with Gladys 4 was to build a fast, lightweight and stable software.
+Mon objectif avec cette nouvelle version était de créer un logiciel léger, stable et simple à utiliser.
 
-I spent a lot of time experimenting, testing, finding the right libraries, to ensure that the software remains stable and secure.
+Lors de la conception, je n'ai cessé de répéter:
 
-The whole architecture is designed so that the installation and maintenance of Gladys 4 will be easy, even for a beginner without technical knowledge.
+- L'utilisateur ne doit pas être un développeur pour utiliser Gladys.
+- Qualité > Quantité. On ne fait pas forcément tout, mais ce qu'on fait on le fait bien. Je ne veux pas d'un logiciel brouillon qui essaie de tout faire.
+- Stabilité, légèreté et performance. L'expérience du logiciel doit être la même pour tous les utilisateurs, et ce durant tout le cycle de vie du logiciel. La mise à jour et les différentes maintenances doivent être simple, et fiable.
+- L'expérience utilisateur c'est la clé. L'UX générale du logiciel, les différents flows dans l'interface doivent être réfléchi et travaillé.
 
-## How Gladys 4 looks like
+## A quoi ressemble Gladys 4 Alpha
 
-Demo time!
+Bon, assez parlé, place à la démo!
 
-### The different screens
+### Les différents onglets
 
-Dashboard
+Le dashboard
 
 <img src="/assets/images/articles/gladys-4-alpha/dashboard.png" alt="Gladys 4 Dashboard" class="img-responsive"/>
 
-The "Chat" view, to talk with Gladys:
+La vue "Chat" pour discuter avec Gladys:
 
 <img src="/assets/images/articles/gladys-4-alpha/chat.png" alt="Gladys 4 Dashboard" class="img-responsive"/>
 
-The Z-Wave configuration page, now integrated natively in Gladys:
+La page de configuration du Z-Wave, désormais intégré en natif dans Gladys:
 
 <img src="/assets/images/articles/gladys-4-alpha/zwave.png" alt="Gladys 4 Dashboard" class="img-responsive"/>
 
-The Gladys Plus configuration page. Gladys Plus is Gladys paid plan.
-
-It gives you access for 9.99€/month to additionnal features like end-to-end encrypted remote access and daily backups!
+La page de Gladys Plus, le nouveau nom du "Gladys Community package" de Gladys! C'est le plan payant de Gladys, qui permet un accès chiffré de bout en bout de partout dans le monde, des backups quotidiennes, et bien plus.
 
 <img src="/assets/images/articles/gladys-4-alpha/gladys-plus.png" alt="Gladys 4 Dashboard" class="img-responsive"/>
 
-Daily backups:
+Les fameuses backups quotidiennes:
 
 <img src="/assets/images/articles/gladys-4-alpha/backups.png" alt="Gladys 4 Dashboard" class="img-responsive"/>
 
-System view:
+Enfin, la vue Système:
 
 <img src="/assets/images/articles/gladys-4-alpha/system.png" alt="Gladys 4 Dashboard" class="img-responsive"/>
 
-A feature I love, is the ability to text Gladys that you want to see the kitchen, and she messages you back on Telegram with a view from the room camera:
+Une fonctionnalité que j'adore, c'est la possibilité d'envoyer par Telegram à Gladys un simple message "Montre moi la caméra de la cuisine", et de recevoir directement dans Telegram la vue de la caméra:
 
 <img src="/assets/images/articles/gladys-4-alpha/telegram-image.jpg" alt="Gladys 4 Dashboard" class="img-responsive" width="400"/>
 
-### Small UI details that are important
+### Les détails d'UI qui ont leur importance
 
-My main philosophy in Gladys 4, was that the UI is the most important part of the software.
+Ma philosophie dans cette v4, c'est que l'interface utilisateur, c'est le plus important.
 
-I spent days on small UX details (loading, error states, blank states) to ensure that the experience is as good as possible for the user.
+Il m'est arrivé de passer des jours entiers sur des petits éléments d'interface, juste pour m'assurer que tous les cas particuliers étaient gérés.
 
-### Migrating services from v3 to v4.
+Ca peut paraitre tout bête, mais je suis conscient que dans la v3 beaucoup d'éléments d'interface ne renvoyait pas suffisamment d'informations à l'utilisateur sur l'état de l'UI: en cours de chargement, une erreur réseau est survenue, une erreur de validation est survenue, etc...
 
-For now, only services: Z-Wave, Camera, Telegram and DarkSky are migrated to Gladys 4. Those services are not entirely finished, but most of the work is done.
+L'ancien framework (AngularJS) que l'on utilisait n'était pas conçu pour permettre des gestions d'états aussi complexes, avec des données arrivant dynamiquement en arrière-plan.
 
-Some services are currently work in progress: Sonos, Bluetooth, Philips Hue and Caldav Calendar.
+Dans Gladys 4 j'utilise un gestionnaire d'état centralisé très performant, unistore, qui nous permet de créer des interfaces plus complètes.
 
-## Testing Gladys 4 alpha online
+### Les services migrés de la v3
 
-The simplest way to try Gladys 4 is to use our online demo website:
+Pour l'instant, seul 4 services ont été migrés de la v3 à la v4: les services Z-Wave, Camera, Telegram et DarkSky. Ces services ne sont pas entièrement terminés, mais c'est un déjà un premier jet fonctionnel.
+
+D'autres services sont en cours de migration: Sonos, Bluetooth, Philips Hue et Caldav Calendar grâce au support de la communauté :)
+
+## Tester l'alpha en ligne
+
+Si tu es un débutant, le plus simple pour tester Gladys 4 Alpha est de te rendre sur la version de démo en ligne:
 
 [demo.gladysassistant.com](https://demo.gladysassistant.com/dashboard)
 
-That's the biggest advantages of using a separate frontend, we can host a static version with demo data inside.
+C'est un des grands avantages de ce frontend séparé du backend, il est possible d'héberger une version de démo 100% statique!
 
-## How to install Gladys 4 alpha
+## Comment installer l'alpha?
 
-⚠️ Warning: This release is only available for advanced user. It's not a final release, some bugs are probably still in the code, and it's not plug and play yet.
+⚠️ Attention, comme précisé, cette version est une version alpha destinée à un public développeur. Pour l'installer, il faudra lancer des lignes de commandes, ce n'est pas encore la version finale clé en main.
 
-### On MacOS/Windows
+Cette alpha, comme son nom l'indique, est encore en développement. Il y a donc probablement certaines instabilités ou fonctionnalité manquantes. Tout cela sera corrigé avant la release finale.
 
-As Gladys 4 runs inside Docker, it's super easy to deploy it on MacOS/Windows thanks to Kitematic.
+🇫🇷 Pour l'instant, la v4 n'est qu'en anglais, mais la traduction sera faite avant la sortie finale de Gladys. Il y a des fichiers de traductions, ce ne sera pas un gros chantier.
 
-[Installing Gladys Assistant 4 alpha on MacOS/Windows](https://documentation.gladysassistant.com/en/installation#macos-windows).
+### Sur MacOS/Windows
 
-### On a Raspberry Pi
+Etant donné que Gladys 4 tourne sous Docker, il est assez facile de l'installer sur MacOS et Windows, sans même à avoir à taper de lignes de commandes grâce à l'application Kitematic.
 
-On a Raspberry Pi, it's the same. You can run Gladys 4 Alpha Docker image built for ARM.
+Je vous laisse lire mon tutoriel ici:
 
-[Installing Gladys Assistant 4 Alpha on Raspberry Pi](https://documentation.gladysassistant.com/en/installation#raspberry-pi).
+[Installer Gladys Assistant 4 Alpha sur MacOS/Windows](https://documentation.gladysassistant.com/fr/installation#macos-windows).
 
-## What's next?
+### Sur Raspberry Pi
 
-I'm now waiting for your feedback, and I'm continuing my work on Gladys 4.
+Sur Raspberry Pi, c'est pareil, il suffit d'installer Docker sur le Pi, puis de lancer l'image, tout tourne tout seul ensuite.
 
-Next week, I'm flying back to France and will start visiting Gladys users, to test this alpha release directly on their setup.
+Je vous laisse lire mon tutoriel ici:
 
-I would like to thank everyone who contributed to this alpha release:
+[Installer Gladys Assistant 4 Alpha sur Raspberry Pi](https://documentation.gladysassistant.com/fr/installation#raspberry-pi).
 
-- GitHub contributors: VonOx, atrovato, bertrandda, NilkOne et cicoub13. Special thank to VonOx, who did an amazing work on Docker build: ARM cross-compiling was not that easy. Same for atrovato who worked hard on the Bluetooth service. I can't wait to try it.
-- A big thanks to Gladys Community Package contributors. It's thank to your financial support that I can spend more time on open-source.
+## Suite & Remerciements
 
-Thanks! 🙌
+La suite, c'est évidemment pour vous de tester cette version alpha de Gladys, que ce soit via la version de démo, ou en l'installant manuellement, et de donner vos retours!
 
-## Support my work
+De mon côté, je rentre en France la semaine prochaine, et je commence dès la mi-Juillet mon tour de France des installations Gladys. J'irais dans un premier temps visiter des installations très particulières afin de tester Gladys 4 Alpha en situation réelle. Je continuerais le tour de France à la rentrée après mes vacances d'été.
 
-I recently stopped the sales on the Gladys Starter Pack, who was only designed for Gladys v3.
+J'aimerais remercier tous ceux qui ont contribués à cette version alpha:
 
-If you want to support my work on open-source, you can:
+- Les contributeurs GitHub: VonOx, atrovato, bertrandda, NilkOne et cicoub13. Mention spéciale à VonOx qui a fait un travail formidable sur les build Docker: la cross-compilation ARM c'était pas facile. De même pour atrovato qui à travaillé à fond sur le service Bluetooth: J'ai hâte de merger ça pour la beta.
+- Les contributeurs via le [package communauté Gladys](/fr/gladys-community-package/), qui grâce à leur soutien financier mensuel permettent à ce projet d'avancer!
 
-- Support monthly Gladys throught the Gladys community packge for [9.99€/month](/en/gladys-community-package/). It's the best way to support my work, and it gives you access to lots of new features!
-- Donate in Bitcoin: 3KQiX1FtbdXLXPH9UfLSyuzRMDRGY52EiA
-- Or with [PayPal](https://www.paypal.me/gladysproject/20) (But Bitcoin is better 😉)
+Un grand merci 🙌
 
-Thank you all for your positive messages during all those months of hard work.
+## Soutenir mon travail
 
-I can't wait to hear your feedback about this alpha release.
+J'ai récemment stoppé les ventes du pack de vidéos de la v3 car il n'est plus adapté à la v4.
+
+Ma seule source de revenu sur Gladys est désormais le package communauté, et pour l'instant ce package rapporte environ 759€/mois. C'est un début, mais c'est peu quand on enlève les frais et les taxes.
+
+Si vous voulez soutenir mon travail, et me permettre de passer du temps sur Gladys, vous pouvez:
+
+- Apporter un soutien régulier via le package communauté pour [9.99€/mois](/fr/gladys-community-package/). C'est la meilleure façon de soutenir mon travail et ça vous donne accès à pas mal de fonctionnalités supplémentaires, et à un chat privée avec toute la communauté 🙂
+- Faire un don en Bitcoin: 3KQiX1FtbdXLXPH9UfLSyuzRMDRGY52EiA
+- Ou via [PayPal](https://www.paypal.me/gladysproject/20) (mais bon, le Bitcoin c'est mieux!)
+
+Merci à toutes vos remarques positives sur les dernières mois vis à vis du travail réalisé.
+
+J'espère que vous réalisez l'ampleur du chantier et que vous êtes aussi excité que mois vis à vis de cette nouvelle mouture de Gladys.
+
+J'ai hâte d'avoir vos retours!
