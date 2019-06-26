@@ -8,12 +8,14 @@ locale: en_US
 image: /assets/images/presentation/gladys-4-alpha.jpg
 categories:
   - blog
-permalink: /en/article/premiere-alpha-gladys-4
+permalink: /en/article/first-alpha-gladys-4
 ---
+
+[Article en français ici](/fr/article/premiere-alpha-gladys-4).
 
 Hi everyone!
 
-In December, I published a [manifesto](https://docs.google.com/document/d/1zqH0vvIRICOiXsgJVHRanInBgJ8aoTWtnrNpyASW9b0/edit?usp=sharing) about my vision of the future of Gladys.
+In December, I published a [manifesto](https://docs.google.com/document/d/1zqH0vvIRICOiXsgJVHRanInBgJ8aoTWtnrNpyASW9b0/edit?usp=sharing) explaining my vision of the future of Gladys.
 
 And now, after 7 months of hard work, I'm happy to release today the first alpha version of Gladys 4!
 
@@ -23,7 +25,7 @@ And now, after 7 months of hard work, I'm happy to release today the first alpha
 
 Gladys 4 is a **full rewrite** of Gladys.
 
-Last year, we were stuck on Gladys 3 because of technological choice made at the beginning of the project (6 years ago!).
+Last year, we were stuck on Gladys 3 because of technological choice made at the beginning of the project (6 years ago).
 
 So I started from a blank page, and with the community we chose new techologies for the future of Gladys.
 
@@ -35,9 +37,9 @@ Inside Gladys 4, you'll find:
 
 My goal with Gladys 4 was to build a fast, lightweight and stable software.
 
-I spent a lot of time experimenting, testing, finding the right libraries, to ensure that the software remains stable and secure.
+I spent a lot of time experimenting, testing, finding the right libraries, to ensure that the software remains stable and secure over time.
 
-The whole architecture is designed so that the installation and maintenance of Gladys 4 will be easy, even for a beginner without technical knowledge.
+The whole architecture is designed so that the installation and maintenance of Gladys is easy, even for a beginner.
 
 ## How Gladys 4 looks like
 
@@ -71,7 +73,7 @@ System view:
 
 <img src="/assets/images/articles/gladys-4-alpha/system.png" alt="Gladys 4 Dashboard" class="img-responsive"/>
 
-A feature I love, is the ability to text Gladys that you want to see the kitchen, and she messages you back on Telegram with a view from the room camera:
+A feature I love is the ability to text Gladys that you want to see the kitchen, and she messages you back on Telegram with a view from the room camera:
 
 <img src="/assets/images/articles/gladys-4-alpha/telegram-image.jpg" alt="Gladys 4 Dashboard" class="img-responsive" width="400"/>
 
