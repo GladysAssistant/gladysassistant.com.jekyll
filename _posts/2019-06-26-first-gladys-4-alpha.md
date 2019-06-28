@@ -27,7 +27,7 @@ Gladys 4 is a **full rewrite** of Gladys.
 
 Last year, we were stuck on Gladys 3 because of technological choice made at the beginning of the project (6 years ago).
 
-So I started from a blank page, and with the community we chose new techologies for the future of Gladys.
+So I started from a blank page, and with the community we chose new technologies for the future of Gladys.
 
 Inside Gladys 4, you'll find:
 
