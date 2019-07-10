@@ -50,6 +50,8 @@ La première étape, c'est de télécharger l'image Raspbian.
 
 Vous pouvez télécharger l'image Raspbian sur notre GitHub =>
 
+⚠️ATTENTION: Cette image n'est pas encore compatible avec le Raspberry Pi 4 car cette image est basée sur Raspbian Stretch. Il faudra attendre un peu avant d'avoir une image Gladys sous Raspbian Buster :)
+
 [Télécharger l'image Raspbian Gladys sur GitHub](https://bit.ly/gladys-3-8-0-rev2)
 
 Si le téléchargement est lent sur GitHub ou ne fonctionne pas, vous pouvez télécharger l'image sur le miroir officiel Gladys => [Télécharger l'image Raspbian Gladys sur le miroir officiel](https://bit.ly/gladys-3-8-0-rev2-mirror-fr2)

@@ -32,6 +32,8 @@ If you are a beginner, in the meantime you can install Gladys 3.
 
 ## Installing Gladys 3
 
+⚠️ WARNING: This image is not compatible yet with the Raspberry Pi 4 because this image is based on Raspbian Stretch. An image on Raspbian buster will be built soon.
+
 To install Gladys on your Raspberry Pi, you just have to use the pre-built Raspbian image.
 
 The first step is to download Gladys Raspbian image :
