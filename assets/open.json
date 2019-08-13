@@ -411,6 +411,23 @@
           "value": 885
         }
       ]
+    },
+    {
+      "month": "07-2019",
+      "sources": [
+        {
+          "name": "Amazon Affiliate",
+          "value": 26
+        },
+        {
+          "name": "Patreon",
+          "value": 165
+        },
+        {
+          "name": "Gladys Community Package",
+          "value": 838
+        }
+      ]
     }
   ]
 }
