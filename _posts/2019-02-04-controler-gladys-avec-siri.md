@@ -7,7 +7,7 @@ lang: fr
 locale: fr_FR
 image: /assets/images/presentation/gateway-siri.jpg
 categories:
-- blog
+  - blog
 permalink: /fr/article/controler-gladys-avec-siri
 ---
 
@@ -31,7 +31,7 @@ Pour mettre à jour, lancer le script "/home/pi/rpi-update.sh" sur votre Raspber
 
 Rendez-vous dans votre Gladys local dans l'onglet `Paramètres` => `Gladys Gateway`, puis tout en bas de la page, activez l'Open API.
 
-J'ai décidé que l'Open API devait être activée à la demande de l'utilisateur. 
+J'ai décidé que l'Open API devait être activée à la demande de l'utilisateur.
 
 En effet, l'Open API étant un moyen de communiquer directement avec votre instance Gladys via le Gateway, la communication n'est pas chiffrée de bout en bout ici: ce qui est logique, "de bout en bout", signifie que la communication est chiffrée depuis le client (votre navigateur) jusqu'à l'autre client (le Raspberry Pi). Hors ici, le premier client on ne le maitrise pas, il peut être votre client HTTP Postman/Insomnia local, votre navigateur, Siri, etc... Ainsi, La communication est chiffrée entre le client et l'API en HTTPS, puis entre le Gateway et votre Gladys en websocket TLS.
 
@@ -39,7 +39,7 @@ En effet, l'Open API étant un moyen de communiquer directement avec votre insta
 
 L'étape suivante consiste à créer une clé d'API dans le Gladys Gateway. Rendez-vous à [gateway.gladysassistant.com](https://gateway.gladysassistant.com), connectez-vous à votre compte Gladys Gateway.
 
-**Note:** Si vous n'avez pas de compte Gladys Gateway, il faut souscrire au [package communauté](/fr/gladys-community-package/) 🙂
+**Note:** Si vous n'avez pas de compte Gladys Gateway, il faut souscrire à [Gladys Plus](/fr/pricing/) 🙂
 
 Rendez-vous dans l'onglet `Settings` en haut à droite, puis `Open API`.
 
@@ -51,7 +51,7 @@ Donnez un nom à votre clé d'API, puis cliquez sur `Generate`.
 
 La clé d'API va s'afficher temporairement. Copiez-collé là quelque parts, car elle disparaitra à jamais après ça pour des raisons des sécurités (les clés d'API sont stockés en hash côté serveur).
 
-## Tester l'API 
+## Tester l'API
 
 **Note:** Cette étape est facultative, c'est juste pour vous pour comprendre !
 
@@ -91,7 +91,6 @@ L'URL est la suivante: `https://api.gladysgateway.com/v1/api/event/:VOTRE_CLE_AP
 
 Et le Body:
 
-
 ```
 {
   "code": "left-home",
@@ -117,7 +116,7 @@ Dans le champs URL, ajoutez l'URL que nous avons utilisez précédemment (`https
 
 Ensuite, cherchez `Get Contents of URL`, et cliquez sur l'élément.
 
-Dans `Advanced`, changez la method à `POST`. 
+Dans `Advanced`, changez la method à `POST`.
 
 Dans Request Body, cliquez sur `Add new field` => `Text`.
 

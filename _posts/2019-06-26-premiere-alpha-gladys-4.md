@@ -141,7 +141,7 @@ De mon côté, je rentre en France la semaine prochaine, et je commence dès la 
 J'aimerais remercier tous ceux qui ont contribués à cette version alpha:
 
 - Les contributeurs GitHub: VonOx, atrovato, bertrandda, NilkOne et cicoub13. Mention spéciale à VonOx qui a fait un travail formidable sur les build Docker: la cross-compilation ARM c'était pas facile. De même pour atrovato qui a travaillé à fond sur le service Bluetooth: j'ai hâte de merger ça.
-- Les contributeurs via le [package communauté Gladys](/fr/gladys-community-package/), qui grâce à leur soutien financier mensuel permettent à ce projet d'avancer !
+- Les contributeurs via [Gladys Plus](/fr/pricing/), qui grâce à leur soutien financier mensuel permettent à ce projet d'avancer !
 
 Un grand merci 🙌
 
