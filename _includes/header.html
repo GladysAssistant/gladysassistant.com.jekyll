@@ -1,48 +1,53 @@
 {% if page.url == '/fr/' or page.url == '/en/' %}
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-{% else %}
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  {% else %}
   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix">
-{% endif %}
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                {% if page.lang %}
-                  <a class="navbar-brand page-scroll" href="/{{ page.lang }}/">
-                    <img src="/assets/img/logo-horizontal-light.png" height="30" />
-                  </a>
-                {% else %}
-                <a class="navbar-brand page-scroll" href="/">
-                  <img src="/assets/img/logo-horizontal-light.png" height="30" />
-                </a>
-                {% endif %}
-            </div>
+    {% endif %}
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+        </button>
+        {% if page.lang %}
+        <a class="navbar-brand page-scroll" href="/{{ page.lang }}/">
+          <img src="/assets/img/logo-horizontal-light.png" height="30" />
+        </a>
+        {% else %}
+        <a class="navbar-brand page-scroll" href="/">
+          <img src="/assets/img/logo-horizontal-light.png" height="30" />
+        </a>
+        {% endif %}
+      </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="nav-item">
-                        <a class="nav-link" class="page-scroll" href="/{{ page.lang }}/installation/">{{site.data.i18n[page.lang].menu.installation}}</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" class="page-scroll" href="/{{ page.lang }}/compatibilities/">{{site.data.i18n[page.lang].menu.compatibilities}}</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" class="page-scroll" href="/{{ page.lang }}/blog/">{{site.data.i18n[page.lang].menu.blog}}</a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="https://community.gladysassistant.com">{{site.data.i18n[page.lang].menu.forum}}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="/{{ page.lang }}/contact/">{{site.data.i18n[page.lang].menu.contact}}</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-left">
+          <li class="nav-item">
+            <a class="nav-link" class="page-scroll"
+              href="/{{ page.lang }}/installation/">{{site.data.i18n[page.lang].menu.installation}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" class="page-scroll"
+              href="/{{ page.lang }}/pricing/">{{site.data.i18n[page.lang].menu.pricing}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" class="page-scroll"
+              href="/{{ page.lang }}/blog/">{{site.data.i18n[page.lang].menu.blog}}</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="page-scroll"
+              href="https://community.gladysassistant.com">{{site.data.i18n[page.lang].menu.forum}}</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="/{{ page.lang }}/contact/">{{site.data.i18n[page.lang].menu.contact}}</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>

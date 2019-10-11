@@ -18,6 +18,7 @@ menu:
   installation: Getting Started
   project: The project
   compatibilities: Compatibilities
+  pricing: Pricing
   developer: Developer
   blog: Blog
   store: Store
@@ -35,8 +36,8 @@ products:
   tutorial: Tutorial
 
 footer:
-    contact: Contact
-    backTop: Scroll to top
+  contact: Contact
+  backTop: Scroll to top
 
 # The HomePage
 homepage:
@@ -75,20 +76,20 @@ homepage:
       text: "It's 8.10 AM, Gladys detects thanks to a motion sensor that you are getting out of bed. She immediately starts the wake-up scenario : she tells the coffee machine to prepare the coffee, and opens the blinds."
     wakeUp:
       title: Wake Up
-      text:  It's 8 AM. Gladys wakes you up automatically because she knows that you need to be at work at 9 AM, and that according to the traffic, you'll need 30min to go to work with your car. She knows that you like 30 min to get ready. She wakes you up with a soft progressive warm light thanks to your Philips Hue, and puts a nice music in your room.
+      text: It's 8 AM. Gladys wakes you up automatically because she knows that you need to be at work at 9 AM, and that according to the traffic, you'll need 30min to go to work with your car. She knows that you like 30 min to get ready. She wakes you up with a soft progressive warm light thanks to your Philips Hue, and puts a nice music in your room.
     scenario:
       title: Smart Scenarios
       text: At 8.30 AM, you leave the house. Gladys detects thanks to your smartphone that you are not at home anymore, and shuts down everything inside.
     sleep:
       title: Waiting for you
-      text: "At 6.30 PM, you are getting back home : Everything is ready when you arrive. You are going to sleep, so you simply put your phone on your nightstand where a NFC tag is sticked. It immediately sends a request to Gladys to tell here you are going to sleep. She starts the \"Going to sleep\" scenario, and turns off all lights."
+      text: 'At 6.30 PM, you are getting back home : Everything is ready when you arrive. You are going to sleep, so you simply put your phone on your nightstand where a NFC tag is sticked. It immediately sends a request to Gladys to tell here you are going to sleep. She starts the "Going to sleep" scenario, and turns off all lights.'
 
   hardware:
     title: Some examples
     raspberryPi:
       title: Raspberry Pi
       description: Gladys runs on a Raspberry Pi. It's the brain of the system.
-    powerOutlet: 
+    powerOutlet:
       title: Power Outlets
       description: Gladys controls all your devices, even your coffee machine!
     light:
@@ -96,8 +97,8 @@ homepage:
       description: Gladys controls your lights, for a colorful wake up!
     music:
       title: Music
-      description: "\"Gladys, put some music in the living room!\""
-  
+      description: '"Gladys, put some music in the living room!"'
+
   values:
     title: Values
     opensource:
@@ -109,7 +110,7 @@ homepage:
     community:
       title: Community
       description: More than an assistant, Gladys is a whole community of users, developers, that contributes each day to make Gladys better.
-    performance: 
+    performance:
       title: Performance
       description: Performance is an important aspect of the project. Gladys is 100% written in Node.js, and is blazzing fast.
     privacy:
@@ -118,7 +119,7 @@ homepage:
     magic:
       title: Magic
       description: Finally, Gladys it's a home assistant that'll bring some magic in your life !
-  
+
   community:
     title: Community
     subtitle: Gladys Events
@@ -131,7 +132,6 @@ homepage:
   installGladys:
     button: Install Gladys
     text: You love the project ? Try and share Gladys !
-
 
 #Installation Page
 installation:
@@ -149,13 +149,10 @@ blog:
   noArticles: No articles available in this language !
   readmore: Read more
 
-
-
 article:
-  joinReader: 
+  joinReader:
     title: Join +3 000 readers ️️!
     description: Don't hesitate to subscribe to Gladys newsletter, no spam, just news written by me 🙂
-
 
 #Project Page
 project:
@@ -167,7 +164,6 @@ compatibilities:
 #Press Page
 press:
   title: Press
-
 
 #Contact page
 contact:
@@ -188,9 +184,6 @@ contact:
     helpTheProject: Help the project !
     hebergement: This website is hosted by
 
-
-
-
 api:
   comments:
     invalidMail: Your email address is not a valid address !
@@ -204,7 +197,7 @@ api:
     success: Your message is on the road. I'll answer your message as soon as possible.
 
 errors:
-  goToHomePage: "Go back to homepage :"
+  goToHomePage: 'Go back to homepage :'
   homepage: Homepage
   404:
     title: 404 Error
@@ -212,5 +205,3 @@ errors:
   500:
     title: 500 Error
     message: Looks like something went wrong!
-
-
