@@ -35,11 +35,36 @@ layout: default
     </div>
   </section>
 
+  <div class="container">
+    <div class="page-header">
+      <h2 class="text-center">{{site.data.i18n[page.lang].homepage.theSoftware.title}}</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+        <div class="row images-row">
+          <div class="col-xs-12">
+            <img src="/assets/images/articles/gladys-4-alpha/gladys-4-mockup-devices.jpg" alt="Gladys 4 devices"
+              class="img-responsive" />
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4" style="margin-top: 50px;">
+        <h3>{{site.data.i18n[page.lang].homepage.theSoftware.subtitle}}</h3>
+        <p>
+          {{site.data.i18n[page.lang].homepage.theSoftware.firstText}}
+        </p>
+        <p>
+          {{site.data.i18n[page.lang].homepage.theSoftware.secondText}} <a
+            href="https://demo.gladysassistant.com/dashboard" target="_blank">demo.gladysassistant.com</a>.
+        </p>
+      </div>
+    </div>
+  </div>
 
 
   <!-- TIMELINE -->
-
-
   <div class="container">
     <div class="page-header">
       <h2 class="text-center">{{site.data.i18n[page.lang].homepage.features.title}}</h2>
@@ -225,30 +250,9 @@ layout: default
         </p>
       </div>
     </div>
-
-
   </div>
 
+  <div style="margin-bottom: 50px"></div>
 
-  {% if page.lang == 'fr' %}
-  <div class="container">
-    <div class="page-header">
-      <h2 class="text-center">Le package communauté Gladys</h2>
-    </div>
-
-    {% include gladys-community-package-panel-fr.html %}
-
-  </div>
-
-  {% else %}
-  <div class="container">
-    <div class="page-header">
-      <h2 class="text-center">Gladys Community Package</h2>
-    </div>
-
-    {% include gladys-community-package-panel-en.html %}
-
-  </div>
-  {% endif %}
 
 </div>

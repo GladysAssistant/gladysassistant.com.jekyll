@@ -46,7 +46,7 @@ homepage:
   smallSentenceLine: She integrates into your life, seamlessly communicating across your entire home network and your devices while checking your calendar.
   installButton: Install
   sentenceEmail: Join the community, and receive news about the project !
-  sentenceEmailLine1: You are more than 35 000 who have downloaded Gladys.
+  sentenceEmailLine1: You are more than 40 000 who have downloaded Gladys.
   sentenceEmailLine2: Emails are sent by Pierre-Gilles Leymarie, founder of the project, and you can unsubscribe at any time
   buttonEmail: Subscribe
   messageSubscribe: Thanks for subscribing ! You should receive a confirmation mail within a few minutes, please click on the link to confirm your subscription :)
@@ -83,7 +83,11 @@ homepage:
     sleep:
       title: Waiting for you
       text: 'At 6.30 PM, you are getting back home : Everything is ready when you arrive. You are going to sleep, so you simply put your phone on your nightstand where a NFC tag is sticked. It immediately sends a request to Gladys to tell here you are going to sleep. She starts the "Going to sleep" scenario, and turns off all lights.'
-
+  theSoftware:
+    title: The Software
+    subtitle: Here is how Gladys looks like
+    firstText: A clean and simple design, that's our philosophy.
+    secondText: 'Want to try Gladys? Check our online demo:'
   hardware:
     title: Some examples
     raspberryPi:

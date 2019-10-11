@@ -46,7 +46,7 @@ homepage:
   smallSentenceLine: Gladys se connecte à vos périphériques et à votre agenda pour mieux vous aider au quotidien.
   installButton: Installer
   sentenceEmail: Rejoignez la communauté, et recevez les news du projet !
-  sentenceEmailLine1: Vous êtes plus de 35 000 à avoir téléchargé Gladys.
+  sentenceEmailLine1: Vous êtes plus de 40 000 à avoir téléchargé Gladys.
   sentenceEmailLine2: Les mails sont envoyés par Pierre-Gilles Leymarie, le fondateur du projet, et vous pouvez toujours vous désinscrire à tout moment
   buttonEmail: S'inscrire
   messageSubscribe: Merci de vous être inscrit ! Vous allez recevoir un mail de confirmation, vous devez cliquez sur le lien de confirmation pour rejoindre la liste :)
@@ -86,7 +86,11 @@ homepage:
     sleep:
       title: Toujours là pour vous
       text: Il est 19h, je rentre du bureau, Gladys allume la lumière, me souhaite la bienvenue, et me notifie les messages que j'ai reçus en mon absence.
-
+  theSoftware:
+    title: Le logiciel
+    subtitle: Design
+    firstText: Un design clair, simple et épuré, c'est notre philosophie.
+    secondText: 'Vous pouvez tester Gladys sur notre démonstration en ligne:'
   hardware:
     title: Exemple de compatibilités
     raspberryPi:
