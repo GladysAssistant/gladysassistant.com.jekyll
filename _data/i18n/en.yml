@@ -1,14 +1,7 @@
 documentation:
   installation: Installation
-  upgrade: Upgrading Gladys
-  configureHouse: Configure your house
-  configureDevices: Configure your devices
+  documentation: Documentation
   accessGladysRemotely: Access Gladys Remotely
-  talkingToGladys: Talking to Gladys
-  developModule: Developing a module
-  developScript: Developing a script
-  httpApi: Gladys REST API
-  nodejsApi: Gladys Node.js API
 
 lang:
   french: Français
