@@ -23,6 +23,20 @@
   status = 301
   force = true
 
+
+[[redirects]]
+  from = "/pricing"
+  to = "/fr/pricing"
+  status = 302
+  force = true
+  conditions = {Language = ["fr"]}
+
+[[redirects]]
+  from = "/pricing"
+  to = "/en/pricing"
+  status = 302
+  force = true
+
 [[redirects]]
   from = "/gladys-community-package"
   to = "/fr/gladys-community-package"

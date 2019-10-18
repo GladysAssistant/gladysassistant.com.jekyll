@@ -7,7 +7,7 @@ lang: fr
 locale: fr_FR
 image: /assets/images/presentation/avancement-gladys-4.jpg
 categories:
-- blog
+  - blog
 permalink: /fr/article/etat-avancement-gladys-4
 ---
 
@@ -21,9 +21,9 @@ Peut-être que certains auront des remarques, des retours. N'hésitez pas: c'est
 
 ## L'appel communauté de mars
 
-Chaque mois, c'est la tradition, je fais un appel avec tous ceux qui soutiennent le projet via le [package communauté Gladys](https://gladysassistant.com/fr/gladys-community-package/) afin de parler de tous les développements en cours et de discuter de la suite du projet.
+Chaque mois, c'est la tradition, je fais un appel avec tous ceux qui soutiennent le projet via [Gladys Plus](/fr/pricing/) afin de parler de tous les développements en cours et de discuter de la suite du projet.
 
-Voilà le replay de cet appel: 
+Voilà le replay de cet appel:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/twXkModV9gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -31,7 +31,7 @@ Voilà le replay de cet appel:
 
 Pour rappel, j'avais écrit un [manifeste technique](https://docs.google.com/document/d/1zqH0vvIRICOiXsgJVHRanInBgJ8aoTWtnrNpyASW9b0/edit?usp=sharing) en décembre dernier, où je détaillais tous les choix technologiques que j'ai en tête pour cette nouvelle version.
 
-Pour résumer ce manifeste, Gladys 4 sera basé sur : 
+Pour résumer ce manifeste, Gladys 4 sera basé sur :
 
 - Node.js, avec Express comme serveur web.
 - SQLite pour le stockage de données, avec possibilité d'utiliser MariaDB si besoin.
@@ -57,7 +57,7 @@ Gladys 4 est composé de 2 composants principaux:
 - Gladys Core: le programme principal de Gladys. C'est lui qui reçoit, process, stocke et redistribue l'information.
 - Gladys Pod: un programme satellite de Gladys conçu pour gérer l'installation et la maintenance de services distants. Si par exemple vous voulez avoir plusieurs Raspberry Pi dans différentes pièces pour pouvoir faire de la reconnaissance/synthèse vocale à différents endroits de la maison, c'est lui qui gérera tout ça!
 
-Je vous remets le schéma que j'avais publié dans le manifeste technique: 
+Je vous remets le schéma que j'avais publié dans le manifeste technique:
 
 <a href="/assets/images/articles/avancement-gladys-4/gladys-4-overall-architecture.png">
   <img src="/assets/images/articles/avancement-gladys-4/gladys-4-overall-architecture.png" alt="Architecture Gladys 4" class="img-responsive"/>
@@ -67,7 +67,7 @@ Je vous remets le schéma que j'avais publié dans le manifeste technique:
 
 C'est probablement ce qui nous a pris le plus de temps lorsque nous avons réfléchi à cette 4ème version (et ce n'est probablement pas la version finale), la modélisation est pour moi un des sujets les plus importants lors de la définition de tout projet informatique, et encore plus dans le cas d'un projet open source.
 
-Partir sur une mauvaise modélisation, c'est se garantir des heures de prises de tête dans les années à venir. 
+Partir sur une mauvaise modélisation, c'est se garantir des heures de prises de tête dans les années à venir.
 
 Voilà la modélisation de la base de données de Gladys 4 pour l'instant:
 
@@ -77,7 +77,7 @@ Voilà la modélisation de la base de données de Gladys 4 pour l'instant:
 
 Et pour ceux qui préfèrent voir ça en vrai, voilà une base de donnée SQLite de Gladys 4: [gladys-4-development.db](/assets/files/gladys-4-development.db).
 
-Vous pouvez utiliser l'excellent client SQL [TablePlus](https://tableplus.io/) pour ouvrir ce fichier et voir comment ça fonctionne sous le capot :) 
+Vous pouvez utiliser l'excellent client SQL [TablePlus](https://tableplus.io/) pour ouvrir ce fichier et voir comment ça fonctionne sous le capot :)
 
 ## Où en est le développement ?
 
@@ -87,7 +87,7 @@ Bon, maintenant la question que tout le monde se pose: elle sort quand cette ver
 
 ✅ La base de donnée est implémentée. Les migrations Sequelize sont écrites et compatibles SQLite / MariaDB.
 
-✅ Tout le projet backend est configuré, les tests unitaires et d'intégrations aussi grâce à Mocha et Istanbul. 
+✅ Tout le projet backend est configuré, les tests unitaires et d'intégrations aussi grâce à Mocha et Istanbul.
 
 ✅ L'intégration continue avec TravisCI et la couverture de code avec Codecov sont mises en place.
 
@@ -115,13 +115,11 @@ Un autre exemple, l'alarme d'une maison :
 
 Dans Gladys 4, chaque entité a donc un ensemble d'états, et de transitions entre chaque état: des évènements. Chaque évènement peut-être déclencheur d'un scénario.
 
-
 ### Côté interface
 
+✅ Le projet preact est créé, et configuré. J'ai pu partir de l'expérience que je me suis fais sur le [Gladys Gateway](/fr/pricing/) qui tourne aussi sous preact.
 
-✅ Le projet preact est créé, et configuré. J'ai pu partir de l'expérience que je me suis fais sur le [Gladys Gateway](https://gladysassistant.com/fr/gladys-community-package/) qui tourne aussi sous preact.
-
-✅ J'ai pu travailler sur différents écrans de l'interface, je vais vous mettre quelques exemples. 
+✅ J'ai pu travailler sur différents écrans de l'interface, je vais vous mettre quelques exemples.
 
 ✅ La vue de configuration des intégrations par exemple :
 

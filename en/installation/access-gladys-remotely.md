@@ -8,7 +8,7 @@ permalink: /en/installation/access-gladys-remotely/
 
 # Access Gladys Remotely
 
-It's easy to control Gladys from your home, because you are in the same local network as your Raspberry Pi. 
+It's easy to control Gladys from your home, because you are in the same local network as your Raspberry Pi.
 
 But when you are oustide of your network: on your phone, or at work, it became harder.
 
@@ -28,4 +28,4 @@ The Gladys Gateway is an end-to-end encrypted gateway, that allows you to contro
 
 All communications between your local Raspberry Pi and the web client are end-to-end encrypted, so you privacy is respected.
 
-To get access to the Gladys Gateway, you need to subscribe to the [Gladys Community Package](/en/gladys-community-package/) 🙂
+To get access to the Gladys Gateway, you need to subscribe to [Gladys Plus](/en/pricing/) 🙂

@@ -122,7 +122,7 @@ Next week, I'm flying back to France and will start visiting Gladys users, to te
 I would like to thank everyone who contributed to this alpha release:
 
 - GitHub contributors: VonOx, atrovato, bertrandda, NilkOne et cicoub13. Special thank to VonOx, who did an amazing work on Docker build: ARM cross-compiling was not that easy. Same for atrovato who worked hard on the Bluetooth service. I can't wait to try it.
-- A big thanks to [Gladys Community Package](/en/gladys-community-package/) contributors. It's thank to your financial support that I can spend more time on open-source.
+- A big thanks to [Gladys Plus](/en/pricing/) contributors. It's thank to your financial support that I can spend more time on open-source.
 
 Thanks! 🙌
 
@@ -132,7 +132,7 @@ I recently stopped the sales on the Gladys Starter Pack, who was only designed f
 
 If you want to support my work on open-source, you can:
 
-- Support monthly Gladys throught the Gladys community packge for [9.99€/month](/en/gladys-community-package/). It's the best way to support my work, and it gives you access to lots of new features!
+- Support monthly Gladys throught Gladys Plus for [9.99€/month](/en/pricing/). It's the best way to support my work, and it gives you access to lots of new features!
 - Donate in Bitcoin: 3KQiX1FtbdXLXPH9UfLSyuzRMDRGY52EiA
 - Or with [PayPal](https://www.paypal.me/gladysproject/20) (But Bitcoin is better 😉)
 

@@ -1,15 +1,8 @@
 documentation:
   installation: Installation
   upgrade: Mettre à jour Gladys
-  configureHouse: Configuration du logement
-  configureDevices: Configuration des périphériques
+  documentation: Documentation
   accessGladysRemotely: Accéder à Gladys à distance
-  talkingToGladys: Parler à Gladys
-  controlGladysTasker: Contrôler Gladys avec Tasker
-  developModule: Développer un module
-  developScript: Développer un script
-  httpApi: L'API REST
-  nodejsApi: L'API Node.js
 
 lang:
   french: Français
@@ -19,6 +12,7 @@ menu:
   installation: Installation
   compatibilities: Compatibilités
   developer: Développeur
+  pricing: Prix
   blog: Blog
   store: Store
   forum: Forum
@@ -45,7 +39,7 @@ homepage:
   smallSentenceLine: Gladys se connecte à vos périphériques et à votre agenda pour mieux vous aider au quotidien.
   installButton: Installer
   sentenceEmail: Rejoignez la communauté, et recevez les news du projet !
-  sentenceEmailLine1: Vous êtes plus de 35 000 à avoir téléchargé Gladys.
+  sentenceEmailLine1: Vous êtes plus de 40 000 à avoir téléchargé Gladys.
   sentenceEmailLine2: Les mails sont envoyés par Pierre-Gilles Leymarie, le fondateur du projet, et vous pouvez toujours vous désinscrire à tout moment
   buttonEmail: S'inscrire
   messageSubscribe: Merci de vous être inscrit ! Vous allez recevoir un mail de confirmation, vous devez cliquez sur le lien de confirmation pour rejoindre la liste :)
@@ -75,7 +69,7 @@ homepage:
     title: Une journée avec Gladys
     controlHouse:
       title: Analyse des mouvements
-      text:  Il est 8h10, dès que je sors de mon lit, Gladys détecte un mouvement dans la pièce et coupe le réveil, allume la lumière de la pièce, lance une playlist calme et ouvre les volets.
+      text: Il est 8h10, dès que je sors de mon lit, Gladys détecte un mouvement dans la pièce et coupe le réveil, allume la lumière de la pièce, lance une playlist calme et ouvre les volets.
     wakeUp:
       title: Réveillez-vous en douceur
       text: Il est 8h, Gladys me réveille car elle sait qu'à 9H je dois aller travailler, et que je mets, selon mes préférences, 30 minutes pour me préparer, et que selon l'état actuel du trafic, je vais mettre 30 minutes en voiture pour aller au bureau. Elle a vu grâce à une API de météo qu'il pleut dehors, et en profite pour me le signaler au réveil.
@@ -85,7 +79,11 @@ homepage:
     sleep:
       title: Toujours là pour vous
       text: Il est 19h, je rentre du bureau, Gladys allume la lumière, me souhaite la bienvenue, et me notifie les messages que j'ai reçus en mon absence.
-
+  theSoftware:
+    title: Le logiciel
+    subtitle: Design
+    firstText: Un design clair, simple et épuré, c'est notre philosophie.
+    secondText: 'Vous pouvez tester Gladys sur notre démonstration en ligne:'
   hardware:
     title: Exemple de compatibilités
     raspberryPi:
@@ -99,8 +97,8 @@ homepage:
       description: Gladys contrôle vos lumières, pour un réveil en couleur !
     music:
       title: Musique
-      description: "\"Gladys, mets de la musique dans le salon !\""
-    
+      description: '"Gladys, mets de la musique dans le salon !"'
+
   values:
     title: Les valeurs du projet
     opensource:
@@ -112,7 +110,7 @@ homepage:
     community:
       title: Communauté
       description: Plus qu'un assistant intelligent, Gladys c'est tout une communauté de développeurs qui s'entraident, et améliorent Gladys chaque jour.
-    performance: 
+    performance:
       title: Performance
       description: La performance est un aspect important du projet. Gladys est écrite 100% en Node.js, et est vive comme l'éclair.
     privacy:
@@ -121,7 +119,7 @@ homepage:
     magic:
       title: Magique
       description: Enfin, Gladys c'est avant tout un assistant intelligent qui va rendre votre quotidien magique !
-  
+
   community:
     title: Communauté
     subtitle: Des événements Gladys
@@ -139,8 +137,6 @@ homepage:
   installGladys:
     button: Installer Gladys
     text: Le projet vous plait ? Testez et partagez Gladys !
-
-
 
 #Installation Page
 installation:
@@ -164,15 +160,11 @@ rss:
   feedUri: http://gladysassistant.com/fr_feed.xml
   websiteUri: http://gladysassistant.com
 
-
-
 #Article Page
 article:
   joinReader:
     title: Rejoignez +3 000 lecteurs ️️!
     description: N'hésitez pas à vous inscrire à la newsletter Gladys ! Pas de spam, juste des news que j'envoie personnellement 🙂
-
-
 
 #Project Page
 project:
@@ -181,11 +173,9 @@ project:
 compatibilities:
   title: Compatibilités
 
-
 #Press Page
 press:
   title: Presse
-
 
 #Contact page
 contact:
@@ -202,12 +192,9 @@ contact:
   legalMention:
     title: Mentions légales
     whoAmI: Qui suis-je ?
-    sentence: Je m'appelle Pierre-Gilles Leymarie et j'ai fondé le projet Gladys en 2013. Récemment, j'ai décidé de faire de Gladys mon activité principale. Pour en savoir plus sur l'histoire du projet, j'ai écris un article sur le blog => 
+    sentence: Je m'appelle Pierre-Gilles Leymarie et j'ai fondé le projet Gladys en 2013. Récemment, j'ai décidé de faire de Gladys mon activité principale. Pour en savoir plus sur l'histoire du projet, j'ai écris un article sur le blog =>
     helpTheProject: Aidez le projet !
     hebergement: Ce site est hébergé chez
-
-
-
 
 api:
   comments:
@@ -221,7 +208,6 @@ api:
     invalidMail: L'email que vous avez saisi n'est pas valide !
     success: Votre message a été envoyé avec succès ! J'y répondrai dès que possible.
 
-
 errors:
   goToHomePage: Retourner à la page d'accueil
   homepage: Page d'accueil
@@ -231,5 +217,3 @@ errors:
   500:
     title: Erreur 500
     message: Une erreur est intervenue lors du traitement de votre requête.
-
-
