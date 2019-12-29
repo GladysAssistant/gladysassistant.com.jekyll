@@ -37,6 +37,20 @@
   status = 302
   force = true
 
+
+[[redirects]]
+  from = "/pricing/success"
+  to = "/fr/pricing/success"
+  status = 302
+  force = true
+  conditions = {Language = ["fr"]}
+
+[[redirects]]
+  from = "/pricing/success"
+  to = "/en/pricing/success"
+  status = 302
+  force = true
+
 [[redirects]]
   from = "/fr/gladys-starter-pack"
   to = "/fr/pricing"
