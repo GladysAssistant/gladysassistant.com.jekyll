@@ -77,6 +77,23 @@ Sur les réseaux sociaux:
 
 Et enfin 1 772 sur [mon Twitter personnel](https://twitter.com/pierregillesl), qui a bien bondi cette année, ayant de mon côté pas mal communiqué sur Gladys sur celui-ci.
 
+### La newsletter
+
+Au niveau de la newsletter, vous êtes 3 687 à suivre la [newsletter Gladys Assistant](https://email-list.gladysassistant.com/subscription/1mXJoEWEl).
+
+- 3197 abonnés en français
+- 490 abonnés en anglais
+
+Une croissance de +9.3% par rapport à l'an dernier 📈
+
+### Le GitHub Gladys Assistant
+
+Nous sommes à 1 320 stars ⭐ sur le [repo Gladys principal](https://github.com/GladysAssistant/Gladys)
+
+C'est +32% par rapport à l'année dernière !
+
+Je compte sur vous pour nous emmener à 10 000 🚀🚀
+
 ## Les projets pour 2020
 
 Mon objectif n°1 c'est évidemment de sortir cette version 4 de Gladys.
