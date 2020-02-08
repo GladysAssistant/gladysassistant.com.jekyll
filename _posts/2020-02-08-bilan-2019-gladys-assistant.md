@@ -33,6 +33,8 @@ En juin 2019, après plusieurs mois de développement, j'ai sorti [une première
 
 En octobre, suite aux retours et aux développements service effectué par la communauté, j'ai sorti une première bêta, cette fois-ci fournie avec une image Raspbian clé en main, permettant une installation simple de Gladys 4.
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">[BREAKING] Today, I’m launching <a href="https://twitter.com/gladysassistant?ref_src=twsrc%5Etfw">@gladysassistant</a> 4 Beta! 🚀🚀<br><br>It’s the results of months of hard work from the whole Gladys community.<br><br>The UI is clean, the system is lightweight and fast, and we have more and more integrations coming everyday!<br><br>See ➡️ <a href="https://t.co/8bcQWrzh7v">https://t.co/8bcQWrzh7v</a></p>&mdash; Pierre-Gilles Leymarie ✈️ (@pierregillesl) <a href="https://twitter.com/pierregillesl/status/1185254263309635585?ref_src=twsrc%5Etfw">October 18, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 Cette version tourne aujourd'hui chez plus de 200 utilisateurs, et m'a permis de recevoir un ensemble de retour sur le produit. On est encore loin du nombre d'utilisateurs de Gladys 3, mais migrer tout le monde n'était pas l'objectif de cette bêta !
 
 Aujourd'hui, je travaille d'arrache-pied pour sortir de la bêta et proposer une version de Gladys 4 "RC" (Release Candidate) avant une sortie officielle.
@@ -41,11 +43,15 @@ Aujourd'hui, je travaille d'arrache-pied pour sortir de la bêta et proposer une
 
 En plus du développement, 2019 c'était aussi l'année de **nombreuses rencontres utilisateurs Gladys** à travers la France, puisque je suis allé à Lyon, Valence, Niort, Rennes, Orléans, Dijon et Lille afin de rencontrer des utilisateurs Gladys "en vrai".
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Adding tons of new Z-Wave devices to <a href="https://twitter.com/gladysassistant?ref_src=twsrc%5Etfw">@gladysassistant</a> 4 thanks to Link39 installation in Lyon! 🔥🔥 <a href="https://t.co/Nlblva6wFB">pic.twitter.com/Nlblva6wFB</a></p>&mdash; Pierre-Gilles Leymarie ✈️ (@pierregillesl) <a href="https://twitter.com/pierregillesl/status/1151594985717948416?ref_src=twsrc%5Etfw">July 17, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 L'objectif de ces rencontres, c'était de voir des installations domotique d'utilisateurs Gladys, de discuter avec ces utilisateurs et de comprendre leur utilisation.
 
-Au cours de ces rencontres, j'ai développé des améliorations directement dans Gladys afin d'améliorer l'installation de ces utilisateurs.
+Chez chaque utilisateur Gladys, j'ai été super bien accueilli : on a bien discuté, développé ensemble pour Gladys, pas mal rigolé aussi 😄C'était l'occasion de manger ensemble, de prendre un verre ! 🍻
 
-C'était aussi l'occasion de manger ensemble et de prendre un petit verre, toujours convivial ! 🍻
+Je garde un super souvenir de cette tournée, et je suis vraiment content d'avoir pu rencontrer ces utilisateurs en vrai après des années à discuter en ligne.
+
+Je continuerais bien entendu, le concept est top et vous êtes tous super sympa !
 
 ## Quelques statistiques
 
@@ -87,6 +93,10 @@ Je suis persuadé que les nouveaux utilisateurs de Gladys 4 seront convaincus pa
 
 Je n'ai jamais été aussi optimiste pour la suite de Gladys Assistant ! J'ai hâte de sortir cette version clé, et surtout hâte d'avoir vos retours 😃
 
-Bonne année 2020 à tous !
+Merci à tous ceux qui ont contribués ou juste suivi Gladys en 2019 !
+
+Vous êtes une communauté en or 🏅
+
+Bonne année 2020 à tous,
 
 Pierre-Gilles Leymarie
