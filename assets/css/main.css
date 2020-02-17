@@ -204,18 +204,27 @@ HEADER WITH PICTURE
 
 @media (min-width: 1800px) {
   .section-header-drawing {
-    min-height: 800px;
+    min-height: 900px;
   }
 }
 
 @media (min-width: 2000px) {
   .section-header-drawing {
-    min-height: 900px;
+    min-height: 950px;
+  }
+  .container-right {
+    padding-top: 200px;
   }
 }
 
 @media (min-width: 2200px) {
   .section-header-drawing {
     min-height: 1000px;
+  }
+}
+
+@media (min-width: 2500px) {
+  .section-header-drawing {
+    min-height: 1200px;
   }
 }
