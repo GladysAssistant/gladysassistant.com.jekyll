@@ -496,6 +496,74 @@
           "value": 780
         }
       ]
+    },
+    {
+      "month": "12-2019",
+      "sources": [
+        {
+          "name": "Amazon Affiliate",
+          "value": 22
+        },
+        {
+          "name": "Patreon",
+          "value": 123
+        },
+        {
+          "name": "Gladys Community Package",
+          "value": 781
+        }
+      ]
+    },
+    {
+      "month": "01-2020",
+      "sources": [
+        {
+          "name": "Amazon Affiliate",
+          "value": 7
+        },
+        {
+          "name": "Patreon",
+          "value": 122
+        },
+        {
+          "name": "Gladys Community Package",
+          "value": 753
+        }
+      ]
+    },
+    {
+      "month": "02-2020",
+      "sources": [
+        {
+          "name": "Amazon Affiliate",
+          "value": 20
+        },
+        {
+          "name": "Patreon",
+          "value": 122
+        },
+        {
+          "name": "Gladys Community Package",
+          "value": 721
+        }
+      ]
+    },
+    {
+      "month": "03-2020",
+      "sources": [
+        {
+          "name": "Amazon Affiliate",
+          "value": 6
+        },
+        {
+          "name": "Patreon",
+          "value": 122
+        },
+        {
+          "name": "Gladys Community Package",
+          "value": 677
+        }
+      ]
     }
   ]
 }

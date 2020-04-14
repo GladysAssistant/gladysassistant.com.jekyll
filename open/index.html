@@ -7,14 +7,17 @@ image: /assets/images/presentation/gladys-open.jpg
 permalink: /open
 ---
 
-<div class="container" style="margin-top:70px">
-
-  <div class="alert alert-success" role="alert">I decided to run Gladys as a fully transparent project 😀 This means I'm
-    sharing everything: users, traffic and revenue! Note: Revenue here is before taxes & costs.</div>
+<div class="container" style="margin-top: 70px;">
+  <div class="alert alert-success" role="alert">
+    I decided to run Gladys as a fully transparent project 😀 This means I'm sharing everything: users, traffic and
+    revenue! Note: Revenue here is before taxes & costs.
+  </div>
 
   <h3>Gladys 4 Number of instances running</h3>
-  <p>Note: Gladys 4 is the brand new version of Gladys, still in beta version.
-    Most users are running Gladys 3 for now, which is not counted here.</p>
+  <p>
+    Note: Gladys 4 is the brand new version of Gladys, still in beta version. Most users are running Gladys 3 for now,
+    which is not counted here.
+  </p>
   <div style="max-height: 600px; margin-bottom: 40px;">
     <canvas id="gladys4UsageChart"></canvas>
   </div>
@@ -31,93 +34,100 @@ permalink: /open
 <script>
   function getRevenue() {
     return fetch('/assets/open.json')
-      .then(response => response.json())
+      .then((response) => response.json())
       .then((data) => {
+        const revenue = data.revenue.slice(data.revenue.length - 6);
 
         var labels = [];
         var points = [];
 
-        data.revenue.forEach((elem) => {
+        revenue.forEach((elem) => {
           labels.push(elem.month);
-          points.push(elem.sources.reduce((accumulator, currentValue) => ({
-            value: accumulator.value + currentValue.value
-          })).value);
+          points.push(
+            elem.sources.reduce((accumulator, currentValue) => ({
+              value: accumulator.value + currentValue.value,
+            })).value,
+          );
         });
 
         console.log({
           labels,
-          points
+          points,
         });
 
         return {
           labels,
-          points
+          points,
         };
       });
   }
 
   var ctx = document.getElementById('revenueChart').getContext('2d');
-  getRevenue()
-    .then((revenueData) => {
-      var config = {
-        type: 'line',
-        data: {
-          labels: revenueData.labels,
-          datasets: [{
+  getRevenue().then((revenueData) => {
+    var config = {
+      type: 'line',
+      data: {
+        labels: revenueData.labels,
+        datasets: [
+          {
             label: 'Gladys Revenue',
             //backgroundColor: '#,
             borderColor: '#74b9ff',
             data: revenueData.points,
             fill: false,
-          }]
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        title: {
+          display: false,
+          text: 'Gladys Revenue',
         },
-        options: {
-          responsive: true,
-          title: {
-            display: false,
-            text: 'Gladys Revenue'
-          },
-          tooltips: {
-            mode: 'index',
-            intersect: false,
-          },
-          hover: {
-            mode: 'nearest',
-            intersect: true
-          },
-          scales: {
-            xAxes: [{
+        tooltips: {
+          mode: 'index',
+          intersect: false,
+        },
+        hover: {
+          mode: 'nearest',
+          intersect: true,
+        },
+        scales: {
+          xAxes: [
+            {
               display: true,
               scaleLabel: {
                 display: true,
-                labelString: 'Month'
-              }
-            }],
-            yAxes: [{
+                labelString: 'Month',
+              },
+            },
+          ],
+          yAxes: [
+            {
               display: true,
               scaleLabel: {
                 display: true,
-                labelString: 'Revenue in dollar'
+                labelString: 'Revenue in dollar',
               },
               ticks: {
-                beginAtZero: true
-              }
-            }]
-          }
-        }
-      };
+                beginAtZero: true,
+              },
+            },
+          ],
+        },
+      },
+    };
 
-      var myLineChart = new Chart(ctx, config);
-    });
+    var myLineChart = new Chart(ctx, config);
+  });
 </script>
 
 <!-- Getting usage -->
 <script>
   function getUsage() {
     return fetch('https://api.gladysgateway.com/stats')
-      .then(response => response.json())
+      .then((response) => response.json())
       .then((data) => {
-
         var labels = [];
         var points = [];
 
@@ -128,67 +138,72 @@ permalink: /open
 
         console.log({
           labels,
-          points
+          points,
         });
 
         return {
           labels,
-          points
+          points,
         };
       });
   }
 
   var usageCtx = document.getElementById('gladys4UsageChart').getContext('2d');
-  getUsage()
-    .then((usageData) => {
-      var config = {
-        type: 'line',
-        data: {
-          labels: usageData.labels,
-          datasets: [{
+  getUsage().then((usageData) => {
+    var config = {
+      type: 'line',
+      data: {
+        labels: usageData.labels,
+        datasets: [
+          {
             label: 'Number of distinct Gladys 4 instances',
             //backgroundColor: '#,
             borderColor: '#74b9ff',
             data: usageData.points,
             fill: false,
-          }]
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        title: {
+          display: false,
+          text: 'Gladys instances',
         },
-        options: {
-          responsive: true,
-          title: {
-            display: false,
-            text: 'Gladys instances'
-          },
-          tooltips: {
-            mode: 'index',
-            intersect: false,
-          },
-          hover: {
-            mode: 'nearest',
-            intersect: true
-          },
-          scales: {
-            xAxes: [{
+        tooltips: {
+          mode: 'index',
+          intersect: false,
+        },
+        hover: {
+          mode: 'nearest',
+          intersect: true,
+        },
+        scales: {
+          xAxes: [
+            {
               display: true,
               scaleLabel: {
                 display: true,
-                labelString: 'Month'
-              }
-            }],
-            yAxes: [{
+                labelString: 'Month',
+              },
+            },
+          ],
+          yAxes: [
+            {
               display: true,
               scaleLabel: {
                 display: true,
-                labelString: 'Nb of instances'
+                labelString: 'Nb of instances',
               },
               ticks: {
-                beginAtZero: true
-              }
-            }]
-          }
-        }
-      };
+                beginAtZero: true,
+              },
+            },
+          ],
+        },
+      },
+    };
 
-      var usageChart = new Chart(usageCtx, config);
-    });
+    var usageChart = new Chart(usageCtx, config);
+  });
 </script>
